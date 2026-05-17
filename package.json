@@ -1,0 +1,11 @@
+{
+  "name": "elite-platform",
+  "private": true,
+  "scripts": {
+    "test": "pnpm -r test",
+    "build:saas": "pnpm -F elite-saas build",
+    "build:worker": "pnpm -F elite-pipeline-workflow test",
+    "deploy:saas": "cd apps/saas && pnpm dlx @opennextjs/cloudflare build && pnpm wrangler deploy --env en",
+    "deploy:worker": "cd apps/pipeline-workflow && pnpm wrangler deploy --env en"
+  }
+}
