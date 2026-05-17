@@ -2,56 +2,61 @@
   "project": "BellaCiao_Video_Production_May_17",
   "items": [
     {
-      "id": "day1_bella_intro",
-      "title": "Day 1 — BellaCiao channel opener (Bella intro to camera)",
-      "characters": ["bella"],
-      "market": "US",
-      "status": "rendered",
+      "id": "day1_reel01_lagrotta",
+      "title": "Day 1 · Reel · Shot 01 — \"Nobody under forty is finding La Grotta\" (Myth-Buster)",
+      "characters": ["bella", "enzo_maria"],
+      "market": "AU",
+      "status": "video_generating",
       "script": {
-        "format": "9:16 vertical short, ~22s, single host to camera",
-        "voice": { "provider": "kling", "voice_id": "commercial_lady_en_f-v1", "voice_speed": 0.92 },
-        "lines": [
-          { "t": "0-4s", "vo": "Every restaurant you love is quietly fighting something you can't see." },
-          { "t": "4-12s", "vo": "I'm Bella. I spent years behind the pass — now I sit with the owners who feed their cities, from New York to Melbourne to London." },
-          { "t": "12-18s", "vo": "Each one's up against a different enemy: the algorithm, the rankings, the noise. This is where we name it — and beat it." },
-          { "t": "18-22s", "vo": "I'm Bella — ciao for now." }
+        "source": "Drive: Day 1 / Reel 01 (Day 1) / PROMPT.txt (v10.1) + bella_enzo_maria_p2_20260419_2106.KLING.md (Shot 1)",
+        "hookArchetype": "Myth-Buster — it's not the food, it's one line of Google text",
+        "format": "9:16 vertical reel, 10s clip, Bella phone-forward tight close-up to camera",
+        "voice": { "provider": "kling", "voice_id": "commercial_lady_en_f-v1", "voice_speed": 0.92, "registry": "character_voices.json (bella)" },
+        "voTextV10_1": "Nobody under forty... is finding La Grotta tonight. It's not the food. It's one line... of Google text. Enzo and Maria have run this room for years.",
+        "voTiming": "~9.0-9.5s VO in a 10s clip; ~0.5s breath head, ~0.3s tail; '...' = ~250-300ms beat pause",
+        "capcutOverlays": [
+          { "t": "0.0-1.8s", "text": "Not the food." },
+          { "t": "1.8-3.5s", "text": "It's Google." }
         ],
-        "signOff": "I'm Bella — ciao for now."
+        "captionHook": "Check your Google Business listing right now. What does it actually say?",
+        "commentBait": "One of you has a 'permanently closed' pill on your listing right now — probably without knowing. Check. Screenshot it."
       },
       "scenePrompts": [
         {
           "frame": "start",
-          "shot": "vertical chest-up, Bella addressing camera, just begun speaking, closed-lip half-smile",
+          "spec": "Phone-Forward Dominant Screen, tight close-up; phone bottom ~55%, face peeking above; Google Maps listing GREY 'Permanently closed' pill, hours 'Closed'",
           "engine": "higgsfield-mcp / nano_banana_2",
           "aspect_ratio": "9:16",
-          "resolution": "2k",
+          "resolution": "1k",
           "referenceMedia": "3dad09f7-f516-40ee-9d4f-24c9346581d5",
           "dnaCommit": "d012780",
-          "selectedJobId": "f8d159b2-0cf7-4298-b8b8-2e9b29a004a8",
-          "altJobId": "66edb4da-4830-4951-a67b-40332bf6005d",
-          "supersededJobIds": ["ffe8415b-4843-40ac-adcb-6edba4bd5c6a", "874c6b3b-0845-4558-bace-a70bce15c5f9"],
-          "regenNote": "Original start regenerated for stronger face fidelity + loose-wave hair matching the day-1 frames.",
-          "ledgerId": "day1_bella_intro_start"
+          "selectedJobId": "e674e6b9-7237-42aa-b325-a2acadee09ea",
+          "altJobId": "3a964812-5880-433c-babb-51a8db651579",
+          "ledgerId": "day1_reel01_start"
         },
         {
           "frame": "end",
-          "shot": "vertical chest-up, matching framing, sign-off beat, hand over heart, closed-lip half-smile",
+          "spec": "Same composition; Google Maps pill flips to GREEN 'Open · Closes 10 pm', hours 'Open'; smile deepens a fraction",
           "engine": "higgsfield-mcp / nano_banana_2",
           "aspect_ratio": "9:16",
           "resolution": "2k",
           "referenceMedia": "3dad09f7-f516-40ee-9d4f-24c9346581d5",
           "dnaCommit": "d012780",
-          "selectedJobId": "b94f86c9-0223-4605-81d3-9e22a7338d4d",
-          "altJobId": "b0f85ae1-8efd-4302-aac0-f623d36642d2",
-          "ledgerId": "day1_bella_intro_end"
+          "selectedJobId": "4c8a02c9-ff94-486e-99be-93c67bd996fa",
+          "altJobId": "06633856-908f-43fb-a431-1b1756c31e76",
+          "ledgerId": "day1_reel01_end"
         }
       ],
+      "motionIntent": "Hold frame, tight close-up. Bella speaks unhurried/warm; real breath before first word; beat pause between sentences; natural blink ~3s & ~7s; subtle shoulder settle on opening line; eyebrow micro-lift on 'food' and 'Google text'; on 'one line of Google text' phone lifts <=3% toward lens as Maps pill flips GREY 'Permanently closed' -> GREEN 'Open · Closes 10 pm', hours Closed->Open; eyes locked to lens throughout (Camera Address Mandate).",
+      "cameraDirective": "Hold frame. Static eye-level close-up. No zoom, no pan, no Dutch tilt. Clean axis.",
+      "continuityLink": "Wardrobe = continuity; lighting = warm tungsten + cool window light. Phone stays portrait, no tilt/flip.",
+      "videoJobId": "c031855f-0b64-45f5-97c1-0af5d4e4bcbb",
       "approval": {
         "approved": true,
         "approvedBy": "user",
         "approvedAt": "2026-05-17T15:20:00Z"
       },
-      "notes": "Storyboard manually approved by user 2026-05-17. Selected START = job f8d159b2 (new1), END = job b94f86c9 (e1); both anchored to fixed reference media 3dad09f7 + frozen DNA commit d012780, recorded in renders/ledger.json. Video generation authorized; proceeding to image-to-video. keyframes.startFrameDriveId/endFrameDriveId remain unset: binaries cannot yet be persisted to Drive from this environment (see renders/ledger.json driveUploadBlocker); provenance + reproducible source URLs live in the ledger."
+      "notes": "Rebuilt to the authoritative Drive pipeline spec (Day 1 / Reel 01 PROMPT.txt v10.1). Engine mapping: pipeline specifies Runway Gen-4 + Kling; this environment executes on Higgsfield nano_banana_2 (frames) + seedance_2_0 (image-to-video, job c031855f, 10s 1080p 9:16, ~90 credits). Out of scope here (downstream post): the Google-Maps-pill PIL composite (baked inline into the frames instead, since video-only was chosen), the scripted Kling/ElevenLabs VO + lip-sync, and the CapCut text overlays. The earlier invented 'day1_bella_intro' (generic channel opener) is SUPERSEDED by this pipeline-accurate item; its assets remain in renders/ledger.json for traceability. keyframes Drive IDs unset (Drive binary persistence blocked — see renders/ledger.json driveUploadBlocker)."
     }
   ]
 }
