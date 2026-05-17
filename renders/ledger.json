@@ -44,10 +44,13 @@
         "identityReference": "3dad09f7-f516-40ee-9d4f-24c9346581d5 (fixed Bella reference media)"
       },
       "params": { "aspect_ratio": "9:16", "resolution": "1080p", "duration": 10, "mode": "std", "costCredits": 90 },
+      "outputResolution": "1080x1920",
+      "sourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/hf_20260517_151939_d29caf3d-0796-427b-a5e4-01e82ea38a07.mp4",
+      "sourceUrlNote": "MCP CloudFront URL — ephemeral; reproducible from the recorded start/end/reference media + this prompt. generate_audio was true: audio is model-synthesized ambient, NOT the scripted Kling VO.",
       "scriptCoverageNote": "Script VO is ~22s but seedance_2_0 max duration is 15s; this is a ~10s start->sign-off anchor clip. Full 22s cut would require multi-shot stitching in a later pass.",
       "approvedBy": "user (storyboard_approved 2026-05-17, commit e616265)",
       "producingCommit": "e616265",
-      "status": "generating",
+      "status": "completed",
       "drivePersistence": "pending"
     },
     {

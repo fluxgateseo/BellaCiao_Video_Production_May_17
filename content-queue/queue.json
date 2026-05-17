@@ -6,7 +6,7 @@
       "title": "Day 1 — BellaCiao channel opener (Bella intro to camera)",
       "characters": ["bella"],
       "market": "US",
-      "status": "video_generating",
+      "status": "rendered",
       "script": {
         "format": "9:16 vertical short, ~22s, single host to camera",
         "voice": { "provider": "kling", "voice_id": "commercial_lady_en_f-v1", "voice_speed": 0.92 },
