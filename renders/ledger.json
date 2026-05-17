@@ -31,6 +31,26 @@
       "drivePersistence": "pending"
     },
     {
+      "id": "day1_bella_intro_video",
+      "character": "bella",
+      "kind": "video",
+      "role": "Day-1 content item day1_bella_intro — image-to-video render (~10s anchor clip)",
+      "contentItem": "day1_bella_intro",
+      "engine": "higgsfield-mcp / seedance_2_0",
+      "generationJobId": "d29caf3d-0796-427b-a5e4-01e82ea38a07",
+      "inputs": {
+        "start_image": "f8d159b2-0cf7-4298-b8b8-2e9b29a004a8 (selected START new1)",
+        "end_image": "b94f86c9-0223-4605-81d3-9e22a7338d4d (END e1)",
+        "identityReference": "3dad09f7-f516-40ee-9d4f-24c9346581d5 (fixed Bella reference media)"
+      },
+      "params": { "aspect_ratio": "9:16", "resolution": "1080p", "duration": 10, "mode": "std", "costCredits": 90 },
+      "scriptCoverageNote": "Script VO is ~22s but seedance_2_0 max duration is 15s; this is a ~10s start->sign-off anchor clip. Full 22s cut would require multi-shot stitching in a later pass.",
+      "approvedBy": "user (storyboard_approved 2026-05-17, commit e616265)",
+      "producingCommit": "e616265",
+      "status": "generating",
+      "drivePersistence": "pending"
+    },
+    {
       "id": "day1_bella_intro_start",
       "character": "bella",
       "kind": "keyframe",
