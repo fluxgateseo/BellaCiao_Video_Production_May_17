@@ -41,9 +41,11 @@ media always attached.
 
 > Bella, the exact same specific woman as the attached reference photograph —
 > reproduce her face identically, this is the same real individual every
-> time, not a similar-looking person. Italian-American woman, mid-20s. Oval
-> face with soft but defined jawline and natural slight left-right asymmetry
-> (not a symmetrical model face). High, softly rounded cheekbones. Straight
+> time, not a similar-looking person. Italian-American woman, mid-20s. Slim
+> oval face, slightly narrow, with a softly tapered jawline and subtly
+> sculpted (lightly hollowed) cheeks — NOT round, NOT full-cheeked, NOT
+> chubby — keeping a natural slight left-right asymmetry (not a symmetrical
+> model face). High, defined cheekbones. Straight
 > nose with a slightly rounded tip. Full, naturally medium-pink lips, the
 > lower lip a little fuller than the upper. Clear cornflower-BLUE eyes with a
 > visibly darker iris ring and warm catchlights — never green, hazel, brown,
@@ -77,7 +79,8 @@ media always attached.
 ## NEGATIVES BLOCK — frozen, paste verbatim at end
 
 > ABSOLUTELY NO different woman, NO face that merely resembles her, NO
-> changed eye colour, NO green/hazel/brown/grey eyes, NO freckles, NO blonde
+> changed eye colour, NO round or full face, NO chubby cheeks, NO widened
+> jaw, NO green/hazel/brown/grey eyes, NO freckles, NO blonde
 > or heavy balayage hair, NO stud earrings, NO wide grin, NO visible teeth,
 > NO open mouth, NO airbrushed/glossy/plastic skin, NO symmetrical
 > fashion-model retouching, NO beauty filter, NO studio lighting, NO heavy
