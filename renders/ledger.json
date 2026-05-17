@@ -15,14 +15,26 @@
         {"shot": 3, "dur": 6, "startFrameJob": "fb2c499a-5f49-46ad-8bd7-bc89e1828090", "videoJob": "99868936-f237-4bbb-bb69-9a8be7844ef5", "scene": "phone close-up, Google 'Carlton Italian', La Grotta absent"},
         {"shot": 4, "dur": 6, "startFrameJob": "ab358bc7-fb29-4854-8e2f-145418882ecb", "videoJob": "363a3c8e-2555-4d15-a045-c7b6f22146a2", "scene": "dead Monday wide, Maria lit blue by phone"},
         {"shot": 5, "dur": 6, "startFrameJob": "c8cfaf06-54ad-4d5c-bf74-94f5101f143f", "videoJob": "9046c27d-749f-4e00-b2f4-c3f2147968d7", "scene": "phone close-up + Ciao curled at feet"},
-        {"shot": 6, "dur": 5, "startFrameJob": "5d92cee6-c66c-4954-897f-cadbf8c26648", "videoJob": "PENDING_SLOT", "scene": "empty room, single pendant"},
-        {"shot": 7, "dur": 5, "startFrameJob": "d9308542-1e79-4d83-a26b-05b3668de2b2", "videoJob": "PENDING_SLOT", "scene": "Maria at corner table, Ciao alert at feet"},
-        {"shot": 8, "dur": 5, "startFrameJob": "a451c94a-0fc5-4660-9588-459f072740d2", "videoJob": "PENDING_SLOT", "scene": "Maria + Ciao + Bella observing edge of frame (Bella ref 3dad09f7 attached)"},
-        {"shot": 9, "dur": 5, "startFrameJob": "01ab43d0-6069-4154-a390-a15f77742cc5", "videoJob": "PENDING_SLOT", "scene": "Ciao pads out, sits at Maria's feet, decision made"}
+        {"shot": 6, "dur": 5, "startFrameJob": "5d92cee6-c66c-4954-897f-cadbf8c26648", "videoJob": "43a1bca0-f898-4a10-8f54-eadf1b0cafe3", "scene": "empty room, single pendant"},
+        {"shot": 7, "dur": 5, "startFrameJob": "d9308542-1e79-4d83-a26b-05b3668de2b2", "videoJob": "09ddd827-cb7c-4938-9942-2cd1c4b0b051", "scene": "Maria at corner table, Ciao alert at feet"},
+        {"shot": 8, "dur": 5, "startFrameJob": "a451c94a-0fc5-4660-9588-459f072740d2", "videoJob": "2b5af037-c706-4bd2-86f2-6d8980aeb3b5", "scene": "Maria + Ciao + Bella observing edge of frame (Bella ref 3dad09f7 attached)"},
+        {"shot": 9, "dur": 5, "startFrameJob": "01ab43d0-6069-4154-a390-a15f77742cc5", "videoJob": "30f949e5-0694-405b-85e3-12cfca08cc21", "scene": "Ciao pads out, sits at Maria's feet, decision made"}
       ],
+      "shot1": {"shot": 1, "dur": 10, "videoJob": "c031855f-0b64-45f5-97c1-0af5d4e4bcbb", "note": "locked, not re-run"},
       "postSteps": "Scripted Kling/ElevenLabs VO per shot (KLING.md 'Covers VO'), CapCut overlays, final stitch of Shot1+2-9 into the ~58s reel.",
       "producingCommit": "d012780",
-      "status": "frames done; videos staged (4/8 submitted; 6-9 pending concurrency slots)",
+      "status": "ALL 9 shots rendered (1080x1920 9:16). Shot1 c031855f + shots 2-9 complete. Pending post: VO + overlays + stitch.",
+      "sourceUrls": {
+        "shot2": "hf_20260517_164407_b0bac7b0-2d9a-4156-8a7c-92d65fd5b282.mp4",
+        "shot3": "hf_20260517_164418_99868936-f237-4bbb-bb69-9a8be7844ef5.mp4",
+        "shot4": "hf_20260517_164431_363a3c8e-2555-4d15-a045-c7b6f22146a2.mp4",
+        "shot5": "hf_20260517_164444_9046c27d-749f-4e00-b2f4-c3f2147968d7.mp4",
+        "shot6": "hf_20260517_165012_43a1bca0-f898-4a10-8f54-eadf1b0cafe3.mp4",
+        "shot7": "hf_20260517_165022_09ddd827-cb7c-4938-9942-2cd1c4b0b051.mp4",
+        "shot8": "hf_20260517_165033_2b5af037-c706-4bd2-86f2-6d8980aeb3b5.mp4",
+        "shot9": "hf_20260517_165043_30f949e5-0694-405b-85e3-12cfca08cc21.mp4",
+        "cdnBase": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/"
+      },
       "drivePersistence": "pending"
     },
     {
