@@ -27,8 +27,10 @@
           "resolution": "2k",
           "referenceMedia": "3dad09f7-f516-40ee-9d4f-24c9346581d5",
           "dnaCommit": "d012780",
-          "selectedJobId": "ffe8415b-4843-40ac-adcb-6edba4bd5c6a",
-          "altJobId": "874c6b3b-0845-4558-bace-a70bce15c5f9",
+          "selectedJobId": "66edb4da-4830-4951-a67b-40332bf6005d",
+          "altJobId": "f8d159b2-0cf7-4298-b8b8-2e9b29a004a8",
+          "supersededJobIds": ["ffe8415b-4843-40ac-adcb-6edba4bd5c6a", "874c6b3b-0845-4558-bace-a70bce15c5f9"],
+          "regenNote": "Original start regenerated for stronger face fidelity + loose-wave hair matching the day-1 frames.",
           "ledgerId": "day1_bella_intro_start"
         },
         {
