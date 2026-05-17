@@ -3,6 +3,29 @@
   "driveUploadBlocker": "The Google Drive create_file MCP tool only accepts inline base64 content as a parameter; multi-hundred-KB renders cannot be passed as tool arguments, and no service-account credentials are available for a direct Drive API upload from this environment.",
   "renders": [
     {
+      "id": "day1_reel_shots_2_9",
+      "character": "bella+enzo_maria+ciao",
+      "kind": "video-batch",
+      "role": "Day 1 Reel — shots 2-9 (full reel beyond the locked Shot 1 c031855f). Built from Drive bella_enzo_maria_p2_20260419_2106.KLING.md.",
+      "contentItem": "day1_reel01_lagrotta",
+      "engine": "higgsfield-mcp / nano_banana_2 (frames) + seedance_2_0 (video)",
+      "note": "Shot 1 = c031855f (locked, not re-run). Enzo&Maria + Ciao Drive refs could NOT be onboarded (Drive MCP session expired); these scene/establishing frames were generated from the KLING first-frame prompts + global style token without a character identity ref — character likenesses are scene-accurate but not identity-locked. Refine once Drive recovers. Concurrency cap = 4 jobs/plan, so videos submitted in staged batches. seedance start-image-only + KLING Motion/last-frame delta encoded in the motion prompt (single-base, no mismatched-pair).",
+      "shots": [
+        {"shot": 2, "dur": 10, "startFrameJob": "1dd56172-4c56-4434-b77b-f5b9c38078ae", "videoJob": "b0bac7b0-2d9a-4156-8a7c-92d65fd5b282", "scene": "warm pre-service, Enzo at pass, Maria folding napkins"},
+        {"shot": 3, "dur": 6, "startFrameJob": "fb2c499a-5f49-46ad-8bd7-bc89e1828090", "videoJob": "99868936-f237-4bbb-bb69-9a8be7844ef5", "scene": "phone close-up, Google 'Carlton Italian', La Grotta absent"},
+        {"shot": 4, "dur": 6, "startFrameJob": "ab358bc7-fb29-4854-8e2f-145418882ecb", "videoJob": "363a3c8e-2555-4d15-a045-c7b6f22146a2", "scene": "dead Monday wide, Maria lit blue by phone"},
+        {"shot": 5, "dur": 6, "startFrameJob": "c8cfaf06-54ad-4d5c-bf74-94f5101f143f", "videoJob": "9046c27d-749f-4e00-b2f4-c3f2147968d7", "scene": "phone close-up + Ciao curled at feet"},
+        {"shot": 6, "dur": 5, "startFrameJob": "5d92cee6-c66c-4954-897f-cadbf8c26648", "videoJob": "PENDING_SLOT", "scene": "empty room, single pendant"},
+        {"shot": 7, "dur": 5, "startFrameJob": "d9308542-1e79-4d83-a26b-05b3668de2b2", "videoJob": "PENDING_SLOT", "scene": "Maria at corner table, Ciao alert at feet"},
+        {"shot": 8, "dur": 5, "startFrameJob": "a451c94a-0fc5-4660-9588-459f072740d2", "videoJob": "PENDING_SLOT", "scene": "Maria + Ciao + Bella observing edge of frame (Bella ref 3dad09f7 attached)"},
+        {"shot": 9, "dur": 5, "startFrameJob": "01ab43d0-6069-4154-a390-a15f77742cc5", "videoJob": "PENDING_SLOT", "scene": "Ciao pads out, sits at Maria's feet, decision made"}
+      ],
+      "postSteps": "Scripted Kling/ElevenLabs VO per shot (KLING.md 'Covers VO'), CapCut overlays, final stitch of Shot1+2-9 into the ~58s reel.",
+      "producingCommit": "d012780",
+      "status": "frames done; videos staged (4/8 submitted; 6-9 pending concurrency slots)",
+      "drivePersistence": "pending"
+    },
+    {
       "id": "day1_reel01_start",
       "character": "bella",
       "kind": "keyframe",
