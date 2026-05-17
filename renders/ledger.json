@@ -60,7 +60,10 @@
       "postSteps": "Out of scope here: scripted Kling/ElevenLabs VO + lip-sync, CapCut overlays ('Not the food.'/'It's Google.'), optional Maps-pill PIL composite.",
       "approvedBy": "user",
       "producingCommit": "d012780",
-      "status": "generating",
+      "status": "completed",
+      "outputResolution": "1080x1920",
+      "sourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/hf_20260517_161706_c031855f-0b64-45f5-97c1-0af5d4e4bcbb.mp4",
+      "sourceUrlNote": "MCP CloudFront URL — ephemeral; reproducible from the recorded start/end/reference media + prompt. generate_audio was true: ambient model audio, NOT the scripted Kling VO.",
       "drivePersistence": "pending"
     },
     {

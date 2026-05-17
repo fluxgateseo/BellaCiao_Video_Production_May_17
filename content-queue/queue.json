@@ -6,7 +6,7 @@
       "title": "Day 1 · Reel · Shot 01 — \"Nobody under forty is finding La Grotta\" (Myth-Buster)",
       "characters": ["bella", "enzo_maria"],
       "market": "AU",
-      "status": "video_generating",
+      "status": "rendered",
       "script": {
         "source": "Drive: Day 1 / Reel 01 (Day 1) / PROMPT.txt (v10.1) + bella_enzo_maria_p2_20260419_2106.KLING.md (Shot 1)",
         "hookArchetype": "Myth-Buster — it's not the food, it's one line of Google text",
