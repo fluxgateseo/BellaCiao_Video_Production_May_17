@@ -56,7 +56,7 @@ if (queue) {
 
 const cfg = readJson("config/defaults.json");
 if (cfg) {
-  if (cfg.engine !== "higgsfield") fail("config.engine must be 'higgsfield'");
+  if (cfg.engine !== "higgsfield-mcp") fail("config.engine must be 'higgsfield-mcp'");
   if (!(cfg.approvalGate && cfg.approvalGate.enabled === true)) fail("config.approvalGate.enabled must be true");
 }
 

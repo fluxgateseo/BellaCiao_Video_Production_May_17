@@ -6,11 +6,20 @@ content item looks like one universe. Per-character identity and wardrobe locks
 live in `characters/registry.json`. Engine parameters live in
 `config/defaults.json`.
 
-> **Higgsfield note.** Higgsfield Soul has **no negative-prompt field**. The
-> Shared Negatives below MUST be folded into the prompt body as a trailing
-> `ABSOLUTELY NO ...` clause. The legacy Runway `@tag` / 3-reference-cap and
-> Kling CFG/MICRO-MOVE rules are **not** inherited — see
-> `config/defaults.json` → `klingToHiggsfieldMapping`.
+> **Engine note (tested 2026-05-17).** Generation runs through the connected
+> **Higgsfield MCP**, not the public REST API. **`nano_banana_2` is the
+> keyframe engine** — it executes the literal prompt verbatim, holds the
+> single reference-image identity, and respects the locks. **Higgsfield
+> `soul_2` is REJECTED for locked characters**: this MCP force-enables a
+> prompt-enhancer that cannot be disabled, which paraphrases the prompt and
+> reintroduces every forbidden failure mode (wide toothy grin, model
+> symmetry, airbrushed skin, neon signage/text). Neither model exposes a
+> negative-prompt field, so the Shared Negatives below MUST be folded into
+> the prompt body as a trailing `ABSOLUTELY NO ...` clause (honoured by
+> `nano_banana_2`). A trained Soul (`soul_id`) for each character is under
+> evaluation as a possible way to use `soul_2` despite the enhancer — see
+> `config/defaults.json` → `image.engineFindings`. The legacy Runway `@tag` /
+> 3-reference-cap and Kling CFG/MICRO-MOVE rules are **not** inherited.
 
 ## Shared DNA (verbatim — append to every image prompt)
 
@@ -67,14 +76,14 @@ Must match the canonical reference tone exactly — bright, luminous, warm-amber
 
 ## Kling → Higgsfield control mapping
 
-| Legacy (Kling/Runway) | Higgsfield equivalent |
+| Legacy (Kling/Runway) | Higgsfield MCP equivalent (tested) |
 |---|---|
-| Runway `@tag` face-crop ref | `custom_reference_id` (trained Soul char) or `image_reference_image_url` |
-| Runway 3-reference cap | one custom reference per generation; multi-char sequential / combined ref |
-| Kling CFG 0.5 (identity adherence) | `custom_reference_strength` 0.6 + `style_strength` 0.35 |
-| Kling CFG 0.3 for Ciao stillness | `ciao_custom_reference_strength` 0.5 + video `ciao_motion_strength` 0.3 |
-| Kling MICRO-MOVE | video `motion_strength` 0.3–0.55 + low-motion `motion_id` |
-| Negative-prompt block | no native field — inline `ABSOLUTELY NO ...` clause |
+| Runway `@tag` face-crop ref | single reference image via `generate_image` `medias[{role:'image'}]`; trained `soul_id` once verified |
+| Runway 3-reference cap | one reference image per generation; multi-char sequential / combined ref |
+| Kling CFG (identity adherence) | not tunable — identity = reference image + literal prompt on `nano_banana_2` |
+| Kling CFG 0.3 for Ciao stillness | video motion control (untested) |
+| Kling MICRO-MOVE | video motion control (untested) |
+| Negative-prompt block | no native field — inline `ABSOLUTELY NO ...` clause (honoured by `nano_banana_2`) |
 
 ## Storyboard approval gate
 

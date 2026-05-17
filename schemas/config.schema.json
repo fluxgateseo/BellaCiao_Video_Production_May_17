@@ -5,33 +5,32 @@
   "type": "object",
   "required": ["engine", "image", "video", "approvalGate", "frameConventions"],
   "properties": {
-    "engine": { "type": "string", "const": "higgsfield" },
+    "engine": { "type": "string", "const": "higgsfield-mcp" },
     "engineNote": { "type": "string" },
     "image": {
       "type": "object",
-      "required": ["api", "width_and_height", "quality", "identityLock"],
+      "required": ["tool", "keyframeModel", "identityLock"],
       "properties": {
-        "width_and_height": { "type": "string" },
-        "quality": { "type": "string", "enum": ["720p", "1080p"] },
-        "batch_size": { "type": "integer", "enum": [1, 4] },
-        "enhance_prompt": { "type": "boolean" },
+        "tool": { "type": "string" },
+        "keyframeModel": { "type": "string" },
+        "aspect_ratio": { "type": "string" },
+        "resolution": { "type": "string" },
+        "count": { "type": "integer", "minimum": 1, "maximum": 4 },
         "identityLock": {
           "type": "object",
-          "required": ["mechanism", "custom_reference_strength"],
+          "required": ["mechanism"],
           "properties": {
-            "custom_reference_strength": { "type": "number", "minimum": 0, "maximum": 1 },
-            "ciao_custom_reference_strength": { "type": "number", "minimum": 0, "maximum": 1 }
+            "mechanism": { "type": "string" }
           }
         }
       }
     },
     "video": {
       "type": "object",
-      "required": ["api", "model", "motion_strength"],
+      "required": ["status"],
       "properties": {
-        "model": { "type": "string", "enum": ["dop-lite", "dop-preview", "dop-turbo"] },
-        "motion_strength": { "type": "number", "minimum": 0, "maximum": 1 },
-        "ciao_motion_strength": { "type": "number", "minimum": 0, "maximum": 1 }
+        "status": { "type": "string" },
+        "model": { "type": "string" }
       }
     },
     "klingToHiggsfieldMapping": { "type": "object" },

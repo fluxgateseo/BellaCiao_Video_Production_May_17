@@ -1,34 +1,31 @@
 {
-  "engine": "higgsfield",
-  "engineNote": "Fresh Higgsfield pipeline. The legacy Runway gen4_image @tag / 3-reference-cap rules and the Kling CFG/MICRO-MOVE block are NOT inherited. Parameters below are re-derived from Higgsfield's Soul (text-to-image) and Cinema Studio / DoP (image-to-video) APIs.",
+  "engine": "higgsfield-mcp",
+  "engineNote": "Generation runs through the connected Higgsfield MCP, NOT the public Higgsfield REST API. The MCP's actual parameter surface differs from the public docs — values below are EMPIRICALLY TESTED on this MCP (2026-05-17), not derived from docs. The legacy Runway @tag / 3-reference-cap and Kling CFG/MICRO-MOVE rules are not inherited.",
 
   "image": {
-    "api": "soul.generate (text-to-image generateSoul)",
-    "width_and_height": "1152x2048",
-    "resolutionNote": "Project target is 1080x1920 vertical 9:16. Higgsfield Soul does not offer 1080x1920 directly; 1152x2048 is the exact 9:16 enum value and is downscaled to 1080x1920 on export.",
-    "quality": "1080p",
+    "tool": "generate_image (MCP)",
+    "keyframeModel": "nano_banana_2",
+    "keyframeModelNote": "DECISION (2026-05-17, empirically tested): nano_banana_2 (Google Nano Banana Pro) is the BellaCiao keyframe/identity engine. It executes the literal prompt verbatim, holds the single reference-image identity, respects the soft-closed-lip-half-smile lock, and produces clean backgrounds (no signage/neon/text). It is the tested path for every start/end keyframe.",
     "aspect_ratio": "9:16",
-    "batch_size": 4,
-    "enhance_prompt": false,
-    "enhancePromptNote": "Disabled. We control prompt wording exactly (Shared DNA + inline negatives); auto-enhance drifts identity and reintroduces stripped genre words.",
-    "seed": null,
+    "resolution": "2k",
+    "resolutionNote": "nano_banana_2 at 2k returns ~1536x2752 vertical; downscale/crop to 1080x1920 on export.",
+    "count": 2,
     "identityLock": {
-      "mechanism": "custom_reference_id",
-      "fallbackMechanism": "image_reference_type=image_url + image_reference_image_url",
-      "note": "One reference per character. Preferred path: pre-create a Higgsfield custom reference (Soul character) per character from its canonical _reference.png and store the returned UUID in characters/registry.json (refs.higgsfieldCustomReferenceId). Until trained, pass the Drive-exported public image URL via image_reference_image_url. Higgsfield has NO multi-tag / @tag mechanism — multi-character scenes are composed sequentially or via a single combined reference (see enzo_maria, arun_priya).",
-      "custom_reference_strength": 0.6,
-      "ciao_custom_reference_strength": 0.5
+      "mechanism": "single reference image via medias[{role:'image', value:<media_id|jobId|https url>}]",
+      "note": "One reference per character. Reference = the character's canonical Drive _reference.png, downloaded from Drive and uploaded via media_upload -> PUT -> media_confirm, then passed as the single medias image. Drive file IDs are NOT directly usable as MCP media — they must be uploaded first. Multi-character scenes: compose sequentially or use a combined reference (enzo_maria, arun_priya)."
     },
-    "style": {
-      "soul_style_id": null,
-      "style_strength": 0.35,
-      "note": "soul_style_id null = general photoreal style. Brand colour grade is carried by the Shared DNA prompt language in characters/shared.md, not a Soul style preset. style_strength kept low so the prompt-described grade dominates."
+    "engineFindings": {
+      "soul_2": "REJECTED for locked characters. Higgsfield Soul 2.0 on this MCP force-enables a prompt-enhancer that CANNOT be disabled (API returns 'enhance_prompt ... does not support this parameter' and sets it true even when omitted). The enhancer paraphrases the prompt and reintroduces every forbidden failure mode (wide toothy grin, uncanny model symmetry, airbrushed/glossy skin, neon signage with text) and discards identity locks. Soul 2.0 also exposes no negative-prompt field. Verified on Bella jobs 933ff0f1 / 868d73f5 / 78ae16a8.",
+      "soul_2_with_soul_id": "UNDER TEST. A trained Soul Character (soul_id) may let the character embedding override the enhancer's identity drift. Bella Soul trained 2026-05-17: soul_id eeb60f04-a2f5-4a3d-b8d0-88fafca6d8d2 (see characters/registry.json). Pending verification before any reliance.",
+      "nano_banana_2": "ACCEPTED. Literal prompt preserved, identity held from single reference, locks respected. Current production keyframe engine.",
+      "publicRestApiParams": "The scaffolded width_and_height enum / custom_reference_strength / style_strength / enhance_prompt:false from the public REST docs are NOT exposed by this MCP and are intentionally dropped here."
     },
-    "negativesNote": "Higgsfield Soul has NO negative-prompt field. The Shared Negatives and Bella-specific negatives in characters/shared.md MUST be folded into the prompt body as a trailing 'ABSOLUTELY NO ...' clause."
+    "negativesNote": "No negative-prompt field on either model via this MCP. The Shared Negatives and Bella-specific negatives in characters/shared.md MUST be folded into the prompt body as a trailing 'ABSOLUTELY NO ...' clause. nano_banana_2 honours inline negatives; soul_2's enhancer ignores them."
   },
 
   "video": {
-    "api": "dop / Cinema Studio (image-to-video)",
+    "status": "UNTESTED — video runs through the MCP generate_video tool, not the public dop REST API. Parameters below are from public docs and MUST be re-verified against the MCP (models_explore + a gated test) before first use. No video call is permitted until a content item is storyboard_approved (see approvalGate).",
+    "api": "dop / Cinema Studio (image-to-video) — public-doc reference only",
     "model": "dop-preview",
     "modelNote": "dop-preview default for storyboard-approved renders; dop-turbo for fast internal previews; dop-lite for cheapest drafts.",
     "startFrameField": "image_urls",
@@ -44,13 +41,13 @@
   },
 
   "klingToHiggsfieldMapping": {
-    "Runway @tag face-crop reference": "Higgsfield custom_reference_id (trained Soul character) OR image_reference_image_url (single ref). No @tag.",
-    "Runway 3-reference cap": "N/A — one custom reference per generation; multi-character handled sequentially / combined refs.",
-    "Runway 1000-char prompt cap": "Not applicable to Higgsfield Soul; still keep prompts tight and front-load identity + wardrobe + camera-address clause.",
-    "Kling CFG 0.5 (prompt/identity adherence)": "image.identityLock.custom_reference_strength 0.6 + image.style.style_strength 0.35",
-    "Kling CFG 0.3 for Ciao stillness": "video.ciao_motion_strength 0.3 + image.identityLock.ciao_custom_reference_strength 0.5",
-    "Kling MICRO-MOVE": "video.motion_strength low band (0.3-0.55) + a low-motion motion_id",
-    "Negative prompt block": "No native field — inline 'ABSOLUTELY NO ...' clause appended to the Higgsfield prompt body"
+    "note": "Reconciled to the tested MCP surface (2026-05-17). custom_reference_strength / style_strength / soul_style_id / enhance_prompt are NOT exposed by this MCP and were removed from the active config.",
+    "Runway @tag face-crop reference": "Single reference image via generate_image medias[{role:'image'}]; no @tag, no multi-ref. Trained Soul soul_id is the per-character identity handle once verified.",
+    "Runway 3-reference cap": "N/A — one reference image per generation; multi-character handled sequentially / combined refs.",
+    "Kling CFG (prompt/identity adherence)": "Not a tunable on this MCP. Identity is carried by the reference image + literal prompt on nano_banana_2 (soul_2's mandatory enhancer makes it unusable for locked characters).",
+    "Kling CFG 0.3 for Ciao stillness": "Maps to video motion control (untested — see video.status).",
+    "Kling MICRO-MOVE": "Maps to video motion control (untested — see video.status).",
+    "Negative prompt block": "No native field — inline 'ABSOLUTELY NO ...' clause in the prompt body (honoured by nano_banana_2)."
   },
 
   "approvalGate": {
