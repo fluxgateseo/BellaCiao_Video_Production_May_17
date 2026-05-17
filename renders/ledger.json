@@ -39,9 +39,12 @@
         "39585e50-aa87-48d1-8f45-eb79816ce07c"
       ],
       "trainedAt": "2026-05-17",
-      "status": "training",
-      "purpose": "Evaluate whether a trained Soul embedding overrides soul_2's mandatory prompt-enhancer identity drift. nano_banana_2 remains the production keyframe engine regardless of outcome.",
-      "verified": false
+      "status": "ready",
+      "purpose": "Evaluate whether a trained Soul embedding overrides soul_2's mandatory prompt-enhancer identity drift. nano_banana_2 remains the primary keyframe engine regardless of outcome.",
+      "verified": true,
+      "verificationJob": "7f570a35-2d0b-4d6f-852b-ee6d9c539231",
+      "verificationResult": "PASS with caveat. enhance_prompt:false, literal prompt preserved, strong reusable identity, soft closed-lip half-smile lock respected, skin acceptably natural. CAVEAT: inline background negatives partially leaked (red neon sign + street-through-window despite explicit NO neon / NO exterior). Classified VIABLE SECONDARY for cross-shot identity continuity; nano_banana_2 stays primary for strict clean-background keyframes.",
+      "verificationSourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/hf_20260517_134847_7f570a35-2d0b-4d6f-852b-ee6d9c539231.png"
     }
   ]
 }

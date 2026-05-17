@@ -37,7 +37,7 @@
         "bella_face_crop.png": "1Gb36lnd44tqY_XyTg4ioWkcjOiQeIn3S",
         "primary": "bella_face_crop.png",
         "higgsfieldCustomReferenceId": "eeb60f04-a2f5-4a3d-b8d0-88fafca6d8d2",
-        "higgsfieldCustomReferenceId_note": "Higgsfield Soul 2.0 character trained 2026-05-17 on this MCP from a 5-image identity-consistent set (nano_banana_2 keyframes anchored to bella_face_crop.png: jobs dd20b0f3, 54bba9b3, 20ea10ea, 08985c3b, 39585e50). Pass as soul_id with model soul_2. Status pending verification — see config/defaults.json image.engineFindings."
+        "higgsfieldCustomReferenceId_note": "Higgsfield Soul 2.0 character trained 2026-05-17 from a 5-image identity-consistent set (nano_banana_2 keyframes anchored to bella_face_crop.png: jobs dd20b0f3, 54bba9b3, 20ea10ea, 08985c3b, 39585e50). Pass as soul_id with model soul_2. VERIFIED 2026-05-17 (job 7f570a35): enhance_prompt:false, literal prompt preserved, strong reusable identity, half-smile lock respected; CAVEAT — leaks some background negatives (neon/exterior). Viable SECONDARY for cross-shot identity continuity; nano_banana_2 remains primary keyframe engine. See config/defaults.json image.engineFindings."
       },
       "voice": { "provider": "kling", "voice_id": "commercial_lady_en_f-v1", "voice_speed": 0.92 }
     },

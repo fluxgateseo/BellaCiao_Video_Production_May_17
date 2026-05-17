@@ -8,17 +8,22 @@ live in `characters/registry.json`. Engine parameters live in
 
 > **Engine note (tested 2026-05-17).** Generation runs through the connected
 > **Higgsfield MCP**, not the public REST API. **`nano_banana_2` is the
-> keyframe engine** — it executes the literal prompt verbatim, holds the
-> single reference-image identity, and respects the locks. **Higgsfield
-> `soul_2` is REJECTED for locked characters**: this MCP force-enables a
-> prompt-enhancer that cannot be disabled, which paraphrases the prompt and
-> reintroduces every forbidden failure mode (wide toothy grin, model
-> symmetry, airbrushed skin, neon signage/text). Neither model exposes a
+> primary keyframe engine** — it executes the literal prompt verbatim, holds
+> the single reference-image identity, and respects every lock including
+> clean backgrounds. **Untrained `soul_2` is REJECTED for locked
+> characters**: with no `soul_id` the MCP force-enables a prompt-enhancer
+> that cannot be disabled and reintroduces every forbidden failure mode.
+> **A trained Soul (`soul_2` + `soul_id`) is a VIABLE SECONDARY**: it flips
+> the behaviour (`enhance_prompt:false`, literal prompt preserved, strong
+> reusable identity, half-smile lock respected) and is the best path for
+> cross-shot identity continuity — but it **leaks some background
+> negatives** (neon/exterior crept in despite explicit negatives), so
+> reinforce scene framing and prefer `nano_banana_2` when the
+> no-signage/no-exterior rule is critical. Neither model exposes a
 > negative-prompt field, so the Shared Negatives below MUST be folded into
-> the prompt body as a trailing `ABSOLUTELY NO ...` clause (honoured by
-> `nano_banana_2`). A trained Soul (`soul_id`) for each character is under
-> evaluation as a possible way to use `soul_2` despite the enhancer — see
-> `config/defaults.json` → `image.engineFindings`. The legacy Runway `@tag` /
+> the prompt body as a trailing `ABSOLUTELY NO ...` clause. Bella Soul
+> `soul_id` is in `characters/registry.json`; full findings in
+> `config/defaults.json` → `image.engineFindings`. Legacy Runway `@tag` /
 > 3-reference-cap and Kling CFG/MICRO-MOVE rules are **not** inherited.
 
 ## Shared DNA (verbatim — append to every image prompt)
