@@ -6,7 +6,7 @@
       "title": "Day 1 — BellaCiao channel opener (Bella intro to camera)",
       "characters": ["bella"],
       "market": "US",
-      "status": "keyframes_ready",
+      "status": "storyboard_approved",
       "script": {
         "format": "9:16 vertical short, ~22s, single host to camera",
         "voice": { "provider": "kling", "voice_id": "commercial_lady_en_f-v1", "voice_speed": 0.92 },
@@ -27,8 +27,8 @@
           "resolution": "2k",
           "referenceMedia": "3dad09f7-f516-40ee-9d4f-24c9346581d5",
           "dnaCommit": "d012780",
-          "selectedJobId": "66edb4da-4830-4951-a67b-40332bf6005d",
-          "altJobId": "f8d159b2-0cf7-4298-b8b8-2e9b29a004a8",
+          "selectedJobId": "f8d159b2-0cf7-4298-b8b8-2e9b29a004a8",
+          "altJobId": "66edb4da-4830-4951-a67b-40332bf6005d",
           "supersededJobIds": ["ffe8415b-4843-40ac-adcb-6edba4bd5c6a", "874c6b3b-0845-4558-bace-a70bce15c5f9"],
           "regenNote": "Original start regenerated for stronger face fidelity + loose-wave hair matching the day-1 frames.",
           "ledgerId": "day1_bella_intro_start"
@@ -47,9 +47,11 @@
         }
       ],
       "approval": {
-        "approved": false
+        "approved": true,
+        "approvedBy": "user",
+        "approvedAt": "2026-05-17T15:20:00Z"
       },
-      "notes": "Storyboard awaiting manual approval. Video generation is BLOCKED until status = storyboard_approved (config.approvalGate). Keyframes are generated and recorded in renders/ledger.json (day1_bella_intro_start = job ffe8415b, day1_bella_intro_end = job b94f86c9), both anchored to fixed reference media 3dad09f7 + frozen DNA commit d012780. keyframes.startFrameDriveId/endFrameDriveId are intentionally unset: binaries cannot yet be persisted to Drive from this environment (see renders/ledger.json driveUploadBlocker); provenance + reproducible source URLs live in the ledger."
+      "notes": "Storyboard manually approved by user 2026-05-17. Selected START = job f8d159b2 (new1), END = job b94f86c9 (e1); both anchored to fixed reference media 3dad09f7 + frozen DNA commit d012780, recorded in renders/ledger.json. Video generation authorized; proceeding to image-to-video. keyframes.startFrameDriveId/endFrameDriveId remain unset: binaries cannot yet be persisted to Drive from this environment (see renders/ledger.json driveUploadBlocker); provenance + reproducible source URLs live in the ledger."
     }
   ]
 }
