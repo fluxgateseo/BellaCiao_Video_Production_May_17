@@ -1,0 +1,47 @@
+{
+  "note": "Provenance ledger for generated binaries that are NOT yet persisted to Google Drive. The architecture keeps binaries in Drive referenced from manifest.json by Drive file ID; until a Drive upload path exists (service-account credentials or a path-based upload tool), MCP renders are recorded here with full lineage so they are reproducible and traceable. When a render is uploaded to Drive, move it to manifest.json artifacts[] with its real driveFileId and delete its entry here.",
+  "driveUploadBlocker": "The Google Drive create_file MCP tool only accepts inline base64 content as a parameter; multi-hundred-KB renders cannot be passed as tool arguments, and no service-account credentials are available for a direct Drive API upload from this environment.",
+  "renders": [
+    {
+      "id": "bella_keyframe_v1",
+      "character": "bella",
+      "kind": "render",
+      "role": "candidate keyframe (Bella, locked-DNA test)",
+      "engine": "higgsfield-mcp / nano_banana_2",
+      "generationJobId": "dd20b0f3-89dc-446c-ba63-f20bb9cb7c62",
+      "referenceImage": "characters Drive bella_face_crop.png (uploaded via media_upload->media_confirm as the single identity reference)",
+      "sourceUrl": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/hf_20260517_131050_dd20b0f3-89dc-446c-ba63-f20bb9cb7c62.png",
+      "sourceUrlNote": "MCP-hosted CloudFront URL — treat as ephemeral, not a durable master.",
+      "nativeResolution": "~1536x2752 (nano_banana_2 9:16 @ 2k)",
+      "canonicalExport": "1080x1920 JPEG (project frameConventions); regenerate from sourceUrl + downscale on export.",
+      "locksVerified": [
+        "soft closed-lip half-smile (no teeth)",
+        "single-reference identity held",
+        "clean background (no signage/neon/text)",
+        "literal prompt executed (no enhancer drift)"
+      ],
+      "producingCommit": "3bea0ae",
+      "producingCommitNote": "Commit that captured and validated the tested nano_banana_2 keyframe pipeline this render was produced under.",
+      "createdAt": "2026-05-17T13:10:50Z",
+      "drivePersistence": "pending"
+    }
+  ],
+  "soulTraining": [
+    {
+      "character": "bella",
+      "soulId": "eeb60f04-a2f5-4a3d-b8d0-88fafca6d8d2",
+      "type": "soul_2",
+      "trainedFrom": [
+        "dd20b0f3-89dc-446c-ba63-f20bb9cb7c62",
+        "54bba9b3-9aa2-43f8-8b8c-53c6ca784a45",
+        "20ea10ea-1334-4422-b9c2-8f184b0dbbaf",
+        "08985c3b-590a-4edf-b2e6-d75bfb6dad38",
+        "39585e50-aa87-48d1-8f45-eb79816ce07c"
+      ],
+      "trainedAt": "2026-05-17",
+      "status": "training",
+      "purpose": "Evaluate whether a trained Soul embedding overrides soul_2's mandatory prompt-enhancer identity drift. nano_banana_2 remains the production keyframe engine regardless of outcome.",
+      "verified": false
+    }
+  ]
+}
