@@ -1,4 +1,53 @@
 {
   "project": "BellaCiao_Video_Production_May_17",
-  "items": []
+  "items": [
+    {
+      "id": "day1_bella_intro",
+      "title": "Day 1 — BellaCiao channel opener (Bella intro to camera)",
+      "characters": ["bella"],
+      "market": "US",
+      "status": "keyframes_ready",
+      "script": {
+        "format": "9:16 vertical short, ~22s, single host to camera",
+        "voice": { "provider": "kling", "voice_id": "commercial_lady_en_f-v1", "voice_speed": 0.92 },
+        "lines": [
+          { "t": "0-4s", "vo": "Every restaurant you love is quietly fighting something you can't see." },
+          { "t": "4-12s", "vo": "I'm Bella. I spent years behind the pass — now I sit with the owners who feed their cities, from New York to Melbourne to London." },
+          { "t": "12-18s", "vo": "Each one's up against a different enemy: the algorithm, the rankings, the noise. This is where we name it — and beat it." },
+          { "t": "18-22s", "vo": "I'm Bella — ciao for now." }
+        ],
+        "signOff": "I'm Bella — ciao for now."
+      },
+      "scenePrompts": [
+        {
+          "frame": "start",
+          "shot": "vertical chest-up, Bella addressing camera, just begun speaking, closed-lip half-smile",
+          "engine": "higgsfield-mcp / nano_banana_2",
+          "aspect_ratio": "9:16",
+          "resolution": "2k",
+          "referenceMedia": "3dad09f7-f516-40ee-9d4f-24c9346581d5",
+          "dnaCommit": "d012780",
+          "selectedJobId": "ffe8415b-4843-40ac-adcb-6edba4bd5c6a",
+          "altJobId": "874c6b3b-0845-4558-bace-a70bce15c5f9",
+          "ledgerId": "day1_bella_intro_start"
+        },
+        {
+          "frame": "end",
+          "shot": "vertical chest-up, matching framing, sign-off beat, hand over heart, closed-lip half-smile",
+          "engine": "higgsfield-mcp / nano_banana_2",
+          "aspect_ratio": "9:16",
+          "resolution": "2k",
+          "referenceMedia": "3dad09f7-f516-40ee-9d4f-24c9346581d5",
+          "dnaCommit": "d012780",
+          "selectedJobId": "b94f86c9-0223-4605-81d3-9e22a7338d4d",
+          "altJobId": "b0f85ae1-8efd-4302-aac0-f623d36642d2",
+          "ledgerId": "day1_bella_intro_end"
+        }
+      ],
+      "approval": {
+        "approved": false
+      },
+      "notes": "Storyboard awaiting manual approval. Video generation is BLOCKED until status = storyboard_approved (config.approvalGate). Keyframes are generated and recorded in renders/ledger.json (day1_bella_intro_start = job ffe8415b, day1_bella_intro_end = job b94f86c9), both anchored to fixed reference media 3dad09f7 + frozen DNA commit d012780. keyframes.startFrameDriveId/endFrameDriveId are intentionally unset: binaries cannot yet be persisted to Drive from this environment (see renders/ledger.json driveUploadBlocker); provenance + reproducible source URLs live in the ledger."
+    }
+  ]
 }
