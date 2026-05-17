@@ -1,0 +1,54 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://bellaciao/schemas/content-item.schema.json",
+  "title": "Content queue item",
+  "description": "One unit of content moving through the storyboard approval gate. Video generation is blocked until status reaches storyboard_approved.",
+  "type": "object",
+  "required": ["id", "characters", "market", "status"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "title": { "type": "string" },
+    "characters": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "description": "character id from characters/registry.json" }
+    },
+    "market": { "type": "string", "enum": ["AU", "US", "UK"] },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "script_ready",
+        "prompts_ready",
+        "keyframes_ready",
+        "storyboard_approved",
+        "video_generating",
+        "rendered",
+        "published",
+        "rejected"
+      ]
+    },
+    "script": { "type": "object" },
+    "scenePrompts": { "type": "array", "items": { "type": "object" } },
+    "keyframes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "startFrameDriveId": { "type": "string" },
+        "endFrameDriveId": { "type": "string" }
+      }
+    },
+    "approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "approved": { "type": "boolean" },
+        "approvedBy": { "type": "string" },
+        "approvedAt": { "type": "string", "format": "date-time" }
+      }
+    },
+    "renderDriveId": { "type": "string" },
+    "notes": { "type": "string" }
+  }
+}

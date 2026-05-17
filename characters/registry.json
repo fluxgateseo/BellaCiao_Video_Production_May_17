@@ -1,0 +1,79 @@
+{
+  "project": "BellaCiao_Video_Production_May_17",
+  "purpose": "Canonical per-character identity + wardrobe locks and Drive reference file IDs. This registry is what guarantees Bella / Ciao / friends look identical across every Higgsfield start/end frame. Shared DNA, Shared Negatives and colour grade live in characters/shared.md.",
+  "engine": "higgsfield",
+  "authority_order": [
+    "friends_db.json",
+    "BELLA_MASTER_BIBLE.md",
+    "IMAGE_GENERATION_SPEC.md / VIDEO_PRODUCTION_HANDOFF.md (newest)",
+    "FRIENDS_AND_CIAO_PROFILES.md / BELLA_PERSONALITY_FOR_KLING.md"
+  ],
+  "drive_source_docs": {
+    "friends_db.json": "1qeJnEhZvCFlVu5IRjik8d0uaE656bJIF",
+    "IMAGE_GENERATION_SPEC.md": "15KyCdOkptR0pYQxBy6vCmiXQ9yF-iZg8",
+    "VIDEO_PRODUCTION_HANDOFF.md": "1vb1rAzBmDki3j5uJuzBw04uhF3n4ofSw",
+    "BELLA_CHARACTER_PROFILE.md": "1AWaaWL3yyrC1XxTAwG6jeTA6e9V_xDeC",
+    "BELLA_PERSONALITY_FOR_KLING.md": "1IKw7vY-R8Gejo2sc_QUFKI5Xi824dv8y",
+    "FRIENDS_AND_CIAO_PROFILES.md": "1XZW8LnYt1ddqM4ug-sWWgWb7DptP96Mx",
+    "character_voices.json": "1BhuDLM08rlfNyEGxU8F21IgbLlyLfT36"
+  },
+  "stale_data_corrections": {
+    "note": "Do not reintroduce. character_voices.json says Ha-eun 'Los Angeles' (actually NYC) and Mei 'Sydney' (actually Melbourne); friends_db.json city values below are canonical. No *_close_face.png crops exist for any character — identity locks rely on the listed _reference.png files only.",
+    "bella_resolved": "NO freckles. Default expression = soft half-smile at rest (eyes smile before mouth); full open-mouth smile is EARNED only (laugh / Ciao / a friend's win). Canonical reference = all three on-disk refs below."
+  },
+  "higgsfield_identity_note": "Higgsfield has no @tag mechanism. Per character: train a Higgsfield custom reference (Soul character) from refs.* and record the UUID in refs.higgsfieldCustomReferenceId. Until trained, pass the Drive-exported public URL of the primary _reference.png via image_reference_image_url. custom_reference_strength / style_strength defaults live in config/defaults.json.",
+  "characters": {
+    "bella": {
+      "type": "lead",
+      "tag": "bella",
+      "identity_lock": "25, Italian-American (Italian father, Irish mother), NYC-born, Melbourne home base, London third. Dark-brown hair centre-parted, long & loosely waved, SUBTLE warm highlights (NOT blonde, NOT heavy balayage), flyaway at temple. Bright clear cornflower-BLUE eyes with darker iris ring (NOT hazel/green/brown/grey). Warm olive skin, visible pores, slight asymmetry. NO FRECKLES. Small subtle gold hoop earrings (NOT studs). Default: relaxed face, soft half-smile at rest, eyes smiling before mouth; full open-mouth smile EARNED only. Hair states: down=relaxed, half-up/low-bun=working, twisted knot=about-to-act. Makeup 80% light-natural / 20% bare.",
+      "camera_address_mandate": "Bella always looks directly into the lens, eyes locked, head square to camera. Off-camera/averted gaze = hard re-roll.",
+      "wardrobe": "NY-London editorial, vintage-mixed, neutral, never logoed/expensive. Rotation: vintage straight-leg jeans, white linen shirt or Breton, oversized knit, worn black blazer, vintage leather jacket, Doc Martens/boots/plain sneakers, canvas tote/leather crossbody, delicate gold jewellery, apron when working. Default close-up wardrobe: navy V-neck knit.",
+      "sign_off": "I'm Bella — ciao for now.",
+      "refs": {
+        "bella_reference.png": "1fXbXSCtJzaM3ZlOJGCR20BeVy7GGMhe9",
+        "bella_reference.png_note": "actually image/webp despite .png extension",
+        "bella_face.png": "1lov6FQOXGMmL4E6kGqffUNdKXL3buK_B",
+        "bella_face_crop.png": "1Gb36lnd44tqY_XyTg4ioWkcjOiQeIn3S",
+        "primary": "bella_face_crop.png",
+        "higgsfieldCustomReferenceId": null
+      },
+      "voice": { "provider": "kling", "voice_id": "commercial_lady_en_f-v1", "voice_speed": 0.92 }
+    },
+    "ciao": {
+      "type": "dog",
+      "tag": "ciao",
+      "identity_lock": "SMALL compact smooth-coat Italian Greyhound — NOT tall/long-legged, NOT whippet, NOT terrier, NOT wire-haired, NOT oversized. Warm tan-fawn coat, folded floppy ears (NOT pricked), dark expressive eyes, thin tapered tail. Dark soft-leather collar with small gold heart-shaped tag, always on.",
+      "negatives": "no large dog, no medium dog, no tall dog, no thick legs, no wire-haired, no terrier, no whippet, no muscular build, no pricked ears, no upright ears, no costumes, no bandana",
+      "refs": { "Ciao_reference.png": "1nveroVLIeMQQyJqdfpYeMwd-pCisy8cY", "primary": "Ciao_reference.png", "higgsfieldCustomReferenceId": null },
+      "voice": { "provider": "kling", "via": "bella voice, pitch_shift +2 semitones, dry wry read" }
+    },
+    "enzo_maria": {
+      "type": "friend_compound",
+      "tag_enzo": "enzo",
+      "tag_maria": "maria",
+      "city": "Melbourne",
+      "market": "AU",
+      "neighbourhood": "Carlton, Lygon St",
+      "restaurant": "La Grotta (Italian family)",
+      "enemy_archetype": "the_fear_of_change",
+      "children": "luca (8, visual only, never speaks)",
+      "enzo_lock": "Italian-Australian man late 50s, heavyset big shoulders, silver-streaked dark hair + matching short silver-streaked beard, deep-set dark eyes, scar above right eyebrow. Black short-sleeve shirt under cream canvas apron with TAN leather neck+waist straps. Warm proud softly-contented closed-mouth smile (NOT tired/stern/grin).",
+      "maria_lock": "Italian-Australian woman early 50s, olive skin, dark hair in low loose knot, reading glasses on thin chain, dark canvas apron over cream blouse, usually soft-focus through service hatch behind Enzo.",
+      "refs": { "Enzo_Maria_reference.png": "1bYW9owTZuGUde5S6z65E0sq4H6PniXG4", "Enzo_Maria_reference.png_note": "single combined two-shot; NO separate maria ref", "primary": "Enzo_Maria_reference.png", "higgsfieldCustomReferenceId": null },
+      "voice": { "provider": "kling", "voice_id": null }
+    },
+    "naomi": { "type": "friend", "tag": "naomi", "city": "NYC", "market": "US", "neighbourhood": "Chelsea, W 23rd", "restaurant": "The Blue Cove (seafood, 4.8★)", "enemy_archetype": "the_invisible_ranking", "lock": "PNG-only — face per ref; NYC-seafood pro: dark apron, fitted tee/linen, sleeves up, no logo; tired eyes that spark", "refs": { "Naomi_reference.png": "16IgCS1Ep0vNUz500v1KMeNcH1b4BzIqL", "primary": "Naomi_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null } },
+    "sal": { "type": "friend", "tag": "sal", "city": "NYC", "market": "US", "neighbourhood": "West Village, Bleecker St", "restaurant": "Casanova's (Italian, 11yr)", "enemy_archetype": "the_social_media_trap", "lock": "PNG-only; classic NYC Italian-American restaurateur: dark apron over rolled-sleeve white/pale-blue shirt, thin gold chain, solid build", "refs": { "Sal_reference.png": "1Ay77TINt0E-yfMGXCc49-1FXF6Uwv-5N", "primary": "Sal_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null } },
+    "jake": { "type": "friend", "tag": "jake", "city": "Melbourne", "market": "AU", "neighbourhood": "Fitzroy, Smith St", "restaurant": "Narrow Lane (brunch)", "enemy_archetype": "the_event_blindspot", "lock": "PNG-only; Melbourne hospo: dark tee/short button-up, dark apron, utility pants, Blundstones/Converse, messy hair, day-or-two stubble", "refs": { "Jake_reference.png": "1gyU30QXy85JywQaX5Pb159kElcDff1CG", "primary": "Jake_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null } },
+    "sophie": { "type": "friend", "tag": "sophie", "city": "Melbourne", "market": "AU", "neighbourhood": "South Yarra, Toorak Rd", "restaurant": "Wren (fine dining, 2-hat)", "enemy_archetype": "the_invisible_ranking", "children": "mia (5, visual only)", "lock": "PNG-only; fine-dining: crisp dark chef jacket/tailored tee, dark apron, clean cuffs, hair back, precise minimal movement", "refs": { "Sophie_reference.png": "1HjTswTs1KZLndOS4IbM2RIVpFuZpxm1v", "primary": "Sophie_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null, "voice_speed": 0.95 } },
+    "mei": { "type": "friend", "tag": "mei", "city": "Melbourne", "market": "AU", "neighbourhood": "Chinatown, Little Bourke St", "restaurant": "Golden Plum (Cantonese, est.1982)", "enemy_archetype": "the_generation_gap", "lock": "PNG-only; FOH Cantonese: simple blouse/fitted button-down, dark apron, knit cardigan, gold studs, jade pendant (never removed)", "refs": { "Mei_reference.png": "1PAPVMCy70yOhyY0x6s7vcrAoYtBzVaA2", "primary": "Mei_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "elevenlabs", "voice_id": "018Ng7IhAJ12qcLBY2k6" } },
+    "yasmin": { "type": "friend", "tag": "yasmin", "city": "London", "market": "UK", "neighbourhood": "Notting Hill, Westbourne Grove", "restaurant": "Cedar Table (Lebanese)", "enemy_archetype": "the_invisible_ranking", "children": "daughter (9, role-only, visual)", "lock": "PNG-only; refined: linen shirt tucked, dark trousers/long skirt, simple apron, delicate gold chain, hair up working / waved off", "refs": { "Yasmin_reference.png": "15GyZtcI3A0kUPvkXsvlPN86Gi6e4JP2i", "primary": "Yasmin_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null } },
+    "danny": { "type": "friend", "tag": "danny", "city": "London", "market": "UK", "neighbourhood": "Soho, Frith St", "restaurant": "The Copper Fox (gastropub)", "enemy_archetype": "the_algorithm", "lock": "PNG-only; gastropub landlord: dark waistcoat over rolled-sleeve shirt, apron when working, signet/watch, solid build, planted stance", "refs": { "Danny_reference.png": "1yC-vDdHIEmki85tXMW8uNihMzdy6EfR4", "primary": "Danny_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null } },
+    "arun_priya": { "type": "friend_compound", "tag_arun": "arun", "tag_priya": "priya", "city": "London", "market": "UK", "neighbourhood": "Shoreditch, Brick Lane", "restaurant": "The Ember Room (Indian)", "enemy_archetype": "the_invisible_ranking", "children": "anaya (3, visual only)", "lock": "PNG-only; Arun: linen/cotton shirt sleeves rolled, dark spice-marked apron, hands always moving. Priya: elegant modern pro, good shirt, tailored trousers, small gold jewellery, hair back", "refs": { "Arun_reference.png": "1ugAUv3U5MW08q0WkyVWciSmFKqW8uhrU", "Priya_reference.png": "1cAiNoqtNiuwwvD-ePDQ0TUmGBGv4rgOf", "primary": "Arun_reference.png", "higgsfieldCustomReferenceId": null }, "voice_arun": { "provider": "kling", "voice_id": null, "voice_speed": 1.05 }, "voice_priya": { "provider": "kling", "voice_id": null, "voice_speed": 0.95 } },
+    "tunde": { "type": "friend", "tag": "tunde", "city": "London", "market": "UK", "neighbourhood": "Peckham, Rye Lane", "restaurant": "Lagos Fire (Nigerian)", "enemy_archetype": "the_scaling_soul", "lock": "PNG-only; colourful button-down (burnt orange/forest green/deep purple) under clean dark apron, sometimes Ankara detail, tall solid build, host energy", "refs": { "Tunde_reference.png": "1LFixdw9qmvXlVusTLlzZt4wQ0IYpBvtV", "primary": "Tunde_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "elevenlabs", "voice_id": "i7Eaj4BQJY2T9cDNkTXE" } },
+    "haeun": { "type": "friend", "tag": "haeun", "city": "NYC", "market": "US", "neighbourhood": "Koreatown, W 32nd St", "restaurant": "Soyeon (Korean BBQ)", "enemy_archetype": "the_one_star_attack", "lock": "PNG-only; crisp dark chef jacket/fitted black tee, black apron clean cuffs, hair tight back, small gold stud + thin chain, precise minimal movement", "refs": { "Ha-eun_reference.png": "1ZrBNVCoa3zJX9-5isKc66ET_8QsmhMDC", "primary": "Ha-eun_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "elevenlabs", "voice_id": "flDh3YTfyv4IKQjPLPOv" } },
+    "frank": { "type": "ally", "tag": "frank", "tied_to": "enzo_maria", "lock": "PNG-only; regular customer 60s retired, same Tuesday window seat, ragù + Chianti", "refs": { "Frank_reference.png": "1Pf2T9a4flG6_wcJ2n8wvvtdrOeRsStBL", "primary": "Frank_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null, "voice_speed": 0.95 } },
+    "diane": { "type": "ally", "tag": "diane", "tied_to": "enzo_maria", "lock": "PNG-only; long-time La Grotta waitress/FOH 10+ yrs, moving through room with tray", "refs": { "Diane_reference.png": "1egCm2eCCSwJ6hvxZjn7bgljdECB-GQP1", "primary": "Diane_reference.png", "higgsfieldCustomReferenceId": null }, "voice": { "provider": "kling", "voice_id": null } }
+  }
+}

@@ -1,0 +1,44 @@
+# GitHub is the source of truth for TEXT only. All binaries live in Google
+# Drive (account: fluxgate) and are referenced by Drive file ID via
+# manifest.json — never committed.
+
+# Images
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+*.tif
+*.tiff
+*.psd
+*.ai
+
+# Video
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Audio
+*.wav
+*.mp3
+*.aac
+*.flac
+*.m4a
+
+# Archives / large blobs
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.pdf
+
+# Tooling
+node_modules/
+.DS_Store
+*.log
+tmp/
+.cache/

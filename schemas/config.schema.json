@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://bellaciao/schemas/config.schema.json",
+  "title": "Pipeline defaults config",
+  "type": "object",
+  "required": ["engine", "image", "video", "approvalGate", "frameConventions"],
+  "properties": {
+    "engine": { "type": "string", "const": "higgsfield" },
+    "engineNote": { "type": "string" },
+    "image": {
+      "type": "object",
+      "required": ["api", "width_and_height", "quality", "identityLock"],
+      "properties": {
+        "width_and_height": { "type": "string" },
+        "quality": { "type": "string", "enum": ["720p", "1080p"] },
+        "batch_size": { "type": "integer", "enum": [1, 4] },
+        "enhance_prompt": { "type": "boolean" },
+        "identityLock": {
+          "type": "object",
+          "required": ["mechanism", "custom_reference_strength"],
+          "properties": {
+            "custom_reference_strength": { "type": "number", "minimum": 0, "maximum": 1 },
+            "ciao_custom_reference_strength": { "type": "number", "minimum": 0, "maximum": 1 }
+          }
+        }
+      }
+    },
+    "video": {
+      "type": "object",
+      "required": ["api", "model", "motion_strength"],
+      "properties": {
+        "model": { "type": "string", "enum": ["dop-lite", "dop-preview", "dop-turbo"] },
+        "motion_strength": { "type": "number", "minimum": 0, "maximum": 1 },
+        "ciao_motion_strength": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "klingToHiggsfieldMapping": { "type": "object" },
+    "approvalGate": {
+      "type": "object",
+      "required": ["enabled", "type"],
+      "properties": {
+        "enabled": { "type": "boolean", "const": true },
+        "type": { "type": "string", "const": "storyboard-level" }
+      }
+    },
+    "frameConventions": {
+      "type": "object",
+      "required": ["resolution", "aspectRatio"],
+      "properties": {
+        "resolution": { "type": "string", "const": "1080x1920" },
+        "aspectRatio": { "type": "string", "const": "9:16" }
+      }
+    }
+  }
+}
