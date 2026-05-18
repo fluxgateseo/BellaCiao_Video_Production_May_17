@@ -51,6 +51,9 @@
       "cameraDirective": "Hold frame. Static eye-level close-up. No zoom, no pan, no Dutch tilt. Clean axis.",
       "continuityLink": "Wardrobe = continuity; lighting = warm tungsten + cool window light. Phone stays portrait, no tilt/flip.",
       "videoJobId": "c031855f-0b64-45f5-97c1-0af5d4e4bcbb",
+      "finalCut": "day1_reel_VEO_voiced.mp4 (58.2s, 1080x1920) — shot1 locked c031855f + shots 2-9 Veo 3.1 voiced. See renders/ledger.json day1_reel_shots_2_9.",
+      "audioDecision": "User 2026-05-18: KEEP Veo 3.1 generated narrator for in-environment delivery. Exact brand voice (Kling commercial_lady_en_f-v1 / character_voices.json) is a DOWNSTREAM post step in the sibling Bellaciao Videos project (Kling text-mode lip-sync or ElevenLabs) — not producible in this environment (no TTS/voice-clone tool). Swap before final publish if exact brand voice is mandatory.",
+      "consistencyReview": "2026-05-18 shot-by-shot: world/palette/lighting consistent across all 9; Bella (locked ref) + Ciao consistent; Enzo single-shot OK. Open gap: Maria face drifts across S4/S7/S8/S9 (Enzo&Maria Drive ref not yet onboarded).",
       "approval": {
         "approved": true,
         "approvedBy": "user",
