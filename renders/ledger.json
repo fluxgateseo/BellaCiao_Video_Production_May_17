@@ -23,7 +23,7 @@
       "shot1": {"shot": 1, "dur": 10, "videoJob": "c031855f-0b64-45f5-97c1-0af5d4e4bcbb", "note": "locked, not re-run"},
       "postSteps": "Scripted Kling/ElevenLabs VO per shot (KLING.md 'Covers VO'), CapCut overlays, final stitch of Shot1+2-9 into the ~58s reel.",
       "producingCommit": "d012780",
-      "status": "ALL 9 shots rendered (1080x1920 9:16). Shot1 c031855f + shots 2-9 complete. Pending post: VO + overlays + stitch.",
+      "status": "ALL 9 shots rendered (1080x1920 9:16). Shot1 c031855f + shots 2-9 complete. Stitched to a single 58.5s reel (local ffmpeg concat, story order 1->9, normalized 1080x1920/30fps, ambient audio). Pending post: scripted VO + lip-sync, CapCut overlays, transitions, Enzo/Maria/Ciao identity refinement.",
       "sourceUrls": {
         "shot2": "hf_20260517_164407_b0bac7b0-2d9a-4156-8a7c-92d65fd5b282.mp4",
         "shot3": "hf_20260517_164418_99868936-f237-4bbb-bb69-9a8be7844ef5.mp4",
