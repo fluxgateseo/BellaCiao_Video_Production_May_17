@@ -41,9 +41,38 @@
         "s7_end": "hf_20260518_152748_ba304817-877d-4c0e-a91e-369c100bc9f7.png"
       },
       "driveReview": "review root 1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH > 'Day 2 — Danny (The Copper Fox, Soho)' 1Xp71aojBshmm3_DCnoEmzKw4tUU1S7G_ ; STORY/REEL keyframe HTML index docs created (clickable links).",
-      "nextStage": "Seedance 2.0 1080p image-to-video per shot (start+end frame binding) + ffmpeg xfade movie transitions + stitched STORY & REEL finals. BLOCKED on credits: 12 shots x ~5-10s 1080p ~= 700-900 cr single-pass; only 167.4 available and the 2,146 Flux account is not connected to this MCP.",
+      "videoStage": {
+        "status": "DONE 2026-05-18 — all 12 shots rendered + 2 finals stitched",
+        "engine": "kling3_0 std (2 cr/s; chosen over Seedance 2.0 9 cr/s per user — also script-native). sound on. start+end keyframe binding.",
+        "perShotCdnBase": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/",
+        "story_shots": {
+          "s1": "hf_20260518_154144_0128028a-e6f1-42c4-95b5-24d4cecb2391.mp4",
+          "s2": "hf_20260518_154149_f91ebe06-7bd7-4493-80a8-d7a136b2e230.mp4",
+          "s3": "hf_20260518_154156_b2e74c40-9621-49f6-b8a8-a88b37f2e66f.mp4",
+          "s4": "hf_20260518_154202_d8c8c0d3-e9a0-4dc6-bb18-1cace91e9ac1.mp4",
+          "s5": "hf_20260518_154538_2cce6314-72ad-46b0-840c-a32321761f4d.mp4"
+        },
+        "reel_shots": {
+          "s1": "hf_20260518_154321_cd9da1c2-5562-48f0-9cf1-5acbd5e373b1.mp4",
+          "s2": "hf_20260518_154425_447f6992-d43d-4b00-a129-0c2f5953151e.mp4",
+          "s3": "hf_20260518_154432_2fa102c4-ed38-4467-bfb1-1f4bc2b944ca.mp4",
+          "s4": "hf_20260518_154437_6c569c03-3c52-4845-8e28-15021757391b.mp4",
+          "s5": "hf_20260518_154443_b4bd18c4-1c4d-4e18-8cbd-e97709ebc93d.mp4",
+          "s6": "hf_20260518_154449_c6cfb08a-e6f6-4773-822b-b3ffeb6014ca.mp4",
+          "s7": "hf_20260518_154456_bcc48294-9c5a-4eaf-b49e-a9d44cc1e8b5.mp4"
+        },
+        "finals": {
+          "reel": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/08bace4d-7351-423c-bfbb-46e326b6ad51.mp4",
+          "story_as_reel2": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/053c7f0e-4492-49d9-9698-3ad120324590.mp4",
+          "spec": "1080x1920 24fps; reel ~48.3s 30MB / story ~29.2s 19MB; ffmpeg xfade=fade + acrossfade 0.5s between every shot",
+          "verified": "HTTP 200 both"
+        },
+        "driveReview": "Day 2 folder: 'Single Videos (per-shot)' + 'Final Rendered Video' each have a CLICKABLE HTML index doc.",
+        "audioNote": "Kling-generated narrator audio (sound:on). Exact brand voice (Kling commercial_lady_en_f-v1 / ElevenLabs) remains a downstream post step, consistent with Day 1.",
+        "openPolish": "Single-pass, no re-rolls (budget). Watch Danny/Ciao identity drift across shots; STORY S5 timed out once on submit and was resubmitted (no duplicate observed)."
+      },
       "producedAt": "2026-05-18",
-      "drivePersistence": "links-only (binaries not in Drive; same driveUploadBlocker)"
+      "drivePersistence": "links-only (binaries not in Drive; same driveUploadBlocker). Finals hosted via media_upload."
     },
     {
       "id": "day1_reel_shots_2_9",
