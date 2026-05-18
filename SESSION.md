@@ -28,6 +28,19 @@ HTML-sourced docs were added with real hyperlinks. The `.mp4` binaries are
 NOT in Drive (in-env Drive tool only accepts inline content; no
 service-account creds). See `renders/ledger.json` `driveUploadBlocker`.
 
+## STANDING RULE (user, 2026-05-18) — applies to ALL future days
+
+- Produce **ONE short/reel per day only** — NOT a video + a story. One
+  9:16 reel per day going forward.
+- Day 2 exception: the Day 2 STORY is being rendered as a second reel
+  video (this day only, since both scripts already existed).
+- Video model default: **Kling 3.0 std** (2 cr/s) — script-native and
+  ~4.5x cheaper than Seedance 2.0 1080p (9 cr/s). Use Kling unless told
+  otherwise.
+- Bella is the lead/narrator and must carry every reel (on-camera at
+  anchor + mandatory "I'm Bella — ciao for now" sign-off). Script-faithful
+  structure approved (she is not forced into every single shot).
+
 ## Day 2 (Danny / The Copper Fox, Soho) — keyframes DONE
 
 - Source: April "Day 2 test" tree `full scripts` (user-chosen). It's ONE
