@@ -62,10 +62,14 @@
           "s7": "hf_20260518_154456_bcc48294-9c5a-4eaf-b49e-a9d44cc1e8b5.mp4"
         },
         "finals": {
-          "reel": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/08bace4d-7351-423c-bfbb-46e326b6ad51.mp4",
-          "story_as_reel2": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/053c7f0e-4492-49d9-9698-3ad120324590.mp4",
-          "spec": "1080x1920 24fps; reel ~48.3s 30MB / story ~29.2s 19MB; ffmpeg xfade=fade + acrossfade 0.5s between every shot",
-          "verified": "HTTP 200 both"
+          "_canonical": "v3 — use these",
+          "reel_v3": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/3f5da1cd-cec1-4506-bbe2-92eb25998522.mp4",
+          "story_v3": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/8d76141e-2ce2-4b12-b655-cad856dfeb3d.mp4",
+          "reel_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/08bace4d-7351-423c-bfbb-46e326b6ad51.mp4",
+          "story_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/053c7f0e-4492-49d9-9698-3ad120324590.mp4",
+          "spec": "1080x1920 24fps; ffmpeg xfade=fade + acrossfade 0.5s between every shot",
+          "revisions": "REEL v3: dropped Shot 1 exterior (opens on Bella S2); Shot 4 regenerated (phone stays flat, no levitation, job 0e6698aa); Shot 7 regenerated from clean single-Bella keyframes 781a27be/c0a3d45f (job ba072c17) fixing duplicate-Bella; S7 tail trimmed (~43s). STORY v3: Shots 4&5 time-stretched 1.30x (video+audio, lip-sync intact) for natural VO pace; re-ordered S2->S1->S3->S4->S5 (opens on lady's Google-Maps line, ~33s). Ciao scale kept per user, noted for future.",
+          "verified": "HTTP 200 all"
         },
         "driveReview": "Day 2 folder: 'Single Videos (per-shot)' + 'Final Rendered Video' each have a CLICKABLE HTML index doc.",
         "audioNote": "Kling-generated narrator audio (sound:on). Exact brand voice (Kling commercial_lady_en_f-v1 / ElevenLabs) remains a downstream post step, consistent with Day 1.",
