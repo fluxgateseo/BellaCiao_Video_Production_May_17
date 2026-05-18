@@ -62,13 +62,15 @@
           "s7": "hf_20260518_154456_bcc48294-9c5a-4eaf-b49e-a9d44cc1e8b5.mp4"
         },
         "finals": {
-          "_canonical": "v3 — use these",
-          "reel_v3": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/3f5da1cd-cec1-4506-bbe2-92eb25998522.mp4",
-          "story_v3": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/8d76141e-2ce2-4b12-b655-cad856dfeb3d.mp4",
+          "_canonical": "v4 — use these",
+          "reel_v4": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/acd57fbe-adee-4c32-8d1c-6463758b76e5.mp4",
+          "story_v4": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/180b5fc1-cd03-4156-9266-ef869ed5c948.mp4",
+          "reel_v3_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/3f5da1cd-cec1-4506-bbe2-92eb25998522.mp4",
+          "story_v3_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/8d76141e-2ce2-4b12-b655-cad856dfeb3d.mp4",
           "reel_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/08bace4d-7351-423c-bfbb-46e326b6ad51.mp4",
           "story_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/053c7f0e-4492-49d9-9698-3ad120324590.mp4",
           "spec": "1080x1920 24fps; ffmpeg xfade=fade + acrossfade 0.5s between every shot",
-          "revisions": "REEL v3: dropped Shot 1 exterior (opens on Bella S2); Shot 4 regenerated (phone stays flat, no levitation, job 0e6698aa); Shot 7 regenerated from clean single-Bella keyframes 781a27be/c0a3d45f (job ba072c17) fixing duplicate-Bella; S7 tail trimmed (~43s). STORY v3: Shots 4&5 time-stretched 1.30x (video+audio, lip-sync intact) for natural VO pace; re-ordered S2->S1->S3->S4->S5 (opens on lady's Google-Maps line, ~33s). Ciao scale kept per user, noted for future.",
+          "revisions": "v4 (canonical): REEL = S2,S3,S4v2,S5,S6,S7v2 — opens on Bella (Shot 1 exterior dropped); Shot 4 regenerated job 0e6698aa (phone stays flat, no levitation); Shot 7 regenerated job ba072c17 from clean single-Bella keyframes 781a27be/c0a3d45f (duplicate-Bella fixed) and now used FULL/untrimmed so 'I'm Bella — ciao for now' lands naturally (the v3 5.0s trim had cut off 'ciao for now'); ~44s. STORY v4 = S2,S3,S4slow,S5slow — second shot (S1 establishing/walk-in) removed per user; Shots 4&5 time-stretched 1.30x (video+audio, lip-sync intact) for natural VO pace; ~28s. Ciao scale kept per user, logged for future.",
           "verified": "HTTP 200 all"
         },
         "driveReview": "Day 2 folder: 'Single Videos (per-shot)' + 'Final Rendered Video' each have a CLICKABLE HTML index doc.",
