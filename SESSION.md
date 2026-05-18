@@ -28,6 +28,23 @@ HTML-sourced docs were added with real hyperlinks. The `.mp4` binaries are
 NOT in Drive (in-env Drive tool only accepts inline content; no
 service-account creds). See `renders/ledger.json` `driveUploadBlocker`.
 
+## Day 2 (Danny / The Copper Fox, Soho) — keyframes DONE
+
+- Source: April "Day 2 test" tree `full scripts` (user-chosen). It's ONE
+  Story (`bella_danny_p2_20260418_2323`, 5 shots) + ONE Reel
+  (`bella_danny_p2_20260418_2355`, 7 shots) = 12 shots.
+- **All 24 start/end keyframes generated** — Nano Banana Pro (`nano_banana_2`)
+  2K 9:16. Bella locked via ref `3dad09f7`; Danny/Ciao via script
+  descriptors (refs un-onboardable in-env). 48 cr spent, balance 167.4.
+- URLs + Drive review folder recorded in `renders/ledger.json`
+  (`day2_danny_copperfox_keyframes`). Drive: review root >
+  "Day 2 — Danny (The Copper Fox, Soho)" `1Xp71aojBshmm3_DCnoEmzKw4tUU1S7G_`
+  with clickable STORY/REEL keyframe HTML indexes.
+- **Video stage NOT done — blocked on credits.** 12 Seedance 2.0 1080p
+  shots ≈ 700–900 cr single-pass; only 167.4 available. The 2,146-credit
+  Flux dashboard account is a DIFFERENT identity than this MCP connector
+  (private workspace `5e2a6273`); reconnect never took effect.
+
 ## Constraints learned this session
 
 - Drive MCP `create_file`: inline content only — cannot upload multi-MB video.
