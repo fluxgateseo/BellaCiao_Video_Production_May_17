@@ -33,7 +33,9 @@
         "shot7": "hf_20260517_165022_09ddd827-cb7c-4938-9942-2cd1c4b0b051.mp4",
         "shot8": "hf_20260517_165033_2b5af037-c706-4bd2-86f2-6d8980aeb3b5.mp4",
         "shot9": "hf_20260517_165043_30f949e5-0694-405b-85e3-12cfca08cc21.mp4",
-        "cdnBase": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/"
+        "cdnBase": "https://d8j0ntlcm91z4.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/",
+        "finalReelHosted": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/e02a57f5-9871-4788-88a6-66f52d45e811.mp4",
+        "finalReelHostedNote": "day1_reel_FINAL.mp4 (45.5MB, 58.2s 1080x1920) uploaded 2026-05-18 via video MCP media_upload/media_confirm (media_id e02a57f5-9871-4788-88a6-66f52d45e811) because R2/Drive object upload is unavailable in-env. Verified HTTP 200. This is the single watchable link for the stitched final."
       },
       "drivePersistence": "pending"
     },
