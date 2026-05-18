@@ -28,6 +28,26 @@ HTML-sourced docs were added with real hyperlinks. The `.mp4` binaries are
 NOT in Drive (in-env Drive tool only accepts inline content; no
 service-account creds). See `renders/ledger.json` `driveUploadBlocker`.
 
+## QUALITY NOTES FOR FUTURE SESSIONS (user feedback, 2026-05-18)
+
+- **Never tell Kling to "speak faster to fit the duration."** It compresses
+  VO and the delivery sounds unnaturally fast/accelerated (hit on Day 2
+  STORY shots 4 & 5). Instead: allocate generous shot durations for any
+  dialogue line, and prompt "natural unhurried pace, do NOT speed up
+  speech." If a rushed take slips through, time-stretch that shot
+  (video+audio together, e.g. setpts*1.30 / atempo 0.769) — keeps lip-sync,
+  costs no credits.
+- **Ciao (Italian Greyhound) scale drift:** in several Day 2 frames Ciao
+  rendered too small / wrong proportions. Future: add explicit scale
+  anchors ("medium-small sighthound, ~knee-to-mid-thigh height of a
+  standing adult, elegant elongated whippet-like body, NOT toy/teacup
+  size"), and ideally onboard a real Ciao reference image so identity +
+  size lock. Day 2 kept as-is per user.
+- **Single-subject guard:** Bella keyframes occasionally spawned a
+  duplicate Bella (two women, one at frame bottom — Day 2 REEL S7).
+  Always include negative: "exactly one woman, no second woman, no
+  duplicate/twin/clone, no extra person in the lower foreground."
+
 ## STANDING RULE (user, 2026-05-18) — applies to ALL future days
 
 - Produce **ONE short/reel per day only** — NOT a video + a story. One
