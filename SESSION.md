@@ -18,15 +18,34 @@ Branch: `claude/resume-project-VYWgC`
 
 ## Drive review structure (account fluxgateseo)
 
-`BellaCiao — Production Renders (REVIEW)` (folder `1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH`)
-- `Day 1 — Reel 01 (...)`
-  - `Single Videos (per-shot)` — clickable per-shot index docs
-  - `Final Rendered Video` — `▶ Day 1 — FINAL Reel (CLICKABLE LINK)`
+The full review tree (folder IDs + all canonical clickable asset URLs) is
+now mirrored into the repo at **`renders/REVIEW_DRIVE_INDEX.md`** — that is
+the durable map; keep it in sync when finals change.
 
-Note: earlier plain-text Drive docs rendered URLs as non-clickable text;
-HTML-sourced docs were added with real hyperlinks. The `.mp4` binaries are
-NOT in Drive (in-env Drive tool only accepts inline content; no
-service-account creds). See `renders/ledger.json` `driveUploadBlocker`.
+`BellaCiao — Production Renders (REVIEW)` = `1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH`
+- `Day 1 — Reel 01 (Myth-Buster: La Grotta)` `1KTPHzZZGCDw0ISWULECbHsMyBxWOIeZJ`
+  → `Single Videos` `1TG1WKn1-VrKh2ZqiXUDWQCG9qOcQq5UE`,
+    `Final Rendered Video` `1hw7-PfBF1Jn8jE2HszXCtsS7ZIKgv-fL`
+- `Day 2 — Danny (The Copper Fox, Soho)` `1Xp71aojBshmm3_DCnoEmzKw4tUU1S7G_`
+  → STORY/REEL keyframes, `Single Videos`, `Final Rendered Video`
+    (canonical doc: "▶▶▶ Day 2 FINAL v4 — CANONICAL")
+
+Canonical finals: Day 1 reel `e02a57f5…`; Day 2 **v4** REEL `acd57fbe…` +
+STORY `180b5fc1…` (full URLs in `renders/REVIEW_DRIVE_INDEX.md` and
+`renders/ledger.json`). `.mp4`/`.png` binaries are NOT in Drive/git
+(in-env Drive tool only accepts inline content; no service-account creds —
+see `renders/ledger.json` `driveUploadBlocker`).
+
+## Publishing (audited 2026-05-19)
+
+Publishing is a SEPARATE Drive project `Bellaciao Publisher` (legacy
+`video_pipeline`): IG via Meta Graph (`Scripts/upload_instagram_reel.py`),
+YT via YouTube Data API (`Scripts/upload_youtube.py`), driven by
+`publish_metadata.md`. NOT runnable from this env (no MCP publish
+connector; creds in Publisher `.env`). Known gap: Meta App may lack
+`instagram_content_publish`. Day 1/Day 2 CloudFront URLs are already
+public and satisfy the scripts' hosting input (R2 not required). Full
+audit in `renders/REVIEW_DRIVE_INDEX.md`.
 
 ## QUALITY NOTES FOR FUTURE SESSIONS (user feedback, 2026-05-18)
 

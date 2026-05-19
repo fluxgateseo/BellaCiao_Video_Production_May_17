@@ -47,6 +47,16 @@ explicit manual approval.
 | `prompts/` | Prompt templates |
 | `scripts/validate.mjs` | Dependency-free CI integrity check |
 | `.github/workflows/validate.yml` | CI |
+| `renders/ledger.json` | Provenance for generated binaries not yet in Drive |
+| `renders/REVIEW_DRIVE_INDEX.md` | Mirror of the Drive "Production Renders (REVIEW)" tree: folder IDs, canonical final/keyframe URLs, publishing-connector audit |
+
+## Production review + delivery
+
+`renders/REVIEW_DRIVE_INDEX.md` is the durable map of the Drive review
+folder **"BellaCiao — Production Renders (REVIEW)"**
+(`1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH`) — canonical finals (Day 1 reel; Day 2
+v4 REEL + STORY), per-shot/keyframe index docs, and the
+publishing-connector audit. Session memory + handoff: `SESSION.md`.
 
 ## Drive folders (account `fluxgate`, do not recreate)
 
