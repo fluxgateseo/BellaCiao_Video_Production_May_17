@@ -8,8 +8,9 @@ HOW TO USE
 - Each video has its own block with the download link + ready-to-paste
   copy per platform.
 - Day 1 copy is the project's APPROVED copy (from content-queue/queue.json).
-- Day 2 copy is DRAFT (no caption script exists in the repo for "The
-  Copper Fox" — review/adjust before posting).
+- Day 2 copy is grounded in the actual Drive scripts
+  (bella_danny_p2_20260418_2355 / _2323 KLING.md); wording is adapted
+  social copy — review tone before posting.
 - Videos have NO burned-in captions/subtitles. Add in-app if wanted, or
   ask for SRT files.
 
@@ -61,75 +62,100 @@ says in the comments.
 
 ============================================================
 VIDEO 2 — DAY 2 · "The Copper Fox" · REEL (v4 canonical)  (market: UK)
-~44s · 9:16 vertical · status: DRAFT COPY — review before posting
+~44s · 9:16 vertical · status: COPY GROUNDED IN SCRIPT
+Source script: Drive bella_danny_p2_20260418_2355.KLING.md
+("Ciao Sat on the Phone")
 Download:
 https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/acd57fbe-adee-4c32-8d1c-6463758b76e5.mp4
+Story: Danny built The Copper Fox over six years. A quiet Monday sent
+him looking — and every Sunday after (his one day off) he spent reading
+other pubs' Google pages, counting stars he couldn't catch. Then his
+dog, Ciao, sat on the phone. He turned it face-down. Some things can't
+be gamed back; some things can be kept.
 ------------------------------------------------------------
 
 -- INSTAGRAM (Reels) --
 Caption:
-Danny pours one of the best Negronis in Soho. So why can't anyone find
-The Copper Fox?
+Danny built something real on that street. Six years.
 
-Great room. Great drinks. Empty Tuesday. The problem was never behind
-the bar — it was the listing nobody had touched in two years.
+Then a quiet Monday sent him looking — and every Sunday after, his one
+day off, he spent reading other pubs' Google pages. Counting stars he
+couldn't close the gap on.
 
-Search your own bar on Google right now. Would YOU walk in? 👇
+Then his dog sat on the phone.
+
+It wasn't a decision. Just a dog, a table, and a man remembering what a
+Sunday was for. Some things can't be gamed back. Some things can be kept.
+
+What is your phone quietly taking from your day off? 👇
 
 Hashtags:
-#Soho #LondonBars #CocktailBar #LocalSEO #GoogleBusinessProfile
-#HospitalityUK #BarMarketing #SmallBusinessUK #LondonNightlife #BellaCiao
+#Soho #LondonPubs #Hospitality #SmallBusinessUK #GoogleBusinessProfile
+#LocalSEO #PubLife #FoundOnGoogle #WorkLifeBalance #BellaCiao
 
 -- TIKTOK --
 Caption:
-Best Negroni in Soho, empty on a Tuesday. The fix wasn't behind the bar
-👀 #LondonBars #Soho #LocalSEO #cocktailtok #smallbusinessuk
+He spent every day off reading competitors' Google pages… until the dog
+sat on the phone 🐶 #LondonPubs #Soho #smallbusinessuk #hospitality
+#localseo
 
 -- YOUTUBE (Shorts) --
 Title:
-The Best Bar in Soho That Nobody Can Find
+He Lost Every Sunday to Competitors' Google Pages — Until the Dog Sat on the Phone
 
 Description:
-The Copper Fox has the drinks, the room and the bartender. What it
-didn't have was a Google listing anyone could find. Here's what changed.
+Danny built The Copper Fox in Soho over six years. Then he started
+losing his one day off to other pubs' Google profiles, counting stars
+he couldn't catch. This one's about what you keep.
 
-Search your own venue on Google — would you walk in? Tell us below.
-
-#Shorts #Soho #LondonBars #LocalSEO #GoogleBusinessProfile #SmallBusiness
+#Shorts #Soho #LondonPubs #LocalSEO #GoogleBusinessProfile #SmallBusiness
 
 
 ============================================================
 VIDEO 3 — DAY 2 · "The Copper Fox" · STORY (v4 canonical)  (market: UK)
-~28s · 9:16 vertical · status: DRAFT COPY — review before posting
+~28s · 9:16 vertical · status: COPY GROUNDED IN SCRIPT
+Source script: Drive bella_danny_p2_20260418_2323.KLING.md
+("The Photos Actually Worked")
 Use for Instagram Stories / TikTok / a second shorter cut.
 Download:
 https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/180b5fc1-cd03-4156-9266-ef869ed5c948.mp4
+Story: Saturday lunch is packed. A woman walks in: "Found you on Google
+Maps — your photos looked amazing, I had to come." Danny brags the
+photos work. Bella reveals: three weeks ago she told him to stop reading
+the chains' profiles on his day off and put HIS food up — the thing
+nobody else has.
 ------------------------------------------------------------
 
 -- INSTAGRAM (Stories / Reels) --
 Caption:
-The bar isn't quiet because of the drinks. Find out what The Copper Fox
-fixed. Search your own venue on Google 👇
-(Story sticker idea: poll — "Would you find your bar on Google? Yes / No")
+"Found you on Google Maps. Your photos looked amazing — I had to come."
+
+Three weeks earlier, Danny was spending his days off scrolling the
+chains' profiles. The fix wasn't more reviews — it was putting HIS food
+up. The bone-marrow toast. The proper roast. The thing nobody else has.
+
+Saturday lunch was full. Your photos are the storefront now. 👇
 
 Hashtags:
-#Soho #LondonBars #LocalSEO #GoogleBusinessProfile #HospitalityUK
-#BarMarketing #BellaCiao
+#Soho #LondonPubs #GoogleBusinessProfile #LocalSEO #FoodPhotography
+#Hospitality #SmallBusinessUK #FoundOnGoogle #BellaCiao
 
 -- TIKTOK --
 Caption:
-Quiet bar, great drinks — the real problem was online 👀 #LondonBars
-#Soho #LocalSEO #smallbusinessuk #cocktailtok
+"Found you on Google Maps — your photos looked amazing." Put YOUR food
+up, not the chains' 📸 #LondonPubs #Soho #localseo #smallbusinessuk
+#foodphotography
 
 -- YOUTUBE (Shorts) --
 Title:
-Why This Soho Bar Was Empty (It Wasn't the Drinks)
+"Your Photos Looked Amazing — I Had to Come"
 
 Description:
-A short look at what The Copper Fox changed to get found. Search your
-own venue on Google — would you walk in?
+A walk-in tells Danny exactly why she came. Three weeks earlier, Bella
+told him to stop reading the chains' Google profiles on his day off and
+put his own food up. It worked.
 
-#Shorts #Soho #LondonBars #LocalSEO #GoogleBusinessProfile
+#Shorts #Soho #LondonPubs #LocalSEO #GoogleBusinessProfile #FoodPhotography
 
 ============================================================
 END
