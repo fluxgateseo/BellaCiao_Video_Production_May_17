@@ -22,7 +22,7 @@ The full review tree (folder IDs + all canonical clickable asset URLs) is
 now mirrored into the repo at **`renders/REVIEW_DRIVE_INDEX.md`** — that is
 the durable map; keep it in sync when finals change.
 
-`BellaCiao — Production Renders (REVIEW)` = `1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH`
+`Production Renders BellaCiao (REVIEW)` = `1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH` (renamed 2026-05-19, ID stable)
 - `Day 1 — Reel 01 (Myth-Buster: La Grotta)` `1KTPHzZZGCDw0ISWULECbHsMyBxWOIeZJ`
   → `Single Videos` `1TG1WKn1-VrKh2ZqiXUDWQCG9qOcQq5UE`,
     `Final Rendered Video` `1hw7-PfBF1Jn8jE2HszXCtsS7ZIKgv-fL`
@@ -33,8 +33,10 @@ the durable map; keep it in sync when finals change.
 Canonical finals: Day 1 reel `e02a57f5…`; Day 2 **v4** REEL `acd57fbe…` +
 STORY `180b5fc1…` (full URLs in `renders/REVIEW_DRIVE_INDEX.md` and
 `renders/ledger.json`). `.mp4`/`.png` binaries are NOT in Drive/git
-(in-env Drive tool only accepts inline content; no service-account creds —
-see `renders/ledger.json` `driveUploadBlocker`).
+(web-env Drive tool takes one inline base64 string per call, no
+resumable/multipart; 17–45 MB finals untransportable — confirmed at schema
+level). To land them in Drive run `scripts/push_renders_to_drive.sh` on a
+host with rclone/Drive auth. See `renders/ledger.json` `driveUploadBlocker`.
 
 ## Publishing (audited 2026-05-19)
 

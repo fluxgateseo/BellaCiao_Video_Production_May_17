@@ -1,7 +1,7 @@
 # BellaCiao — Production Renders (REVIEW) — Drive Index
 
-This file mirrors the Google Drive review folder **"BellaCiao — Production
-Renders (REVIEW)"** into the repo. The `.mp4`/`.png` binaries are NOT in git
+This file mirrors the Google Drive review folder **"Production Renders
+BellaCiao (REVIEW)"** (renamed 2026-05-19; folder ID unchanged) into the repo. The `.mp4`/`.png` binaries are NOT in git
 or in Drive (in-env Drive tool only accepts inline content; see
 `renders/ledger.json` `driveUploadBlocker`). Binaries live on Higgsfield
 CloudFront; this index is the durable map. Owner: `fluxgateseo@gmail.com`.
@@ -11,7 +11,7 @@ Last synced: 2026-05-19.
 ## Drive tree (folder IDs)
 
 ```
-BellaCiao — Production Renders (REVIEW)   1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH
+Production Renders BellaCiao (REVIEW)     1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH
 ├── READ ME — Review Structure (Doc)      18I5pLSFj6AJxUHURtQVGdjD2lqoIYbDPeerEKzyl8TE
 ├── Day 1 — Reel 01 (Myth-Buster: La Grotta)   1KTPHzZZGCDw0ISWULECbHsMyBxWOIeZJ
 │   ├── Single Videos (per-shot)          1TG1WKn1-VrKh2ZqiXUDWQCG9qOcQq5UE
@@ -22,6 +22,15 @@ BellaCiao — Production Renders (REVIEW)   1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH
     ├── Single Videos (per-shot)           10OuEHeqrw3BxNBOV7_QOa8521q1glih2
     └── Final Rendered Video               1UilivuQlt025HgyOx5nD8w0ywb_kTbAY
 ```
+
+## Binary upload status
+
+The `.mp4` finals are NOT yet in Drive. The web env's Drive tool only takes
+one inline base64 string per call (no resumable/multipart); the finals are
+17–45 MB each — untransportable from here. Run
+`scripts/push_renders_to_drive.sh` on a host with rclone/Drive auth to land
+them into the folder IDs below; then move entries from `renders/ledger.json`
+into `manifest.json`.
 
 ## Canonical deliverables (use these)
 

@@ -1,6 +1,6 @@
 {
   "note": "Provenance ledger for generated binaries that are NOT yet persisted to Google Drive. The architecture keeps binaries in Drive referenced from manifest.json by Drive file ID; until a Drive upload path exists (service-account credentials or a path-based upload tool), MCP renders are recorded here with full lineage so they are reproducible and traceable. When a render is uploaded to Drive, move it to manifest.json artifacts[] with its real driveFileId and delete its entry here.",
-  "driveUploadBlocker": "The Google Drive create_file MCP tool only accepts inline base64 content as a parameter; multi-hundred-KB renders cannot be passed as tool arguments, and no service-account credentials are available for a direct Drive API upload from this environment.",
+  "driveUploadBlocker": "Confirmed at schema level 2026-05-19: Drive create_file accepts a file only as one inline base64 string per tool call, with no resumable/multipart/append path; copy_file only duplicates files already in Drive. The 17-45 MB CloudFront finals (~120 MB as base64) cannot be carried in a single tool-call argument from the web environment. Resolution path: run scripts/push_renders_to_drive.sh on a host with rclone/Drive auth (downloads CloudFront finals, uploads to the REVIEW subfolder IDs), then move uploaded entries into manifest.json artifacts[] with real driveFileId.",
   "renders": [
     {
       "id": "day2_danny_copperfox_keyframes",

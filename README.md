@@ -53,10 +53,12 @@ explicit manual approval.
 ## Production review + delivery
 
 `renders/REVIEW_DRIVE_INDEX.md` is the durable map of the Drive review
-folder **"BellaCiao — Production Renders (REVIEW)"**
+folder **"Production Renders BellaCiao (REVIEW)"**
 (`1iJnRjhESFdczPqYAftGXeEyRDi84ZbZH`) — canonical finals (Day 1 reel; Day 2
 v4 REEL + STORY), per-shot/keyframe index docs, and the
-publishing-connector audit. Session memory + handoff: `SESSION.md`.
+publishing-connector audit. `scripts/push_renders_to_drive.sh` lands the
+`.mp4` binaries into Drive from a host with rclone auth (web env can't —
+no multipart upload). Session memory + handoff: `SESSION.md`.
 
 ## Drive folders (account `fluxgate`, do not recreate)
 
