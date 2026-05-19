@@ -1,0 +1,136 @@
+============================================================
+BELLACIAO — MANUAL PUBLISH COPY
+Titles / descriptions / captions for Instagram, TikTok, YouTube
+Generated 2026-05-19  ·  branch claude/resume-project-VYWgC
+============================================================
+
+HOW TO USE
+- Each video has its own block with the download link + ready-to-paste
+  copy per platform.
+- Day 1 copy is the project's APPROVED copy (from content-queue/queue.json).
+- Day 2 copy is DRAFT (no caption script exists in the repo for "The
+  Copper Fox" — review/adjust before posting).
+- Videos have NO burned-in captions/subtitles. Add in-app if wanted, or
+  ask for SRT files.
+
+
+============================================================
+VIDEO 1 — DAY 1 · REEL 01 · "La Grotta Myth-Buster"  (market: AU)
+58s · 9:16 vertical · status: APPROVED COPY
+Download:
+https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/e02a57f5-9871-4788-88a6-66f52d45e811.mp4
+NOTE: audio on this render is a model-generated narrator, NOT the final
+brand voiceover. Swap audio before posting if exact brand voice matters.
+------------------------------------------------------------
+
+-- INSTAGRAM (Reels) --
+Caption:
+Check your Google Business listing right now. What does it actually say?
+
+Nobody under forty is finding La Grotta tonight — and it's not the food.
+It's one line of Google text. Enzo and Maria have run this room for years;
+a grey "Permanently closed" pill is doing the damage, not the kitchen.
+
+One of you has a "permanently closed" pill on your listing right now —
+probably without knowing. Check. Screenshot it. 👇
+
+Hashtags:
+#GoogleBusinessProfile #LocalSEO #RestaurantMarketing #SmallBusinessAU
+#HospitalityAU #GoogleMaps #SmallBusinessTips #FoodBusiness #BellaCiao
+
+-- TIKTOK --
+Caption:
+It's not the food. It's one line of Google text. Check your Google
+Business listing right now 👀 #LocalSEO #GoogleBusinessProfile
+#smallbusiness #restauranttok #hospitality
+
+-- YOUTUBE (Shorts) --
+Title:
+Nobody Under 40 Is Finding This Restaurant — And It's Not the Food
+
+Description:
+La Grotta isn't empty because of the kitchen. It's one line of Google
+text — a "Permanently closed" pill nobody noticed. Here's the fix.
+
+Check your own Google Business Profile right now and tell us what it
+says in the comments.
+
+#Shorts #LocalSEO #GoogleBusinessProfile #RestaurantMarketing
+#SmallBusiness
+
+
+============================================================
+VIDEO 2 — DAY 2 · "The Copper Fox" · REEL (v4 canonical)  (market: UK)
+~44s · 9:16 vertical · status: DRAFT COPY — review before posting
+Download:
+https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/acd57fbe-adee-4c32-8d1c-6463758b76e5.mp4
+------------------------------------------------------------
+
+-- INSTAGRAM (Reels) --
+Caption:
+Danny pours one of the best Negronis in Soho. So why can't anyone find
+The Copper Fox?
+
+Great room. Great drinks. Empty Tuesday. The problem was never behind
+the bar — it was the listing nobody had touched in two years.
+
+Search your own bar on Google right now. Would YOU walk in? 👇
+
+Hashtags:
+#Soho #LondonBars #CocktailBar #LocalSEO #GoogleBusinessProfile
+#HospitalityUK #BarMarketing #SmallBusinessUK #LondonNightlife #BellaCiao
+
+-- TIKTOK --
+Caption:
+Best Negroni in Soho, empty on a Tuesday. The fix wasn't behind the bar
+👀 #LondonBars #Soho #LocalSEO #cocktailtok #smallbusinessuk
+
+-- YOUTUBE (Shorts) --
+Title:
+The Best Bar in Soho That Nobody Can Find
+
+Description:
+The Copper Fox has the drinks, the room and the bartender. What it
+didn't have was a Google listing anyone could find. Here's what changed.
+
+Search your own venue on Google — would you walk in? Tell us below.
+
+#Shorts #Soho #LondonBars #LocalSEO #GoogleBusinessProfile #SmallBusiness
+
+
+============================================================
+VIDEO 3 — DAY 2 · "The Copper Fox" · STORY (v4 canonical)  (market: UK)
+~28s · 9:16 vertical · status: DRAFT COPY — review before posting
+Use for Instagram Stories / TikTok / a second shorter cut.
+Download:
+https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/180b5fc1-cd03-4156-9266-ef869ed5c948.mp4
+------------------------------------------------------------
+
+-- INSTAGRAM (Stories / Reels) --
+Caption:
+The bar isn't quiet because of the drinks. Find out what The Copper Fox
+fixed. Search your own venue on Google 👇
+(Story sticker idea: poll — "Would you find your bar on Google? Yes / No")
+
+Hashtags:
+#Soho #LondonBars #LocalSEO #GoogleBusinessProfile #HospitalityUK
+#BarMarketing #BellaCiao
+
+-- TIKTOK --
+Caption:
+Quiet bar, great drinks — the real problem was online 👀 #LondonBars
+#Soho #LocalSEO #smallbusinessuk #cocktailtok
+
+-- YOUTUBE (Shorts) --
+Title:
+Why This Soho Bar Was Empty (It Wasn't the Drinks)
+
+Description:
+A short look at what The Copper Fox changed to get found. Search your
+own venue on Google — would you walk in?
+
+#Shorts #Soho #LondonBars #LocalSEO #GoogleBusinessProfile
+
+============================================================
+END
+============================================================
