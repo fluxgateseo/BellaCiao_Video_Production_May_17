@@ -62,20 +62,21 @@
           "s7": "hf_20260518_154456_bcc48294-9c5a-4eaf-b49e-a9d44cc1e8b5.mp4"
         },
         "finals": {
-          "_canonical": "v4 — use these",
-          "reel_v4": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/acd57fbe-adee-4c32-8d1c-6463758b76e5.mp4",
+          "_canonical": "v5 — use these (REEL); STORY canonical = v4",
+          "reel_v5": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/82e4e1d6-c77d-4212-9038-363714d0cbf2.mp4",
           "story_v4": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/180b5fc1-cd03-4156-9266-ef869ed5c948.mp4",
+          "reel_v4_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/acd57fbe-adee-4c32-8d1c-6463758b76e5.mp4",
           "reel_v3_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/3f5da1cd-cec1-4506-bbe2-92eb25998522.mp4",
           "story_v3_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/8d76141e-2ce2-4b12-b655-cad856dfeb3d.mp4",
           "reel_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/08bace4d-7351-423c-bfbb-46e326b6ad51.mp4",
           "story_v1_superseded": "https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/053c7f0e-4492-49d9-9698-3ad120324590.mp4",
           "spec": "1080x1920 24fps; ffmpeg xfade=fade + acrossfade 0.5s between every shot",
-          "revisions": "v4 (canonical): REEL = S2,S3,S4v2,S5,S6,S7v2 — opens on Bella (Shot 1 exterior dropped); Shot 4 regenerated job 0e6698aa (phone stays flat, no levitation); Shot 7 regenerated job ba072c17 from clean single-Bella keyframes 781a27be/c0a3d45f (duplicate-Bella fixed) and now used FULL/untrimmed so 'I'm Bella — ciao for now' lands naturally (the v3 5.0s trim had cut off 'ciao for now'); ~44s. STORY v4 = S2,S3,S4slow,S5slow — second shot (S1 establishing/walk-in) removed per user; Shots 4&5 time-stretched 1.30x (video+audio, lip-sync intact) for natural VO pace; ~28s. Ciao scale kept per user, logged for future.",
+          "revisions": "v5 (canonical REEL, 2026-05-20): v4 had three near-silent middle shots — Kling 3.0 sound:on dropped VO on Shots 3, 4(v2), and 5 (verified via ffmpeg silencedetect: S3=7s pure silence, S4v2=~9s silent, S5=mostly silent). Re-rendered those three shots with Veo 3.1 fast (image-to-video, durations 8s/8s/6s, VO baked-in per source KLING.md script lines), using the existing nano-banana-pro keyframes (78c19d8e / 09a3915e / 1da5e90b) as start_image. New Veo job IDs: 54b79fbf (S3), 4810d789 (S4), 1638c1be (S5, picked over retry 394aa3ed for sustained VO). Cost ~77 cr (60.5 first pass + 16.5 S5 retry; balance 285.15 -> 268.65 after retry). Re-stitched with same v4 spec (S2 opener + S3v / S4v / S5v + S6 + S7v2; xfade=fade 0.5s + acrossfade 0.5s; 43.62s total). All multi-second voice dead zones eliminated; remaining silences ≤ ~2.4s and are natural narrative beats (Bella speech rhythm, Danny pre-reflective pause in S6). v4 (superseded REEL): REEL = S2,S3,S4v2,S5,S6,S7v2 — opened on Bella (Shot 1 exterior dropped); Shot 4 regenerated job 0e6698aa (phone stays flat, no levitation); Shot 7 regenerated job ba072c17 from clean single-Bella keyframes 781a27be/c0a3d45f (duplicate-Bella fixed) and now used FULL/untrimmed so 'I'm Bella — ciao for now' lands naturally (the v3 5.0s trim had cut off 'ciao for now'); ~44s. STORY v4 (still canonical) = S2,S3,S4slow,S5slow — second shot (S1 establishing/walk-in) removed per user; Shots 4&5 time-stretched 1.30x (video+audio, lip-sync intact) for natural VO pace; ~28s. Ciao scale kept per user, logged for future.",
           "verified": "HTTP 200 all"
         },
-        "driveReview": "Day 2 folder: 'Single Videos (per-shot)' + 'Final Rendered Video' each have a CLICKABLE HTML index doc.",
-        "audioNote": "Kling-generated narrator audio (sound:on). Exact brand voice (Kling commercial_lady_en_f-v1 / ElevenLabs) remains a downstream post step, consistent with Day 1.",
-        "openPolish": "Single-pass, no re-rolls (budget). Watch Danny/Ciao identity drift across shots; STORY S5 timed out once on submit and was resubmitted (no duplicate observed)."
+        "driveReview": "Day 2 folder: 'Single Videos (per-shot)' + 'Final Rendered Video' each have a CLICKABLE HTML index doc. NOTE 2026-05-20: REEL canonical is now v5; Drive 'Final Rendered Video' doc still points at v4 (acd57fbe…) and needs the v5 URL swapped in (link-only, no binary).",
+        "audioNote": "v5 REEL: Veo 3.1 narrator on the 3 inner shots (S3/S4/S5) carries VO that Kling 3.0 sound:on dropped; S2 opener and S6 + S7v2 sign-off retain Kling-generated audio. STORY still Kling-only. Exact brand voice swap (Kling commercial_lady_en_f-v1 / ElevenLabs) remains a downstream post step, consistent with Day 1.",
+        "openPolish": "v5 fixes the Kling silent-shot regression that prompted the user's 2026-05-20 report. Watch Danny/Ciao identity drift between Kling and Veo passes (Veo S3/S4/S5 visually adjacent but not pixel-identical to Kling versions). STORY S5 timed out once on submit and was resubmitted (no duplicate observed)."
       },
       "producedAt": "2026-05-18",
       "drivePersistence": "links-only (binaries not in Drive; same driveUploadBlocker). Finals hosted via media_upload."

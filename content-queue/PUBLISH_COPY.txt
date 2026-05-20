@@ -61,12 +61,13 @@ says in the comments.
 
 
 ============================================================
-VIDEO 2 — DAY 2 · "The Copper Fox" · REEL (v4 canonical)  (market: UK)
-~44s · 9:16 vertical · status: COPY GROUNDED IN SCRIPT
+VIDEO 2 — DAY 2 · "The Copper Fox" · REEL (v5 canonical)  (market: UK)
+~43.6s · 9:16 vertical · status: COPY GROUNDED IN SCRIPT
 Source script: Drive bella_danny_p2_20260418_2355.KLING.md
 ("Ciao Sat on the Phone")
 Download:
-https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/acd57fbe-adee-4c32-8d1c-6463758b76e5.mp4
+https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/82e4e1d6-c77d-4212-9038-363714d0cbf2.mp4
+(v5 fixes the v4 silent middle shots; v4 still at acd57fbe… if needed)
 Story: Danny built The Copper Fox over six years. A quiet Monday sent
 him looking — and every Sunday after (his one day off) he spent reading
 other pubs' Google pages, counting stars he couldn't catch. Then his

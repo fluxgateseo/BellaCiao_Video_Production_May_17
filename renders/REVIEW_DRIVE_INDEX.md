@@ -41,8 +41,11 @@ into `manifest.json`.
 - Per-shot links: `renders/ledger.json` → `day1_reel_shots_2_9`.
 
 ### Day 2 — "The Copper Fox" (Danny). Two reels.
-- **REEL v4 (CANONICAL)** ~44s — opens on Bella; Shot 4 phone flat; Shot 7
-  single Bella + full natural sign-off:
+- **REEL v5 (CANONICAL)** ~43.6s — Shots 3/4/5 re-rendered with Veo 3.1 fast
+  voiced (Kling 3.0 sound:on had dropped VO on those 3 inner shots in v4);
+  re-stitched with same xfade+acrossfade 0.5s spec:
+  `https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/82e4e1d6-c77d-4212-9038-363714d0cbf2.mp4`
+- REEL v4 (superseded — silent middle shots):
   `https://d2ol7oe51mr4n9.cloudfront.net/user_3BMADca9yJuLURp1EycoawQ25PG/acd57fbe-adee-4c32-8d1c-6463758b76e5.mp4`
 - **STORY v4 (CANONICAL, 2nd reel)** ~28s — order S2→S3→S4→S5 (establishing
   shot dropped), Bella shots at natural pace:
