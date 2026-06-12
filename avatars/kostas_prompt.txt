@@ -1,0 +1,37 @@
+# Kostas — avatar prompt bodies (Thea · Norwood, Adelaide)
+# Source: Avatar_Prompts_Linh_Kostas.md (owner-proposed locks, 2026-06-04).
+# Generation: Higgsfield MCP. Generate close_face FIRST, then pass it back as the
+# identity reference for the reference shot and all downstream ShotApproval frames.
+
+## CANONICAL PHYSICAL LOCK (once confirmed, never change)
+Kostas — Greek-Australian man, late 40s. Solid, broad build. Olive skin, short dark
+hair greying at the temples, close-trimmed salt-and-pepper beard. Warm dark eyes
+under a heavy brow that lifts when he laughs. Big hands; a worn silver wedding band;
+often a string of amber worry beads (komboloi) in one hand. Default expression: big
+warm host energy — broad closed-mouth smile or mid-laugh, generous and present. NOT
+stern, NOT a model, NOT a wide forced grin.
+
+## kostas_close_face.png  (1:1 or 3:4, tight head-and-shoulders — IDENTITY LOCK)
+Tight head-and-shoulders identity portrait of Kostas — Greek-Australian man,
+late-40s, olive skin, short dark hair greying at the temples, close-trimmed
+salt-and-pepper beard, warm dark eyes under a heavy brow, natural skin texture and
+pores. Warm, generous expression, faint smile, looking directly into the lens. Even
+soft frontal light, neutral catchlights, plain softly-blurred warm taverna
+background, 85mm lens. Photoreal, real person, consistent face. No text, no logos,
+no watermark, no over-smoothing.
+
+## kostas_reference.png  (3:4 portrait, medium shot, waist-up)
+Photoreal documentary portrait of Kostas — a Greek-Australian man in his late-40s,
+solid broad build, olive skin, short dark hair greying at the temples, close-trimmed
+salt-and-pepper beard, warm dark eyes, big hands, worn silver wedding band, amber
+worry beads in one hand. Dark short-sleeve shirt under a long dark apron, sleeves
+rolled. Standing on the floor of a Greek taverna on The Parade, Norwood — a lamb
+spit turning softly out of focus behind him, worn timber, white tablecloths, warm
+amber taverna light, early evening. Broad warm closed-mouth smile, looking just
+off-lens. Real person caught mid-thought, natural skin texture, 50mm lens, shallow
+depth of field, warm practical light. No text, no logos, no watermark, no beauty
+retouch, no stock-photo gloss.
+
+## NEGATIVE (all frames)
+text, captions, logos, watermark, distorted hands, extra fingers, over-smoothed
+skin, plastic/CGI look, exaggerated beauty retouch, duplicate faces.

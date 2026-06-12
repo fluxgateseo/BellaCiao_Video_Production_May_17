@@ -62,16 +62,22 @@ generate_image(
 Never describe a character's face in words alone. The reference image carries
 the identity lock; the prompt carries the moment.
 
-### For Linh and Kostas (NOT YET GENERATED)
-**Do not generate any frame featuring Linh or Kostas** until their reference
-PNGs are produced and approved. The procedure is in
-`HANDOFF_Friends_to_ClaudeCode.md` Task 4:
+### For Linh and Kostas (GENERATED 2026-06-12)
+Reference assets exist and are locked. Use them exactly as for any other friend:
+pass the **close_face** as the identity reference (`media_import`/`media_upload`
+→ `media_id`, role `image`), then write the moment in the prompt. The reusable
+Higgsfield `media_id` for each close_face is recorded in §3 — pass it straight
+into `generate_image` `params.medias[].value` (the friend-equivalent of Bella's
+`soul_id`). Procedure that produced them (Higgsfield `soul_2` close_face →
+`nano_banana_2` reference shot using the close_face as identity):
 
-1. Generate `Linh_close_face.png` (Higgsfield, no model spec — let the MCP choose).
-2. Pass that PNG back as the identity reference to generate `Linh_reference.png`.
-3. Same sequence for `Kostas_close_face.png` → `Kostas_reference.png`.
-4. Visual check against the physical lock in `Avatar_Prompts_Linh_Kostas.md`.
-5. Once approved, add the four file IDs to **§3 Friends** below.
+1. `Linh_close_face.png` — `soul_2`, cropped clean, visually checked vs the lock.
+2. `Linh_reference.png` — `nano_banana_2`, identity = Linh close_face.
+3. `Kostas_close_face.png` — `soul_2`, cropped to remove a leaked corner
+   signature/avatar artifact, visually checked vs the lock.
+4. `Kostas_reference.png` — `nano_banana_2`, identity = Kostas close_face.
+5. All four checked against the physical lock in `Avatar_Prompts_Linh_Kostas.md`
+   and registered in §3 below.
 
 ---
 
@@ -123,8 +129,23 @@ All references live in `Creatives/Bella's Friends avatar/`
 | Enzo & Maria | `1bYW9owTZuGUde5S6z65E0sq4H6PniXG4` | 30,644,667 | Active AU | Melbourne · Carlton · La Grotta (Italian) — couple = ONE friend unit |
 | Yasmin | `15GyZtcI3A0kUPvkXsvlPN86Gi6e4JP2i` | 38,161,480 | Active INT | London · Notting Hill · Cedar Table (Lebanese) |
 | Danny | `1yC-vDdHIEmki85tXMW8uNihMzdy6EfR4` | 29,478,694 | Active INT | London · Soho · The Copper Fox (gastropub) |
-| **Linh** | — | — | Active AU | **REFERENCE PNGs DO NOT YET EXIST.** Sydney · Marrickville · Sông (Vietnamese). Generate per §1 before any frame. |
-| **Kostas** | — | — | Active AU | **REFERENCE PNGs DO NOT YET EXIST.** Adelaide · Norwood · Thea (Greek taverna). Generate per §1 before any frame. |
+| **Linh** | repo: `creatives/Bella's Friends avatar/Linh_close_face.png` · `Linh_reference.png` | — | Active AU | Sydney · Marrickville · Sông (Vietnamese). **Generated & locked 2026-06-12.** See identity media_id below. |
+| **Kostas** | repo: `creatives/Bella's Friends avatar/Kostas_close_face.png` · `Kostas_reference.png` | — | Active AU | Adelaide · Norwood · Thea (Greek taverna). **Generated & locked 2026-06-12.** See identity media_id below. |
+
+**Linh / Kostas — reusable Higgsfield identity refs (pass directly as `params.medias[].value`, role `image`):**
+
+| Asset | Repo path | Higgsfield `media_id` (close_face) / `job_id` (reference) | Source URL |
+| --- | --- | --- | --- |
+| Linh close_face | `creatives/Bella's Friends avatar/Linh_close_face.png` | media `93d17448-0590-4856-89de-62a63370b5ef` | `…/hf_20260612_135951_a4d8589c-de00-4ccf-bbe6-d6f82271ccfb.png` |
+| Linh reference | `creatives/Bella's Friends avatar/Linh_reference.png` | job `1adb1cf6-8717-4d31-9db4-cfeaeb1f81bc` | `…/hf_20260612_140639_1adb1cf6-8717-4d31-9db4-cfeaeb1f81bc.png` |
+| Kostas close_face | `creatives/Bella's Friends avatar/Kostas_close_face.png` | media `629e3dce-1f3c-494d-a90d-a7dbf50ddc3c` | uploaded (cropped local; soul_2 source job `030aac70-a4cd-4a62-b22d-9a0dbb0b7747`) |
+| Kostas reference | `creatives/Bella's Friends avatar/Kostas_reference.png` | job `0fa58959-1b9f-4fc8-8f4a-e95561aea1cc` | `…/hf_20260612_140714_0fa58959-1b9f-4fc8-8f4a-e95561aea1cc.png` |
+
+> The canonical PNGs are committed to the repo (this folder is not gitignored).
+> The close_face is the identity lock; the reference shot is the wardrobe/venue
+> continuity frame. Drive-host copies in `Creatives/Bella's Friends avatar/`
+> when convenient, then add Drive IDs to the Bytes column to match the other
+> friends — owner action (the MCP can't inline-upload the ~8 MB PNGs).
 
 ### Bench (return for US/UK launch)
 

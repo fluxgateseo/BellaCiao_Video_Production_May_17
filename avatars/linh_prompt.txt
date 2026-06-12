@@ -1,0 +1,40 @@
+# Linh — avatar prompt bodies (Sông · Marrickville, Sydney)
+# Source: Avatar_Prompts_Linh_Kostas.md (owner-proposed locks, 2026-06-04).
+# Generation: Higgsfield MCP. Generate close_face FIRST, then pass it back as the
+# identity reference for the reference shot and all downstream ShotApproval frames.
+
+## CANONICAL PHYSICAL LOCK (once confirmed, never change)
+Linh — Vietnamese-Australian woman, early-to-mid 30s. Warm light-tan skin, dark
+brown (near-black) hair worn long, clipped back for service with a few loose
+strands at the temple. Dark brown eyes, quick and warm. Small, fast-moving frame;
+capable hands. A thin gold chain with a small jade pendant from her mother at the
+collar — never removed. Minimal makeup. A faint, realistic burn-scar on the inside
+of the left forearm (kitchen life). Default expression: bright, busy warmth — a
+half-smile already there, eyes alert and kind, mid-conversation. NOT glamorous,
+NOT posed, NOT tired.
+
+## linh_close_face.png  (1:1 or 3:4, tight head-and-shoulders — IDENTITY LOCK)
+Tight head-and-shoulders identity portrait of Linh — Vietnamese-Australian woman,
+early-30s, warm light-tan skin, near-black hair clipped back, dark brown warm eyes,
+jade pendant on a thin gold chain just visible at the collar, minimal makeup,
+natural skin texture and fine flyaway hairs. Calm bright expression, faint
+half-smile, looking directly into the lens. Even soft frontal light, neutral
+catchlights, plain softly-blurred warm kitchen background, 85mm lens. Photoreal,
+real person, consistent face. No text, no logos, no watermark, no over-smoothing.
+
+## linh_reference.png  (3:4 portrait, medium shot, waist-up)
+Photoreal documentary portrait of Linh — a Vietnamese-Australian woman in her
+early-30s, warm light-tan skin, near-black hair clipped back with loose strands at
+the temple, dark brown eyes, small thin gold chain with a jade pendant at the
+collar, faint burn-scar inside the left forearm. Dark fitted tee under a dark apron,
+sleeves pushed up. Standing at the pass of a small Vietnamese eatery on Illawarra
+Road, Marrickville — steam rising off a phở pot, a laminated handwritten specials
+board softly out of focus behind her, warm practical kitchen light, late morning.
+Half-smile, mid-conversation, looking just off-lens. Real person caught mid-thought,
+natural skin texture, 50mm lens, shallow depth of field, soft daylight mixed with
+warm interior light. No text, no logos, no watermark, no beauty retouch, no
+stock-photo gloss.
+
+## NEGATIVE (all frames)
+text, captions, logos, watermark, distorted hands, extra fingers, over-smoothed
+skin, plastic/CGI look, exaggerated beauty retouch, duplicate faces.
