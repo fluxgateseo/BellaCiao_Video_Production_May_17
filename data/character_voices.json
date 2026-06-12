@@ -1,7 +1,7 @@
 {
   "_meta": {
-    "version": "1.1",
-    "last_updated": "2026-04-24",
+    "version": "1.2",
+    "last_updated": "2026-06-12",
     "description": "Canonical character → voice id registry. Provider is per-entry ('kling' or 'elevenlabs') — Kling is the primary lip-sync path, ElevenLabs is the fallback used until a Kling voice is cloned for that character (per VIDEO_PRODUCTION_HANDOFF.md §10.5). Each character is LOCKED to one voice_id so the same person sounds identical across every episode, every day, forever. Update only when a voice is intentionally retired and replaced (which should force a regeneration of every render that used the old voice).",
     "schema": "character_id: { provider, voice_id, pitch_shift_semitones, voice_speed, notes, locked_at }",
     "how_to_apply": "Every lip-sync PROMPT.txt carries a 'VO SPEAKER: <character_id>' line. The render pipeline resolves that id against this file to pick the Kling voice. If character_id is not in this file, render fails with a clear error — force the operator to canonise the voice before rendering.",
@@ -9,11 +9,11 @@
   },
   "voices": {
     "bella": {
-      "provider": "kling",
-      "voice_id": "commercial_lady_en_f-v1",
+      "provider": "elevenlabs",
+      "voice_id": "9DxYbhovJvj6zRtn0Pvc",
       "pitch_shift_semitones": 0,
       "voice_speed": 1.0,
-      "notes": "Primary narrator across every episode. 25-year-old American woman (Italian father, Irish mother). Kling preset English female commercial voice — warm mid-range. Set 2026-04-20 as a default to unblock Day 1 render; operator may swap for a cloned voice later.",
+      "notes": "Primary narrator across every episode. 25-year-old NYC-born Irish-Italian woman, international (Melbourne home base). ElevenLabs canonical voice per Master Bible v2 §1 — supersedes the old M7ya1YbaeFaPXljg9BpK. ⚠ Confirm once against the live ElevenLabs voice, then never change. Pitch/speed sliders unchanged from the 2026-04-20 calibration.",
       "locked_at": null
     },
     "ciao": {
