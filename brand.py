@@ -167,14 +167,17 @@ PILLARS = {
 }
 
 # ─── ENEMY (SHADOW) ARCHETYPES ───────────────────────────────────────────────
+# Canonical enemy universe per Master Bible v2 §8. Every story has ONE enemy —
+# a force, never a person. The GBP/SEO-era enemies are retired and must never
+# return: the_invisible_ranking, the_algorithm, the_social_media_trap.
 ENEMIES = {
-    "the_no_show":           "An empty table. Two menus still open. A glass of water untouched.",
-    "the_walk_in_at_8_57":   "The door opens three minutes before close. The team was almost done.",
-    "the_algorithm":         "A Monday that was quiet for no reason anyone could explain.",
-    "the_lease":             "A white envelope on the pass after service. The rent increase.",
-    "the_critic_who_never_called": "A one-star post at 11 PM on a Saturday. The kitchen already closed.",
-    "the_system_failure":    "A spinning wheel. A blank screen. The booking platform crashed at the worst moment.",
-    "the_fear_of_change":    "The owner's own voice: if I change this, it won't be mine anymore.",
+    "the_missed_call":          "The phone rings out during service. Nobody has a free hand. The table goes elsewhere.",
+    "the_after_hours_booking":  "A call or enquiry after close. Booked by no one. Gone by morning.",
+    "the_no_show":              "An empty table, two menus open, a booking that took no deposit.",
+    "the_cover_fee":            "The OpenTable invoice: base + per-cover + service fee, bleeding the margin monthly.",
+    "the_language_gap":         "A guest who speaks Cantonese, Italian, Greek, or Vietnamese — and a line that can't answer them.",
+    "the_quandoo_exit":         "The 'Quandoo is closing' email. A booking system disappearing before the busy season.",
+    "the_system_failure":       "The booking platform crashes at 7pm Saturday. 120 covers in the system. Gone.",
 }
 
 # ─── ALLY ARCHETYPES ─────────────────────────────────────────────────────────
@@ -186,13 +189,13 @@ ALLIES = {
     "ciao_alone":                  "Ciao. Head in a lap. Still. Thinking loudly: 'This one needed me.' That is enough.",
 }
 
-# Pillar → suggested enemies (which shadows fit each pillar)
+# Pillar → suggested enemies (which shadows fit each pillar). Canonical enemies only.
 PILLAR_ENEMIES = {
-    1: ["the_no_show", "the_walk_in_at_8_57", "the_system_failure"],
-    2: ["the_critic_who_never_called", "the_fear_of_change", "the_lease"],
-    3: ["the_no_show", "the_algorithm", "the_system_failure"],
-    4: ["the_critic_who_never_called"],
-    5: ["the_lease", "the_fear_of_change"],
+    1: ["the_missed_call", "the_after_hours_booking", "the_no_show", "the_system_failure"],
+    2: ["the_missed_call", "the_after_hours_booking"],
+    3: ["the_cover_fee", "the_no_show", "the_system_failure"],
+    4: ["the_missed_call", "the_language_gap"],
+    5: ["the_quandoo_exit", "the_language_gap"],
 }
 
 # ─── MARKETS & CITIES ────────────────────────────────────────────────────────
