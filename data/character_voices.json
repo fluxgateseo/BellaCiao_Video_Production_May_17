@@ -1,0 +1,124 @@
+{
+  "_meta": {
+    "version": "1.1",
+    "last_updated": "2026-04-24",
+    "description": "Canonical character → voice id registry. Provider is per-entry ('kling' or 'elevenlabs') — Kling is the primary lip-sync path, ElevenLabs is the fallback used until a Kling voice is cloned for that character (per VIDEO_PRODUCTION_HANDOFF.md §10.5). Each character is LOCKED to one voice_id so the same person sounds identical across every episode, every day, forever. Update only when a voice is intentionally retired and replaced (which should force a regeneration of every render that used the old voice).",
+    "schema": "character_id: { provider, voice_id, pitch_shift_semitones, voice_speed, notes, locked_at }",
+    "how_to_apply": "Every lip-sync PROMPT.txt carries a 'VO SPEAKER: <character_id>' line. The render pipeline resolves that id against this file to pick the Kling voice. If character_id is not in this file, render fails with a clear error — force the operator to canonise the voice before rendering.",
+    "when_to_update": "When the operator clones a new voice in Kling and wants to wire a NEW character. Set locked_at only after the first shipped episode using that voice."
+  },
+  "voices": {
+    "bella": {
+      "provider": "kling",
+      "voice_id": "commercial_lady_en_f-v1",
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Primary narrator across every episode. 25-year-old American woman (Italian father, Irish mother). Kling preset English female commercial voice — warm mid-range. Set 2026-04-20 as a default to unblock Day 1 render; operator may swap for a cloned voice later.",
+      "locked_at": null
+    },
+    "ciao": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 2,
+      "voice_speed": 1.0,
+      "notes": "Italian Greyhound internal monologue. Rendered via Bella's voice with pitch_shift +2 semitones + dry, wry read. Alternative: a distinct Kling voice trained as Ciao — set voice_id directly and pitch_shift to 0.",
+      "locked_at": null
+    },
+    "danny": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Mid-40s Australian-Italian gastropub owner (The Copper Fox, Soho, London). Warm, energetic, a little London-cheeky. Voice must stay consistent across all Danny episodes.",
+      "locked_at": null
+    },
+    "her_walk_in": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Day 2 Story 02 — generic warm walk-in customer (late 50s, Italian-Australian, discovering the pub via Google Maps). Not a canonised ally; voice can be reused for unnamed walk-ins in later episodes.",
+      "locked_at": null
+    },
+    "enzo_maria": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Compound id for Enzo + Maria (La Grotta, Carlton). Enzo speaks on camera; Maria is usually a silent presence through the pass. If Maria needs dialogue later, split into separate 'enzo' and 'maria' entries.",
+      "locked_at": null
+    },
+    "sophie": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 0.95,
+      "notes": "Reserved Melbourne fine-dining operator (Wren, South Yarra). Measured, unhurried, slightly slower voice_speed reinforces composure. Pairs with quiet warmth — when she talks about food, everything stops. Single parent — Mia (5) has visual presence only.",
+      "locked_at": null
+    },
+    "arun_priya": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Compound id for Arun + Priya (The Ember Room, Shoreditch, London). Arun speaks on camera (talks fast, worries out loud); Priya is the anchor. If Priya needs dialogue later, split into separate 'arun' and 'priya' entries below.",
+      "locked_at": null
+    },
+    "arun": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.05,
+      "notes": "Standalone Arun voice when split from arun_priya. Fast-talking, worries out loud, British-Indian London accent. Slightly higher voice_speed reinforces the anxious-energy signal.",
+      "locked_at": null
+    },
+    "priya": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 0.95,
+      "notes": "Standalone Priya voice when split from arun_priya. Calm, precise, the anchor. Slightly slower voice_speed reinforces steady-energy signal. British-Indian London accent.",
+      "locked_at": null
+    },
+    "frank": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 0.95,
+      "notes": "Ally tied to enzo_maria. Quiet, measured, unhurried retired-librarian energy. Slightly slower voice_speed reinforces the 'never performs' register from allies.json.",
+      "locked_at": null
+    },
+    "diane": {
+      "provider": "kling",
+      "voice_id": null,
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Ally tied to enzo_maria. Warm, unhurried, softly audible over service noise — retired English teacher.",
+      "locked_at": null
+    },
+    "tunde": {
+      "provider": "elevenlabs",
+      "voice_id": "i7Eaj4BQJY2T9cDNkTXE",
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Tunde — Lagos Fire (Nigerian), Peckham, London. ElevenLabs voice chosen 2026-04-24 pending Kling clone. Warm, positive, supportive per the 2026-04-23 personality pivot.",
+      "locked_at": null
+    },
+    "haeun": {
+      "provider": "elevenlabs",
+      "voice_id": "flDh3YTfyv4IKQjPLPOv",
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Ha-eun — Soyeon (Korean), Koreatown, Los Angeles. ElevenLabs voice chosen 2026-04-24 pending Kling clone. Warm, positive, supportive per the 2026-04-23 personality pivot.",
+      "locked_at": null
+    },
+    "mei": {
+      "provider": "elevenlabs",
+      "voice_id": "018Ng7IhAJ12qcLBY2k6",
+      "pitch_shift_semitones": 0,
+      "voice_speed": 1.0,
+      "notes": "Mei — Golden Plum (Cantonese), Chinatown, Sydney. ElevenLabs voice chosen 2026-04-24 pending Kling clone. Warm, positive, supportive per the 2026-04-23 personality pivot.",
+      "locked_at": null
+    }
+  }
+}

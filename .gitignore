@@ -1,10 +1,34 @@
-node_modules/
-.next/
-.open-next/
-.wrangler/
-dist/
-*.tsbuildinfo
-.DS_Store
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+.pytest_cache/
+*.egg-info/
+
+# --- Secrets / env ---
 .env
 .env.local
 .dev.vars
+publishers/.env
+.DS_Store
+
+# --- Regenerated pipeline state / caches (not source) ---
+data/content_calendar_cache.json
+data/content_calendar.json
+data/calendar.json
+data/briefs_local.json
+data/memory.json
+data/continuity_state.json
+data/strategy_brief.json
+data/analysis_brief.json
+data/research_signals.json
+data/research_sources.json
+data/trend_signals.json
+data/content_opportunities.json
+data/jobs/
+
+# --- Rendered media (stored in Google Drive, per v1 convention) ---
+renders/*.mp4
+renders/*.wav
+renders/*.png

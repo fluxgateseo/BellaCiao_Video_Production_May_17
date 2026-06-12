@@ -1,0 +1,54 @@
+[
+  {
+    "id": "frank",
+    "name": "Frank",
+    "role": "The Regular — the truth-telling long-term customer",
+    "tied_to_friend_id": "enzo_maria",
+    "relationship": "Tuesday regular at La Grotta for eleven years. Knew the place before the fourth generation took over. The kind of customer who pays in cash because it feels right, not because he has to.",
+    "age": 66,
+    "nationality": "Anglo-Australian",
+    "location": "Melbourne",
+    "neighbourhood": "North Carlton",
+    "occupation_context": "Retired University of Melbourne librarian. Widowed. Eats alone, always the same corner table, always Tuesday 12:30, always the same pasta.",
+    "archetype": "The Oracle from Outside — the witness who tells the friend what their family can't say. Not an enemy. Not an insider. The customer whose honesty is a gift.",
+    "voice_and_tone": "Warm, unhurried, quietly kind. A small gentle smile arrives before every sentence. Delivers even hard truths with a hand near the table and a steady warmth — not as judgment, but as care. Says what needs to be said, then changes the subject to something lighter.",
+    "sample_line": "I searched 'Carlton Italian' yesterday. You didn't come up. I had to walk past three places to find you.",
+    "physical_description": "Anglo-Australian man, mid-60s. Grey hair cropped short, neatly combed. Lined, weathered face — kind rather than hard. Pale blue eyes, slightly tired. Clean-shaven. Slight stoop in the shoulders. Dressed quietly — dark wool jumper over a pressed collared shirt, tweed trousers, a long camel-coloured overcoat folded over the back of his chair in cooler months.",
+    "kling_avatar_prompt": "Photorealistic portrait, 4K cinematic. Anglo-Australian man, mid-60s, retired librarian look. Grey hair cropped short and neatly combed, lined weathered face with kind eyes, pale blue eyes slightly tired, clean-shaven, slight stoop. Dark navy wool jumper over a pressed pale blue collared shirt, tweed trousers. Seated at a corner two-top table in a Carlton Italian trattoria — white tablecloth, single wine glass, basket of bread. Afternoon sunlight slashes across the tablecloth from a window on camera-right. Looking directly at camera, quiet honest expression, not sad — composed. Warm amber light. Shallow depth of field. No text.",
+    "avatar_file": "../Creatives/Bella's Friends avatar/frank_reference.png",
+    "first_appearance": {
+      "episode_id": "bella_enzo_maria_p1_20260414_1912",
+      "day_number": 1,
+      "slot": "story",
+      "role_in_scene": "Delivers the pivotal line that forces Enzo to confront the invisible SEO problem. Witness, not victim."
+    },
+    "reuse_guidance": "Frank may reappear in future Enzo & Maria episodes when the story needs a quiet outside witness. Never in ensemble scenes (Pattern A/B rules still apply — one ally maximum). Do not use him with other friends. He is Carlton-specific.",
+    "notes": "Canonised 2026-04-15 after he appeared in Day 1 P1 as an improvised ally. Registered here so future scripts and image-generation prompts stay consistent with his look and voice."
+  },
+  {
+    "id": "diane",
+    "name": "Diane",
+    "role": "The Returning Regular — the customer who proves the system worked",
+    "tied_to_friend_id": "enzo_maria",
+    "relationship": "Saturday-night regular at La Grotta for over a decade, then drifted when she moved across town. Rediscovered the restaurant via a Google search and new photos on the listing — walks back in mid-service to confirm, quietly, that they're still there. Her arrival is the proof-of-life the rewrite was for.",
+    "age": 62,
+    "nationality": "Anglo-Australian",
+    "location": "Melbourne",
+    "neighbourhood": "Kew (was Carlton for twenty years)",
+    "occupation_context": "Retired secondary school English teacher. Lives with her husband, drives into town for dinner two or three times a month. Knows every waiter by name without making a show of it.",
+    "archetype": "The Proof — the customer whose unannounced return turns the silent fix into a visible win. She is never the rescue; she is the witness that the rescue already happened.",
+    "voice_and_tone": "Softly radiant warmth. Speaks the way a beloved teacher speaks — calm, clear, unhurried. Her small smile is always the first thing in the room. Finds something to compliment even on a bad night, and means it every time. Never raises her voice; never needs to.",
+    "sample_line": "I found you on Google. New photos. I didn't know you were still here.",
+    "physical_description": "Anglo-Australian woman, early 60s. Short silver-grey bob haircut, precisely cut, slightly tucked behind one ear. Warm laugh lines around hazel eyes. Fair skin, no makeup beyond a trace of lipstick. Trim build, unhurried posture. Long camel wool overcoat over a cream fine-knit jumper, dark slim trousers, low leather boots. Small brown leather shoulder bag, one slim silver watch, a single thin silver ring on her right hand.",
+    "kling_avatar_prompt": "Photorealistic portrait, 4K cinematic. Anglo-Australian woman, early 60s, retired English teacher look. Short silver-grey bob haircut precisely cut and slightly tucked behind one ear, warm laugh lines, hazel eyes, fair skin, trace of lipstick, no heavy makeup. Trim build, unhurried posture. Long camel wool overcoat over a cream fine-knit jumper, dark slim trousers visible, small brown leather shoulder bag. Standing just inside the front door of a Carlton Italian trattoria at night — warm amber candlelight catching her face from inside, cooler night light from the doorway behind her. Scanning the room with quiet recognition, just beginning to soften into a small smile — not performing warmth, simply feeling it. Medium shot, head to waist, framed against the open door. Warm amber light. Shallow depth of field. No text.",
+    "avatar_file": "../Creatives/Bella's Friends avatar/diane_reference.png",
+    "first_appearance": {
+      "episode_id": "bella_enzo_maria_p2_20260414_1948",
+      "day_number": 1,
+      "slot": "reel",
+      "role_in_scene": "Walks into La Grotta at the midpoint of the crash. Her arrival is the proof that the Google listing rewrite already worked — Enzo almost explains the crash, stops himself, and simply pulls out her chair. She is the reward for silence."
+    },
+    "reuse_guidance": "Diane may return in future Enzo & Maria episodes where the beat requires a customer who validates without performing. Pairs naturally with stories about customer retention, returning regulars, or anniversaries. Do not pair her with Frank in the same scene (Pattern A/B caps at one ally). Do not use her with other friends — she is La Grotta-specific.",
+    "notes": "Canonised 2026-04-15 after appearing as 'Diane / REGULAR' in Day 1 P2. Physical description locked in so repeat appearances stay consistent with the first Kling generation."
+  }
+]

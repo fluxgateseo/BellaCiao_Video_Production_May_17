@@ -1,0 +1,545 @@
+{
+  "_meta": {
+    "version": "1.2",
+    "last_updated": "2026-04-10",
+    "description": "Canonical friend database for the Bella content engine. Structured for RAG retrieval. Each friend has a sensory_hooks array — always pick the most specific hook for the event context. Never invent hooks not listed here.",
+    "schema_version": "2.0"
+  },
+  "friends": [
+    {
+      "id": "naomi",
+      "name": "Naomi",
+      "city": "New York City",
+      "market": "US",
+      "currency": "$",
+      "neighbourhood": "Chelsea",
+      "street_detail": "West 23rd Street, one block from the High Line",
+      "restaurant_name": "The Blue Cove",
+      "cuisine": "seafood",
+      "sensory_hooks": [
+        "The snap of cold lobster claws on the ice bed at the raw bar",
+        "Lemon juice hitting raw oysters — the brine in the air before the doors open",
+        "Chargrilled octopus smoke curling past the pass at 6pm",
+        "The blue shimmer of the High Line through the window at dusk",
+        "The crack of a whole sea bass being deboned tableside, the room goes quiet"
+      ],
+      "enemy_archetype": "the_invisible_ranking",
+      "story_angle": "Invisible on Google despite 4.8 stars and a full room every Saturday",
+      "before_bella": {
+        "operational": "Invisible on Google despite 4.8 stars. Lost three corporate bookings in one month — the phone wasn't answered.",
+        "personal": "Left work after midnight every Tuesday. Stopped answering calls from her sister in Boston."
+      },
+      "after_bella": {
+        "operational": "Top 3 for 'Chelsea seafood.' Online bookings now arrive while the kitchen is closed.",
+        "personal": "Left work before midnight on a Tuesday for the first time in two years."
+      },
+      "story_angles": {
+        "operational": [
+          "Invisible on Google despite 4.8 stars and a full room every Saturday. Lost three corporate bookings in one month — the phone wasn't answered.",
+          "Listed on the NYC Restaurant Week programme but not ranking for 'Chelsea Restaurant Week seafood' — getting traffic, no bookings.",
+          "A neighbour two doors down opened in March and started outranking her by April. Same cuisine, half the reviews. Gap was the Google category, not the food."
+        ],
+        "personal": [
+          "Left work after midnight every Tuesday. Stopped answering calls from her sister in Boston.",
+          "Made the group laugh once by listing every birthday she'd missed that month. Funny in the room, less funny on the cab home.",
+          "Started saying 'I should have called you six months ago' to anyone who asked how the restaurant was doing — and she was only saying it about Bella."
+        ]
+      },
+      "real_events": ["nyc_restaurant_week", "nye_dinner", "james_beard_nominations", "thanksgiving_week"],
+      "personality": "Endlessly warm and quick to smile. Finds the bright side of a brutal Tuesday night in under a sentence. Remembers every regular's kid's name and asks about them by name. Lifts every room she walks into. Always the first to text the group when someone is having a hard week.",
+      "children": null,
+      "event_failure_modes": {
+        "nyc_restaurant_week": "Listed on the programme but not ranking for 'Chelsea Restaurant Week seafood' — getting traffic but not bookings",
+        "james_beard_nominations": "Gets a search spike when a neighbour is nominated but her profile has no awards section to capture the attention",
+        "nye_dinner": "No NYE event post on Google — loses bookings to restaurants two blocks away that do have one"
+      }
+    },
+    {
+      "id": "sal",
+      "name": "Sal",
+      "city": "New York City",
+      "market": "US",
+      "currency": "$",
+      "neighbourhood": "West Village",
+      "street_detail": "Bleecker Street, two doors from a place that has been there since 1987",
+      "restaurant_name": "Casanova's",
+      "cuisine": "Italian",
+      "sensory_hooks": [
+        "Sunday ragù six hours on the stove — the whole building knows by noon",
+        "Fresh pasta drying on the wooden rack above the reach-in",
+        "Flour dust on Sal's black apron at 11am before the floor opens",
+        "The pop of a Barolo cork on a slow Tuesday afternoon",
+        "Bleecker Street noise bleeding under the front door during the Saturday service rush"
+      ],
+      "enemy_archetype": "the_social_media_trap",
+      "story_angle": "Eleven years on the same street, invisible to the generation eating around the corner",
+      "before_bella": {
+        "operational": "Walk-ins only. No online presence. Younger customers weren't finding him despite being on the same block for eleven years.",
+        "personal": "Stopped calling his mother on Sunday mornings because service always started before he could finish the call."
+      },
+      "after_bella": {
+        "operational": "Online bookings on Thursdays now match Saturday night.",
+        "personal": "Calls his mother on Sunday mornings again — not during service."
+      },
+      "story_angles": {
+        "operational": [
+          "Walk-ins only. Eleven years on the same Bleecker Street block, invisible to the generation eating at the place around the corner that opened in March.",
+          "Doesn't have holiday hours set — Google shows 'closed Thursday' during Thanksgiving, the highest-intent search week of the year.",
+          "No NYE set menu listed. Loses every 'West Village NYE Italian' search to a competitor with one event post and a worse pasta."
+        ],
+        "personal": [
+          "Stopped calling his mother on Sunday mornings because service always started before he could finish the call.",
+          "Spent eleven years assuming online presence was a young people's thing he didn't need. The cost was the Sunday morning calls.",
+          "Took the longest in the group to come around to Bella's advice. Now talks about her like she's family — and you can hear the confession in it."
+        ]
+      },
+      "real_events": ["thanksgiving_week", "nye_dinner", "james_beard_nominations", "nyc_restaurant_week"],
+      "personality": "Huge open-hearted warmth — the host who pulls you into a hug before you've sat down. Finds a silver lining in any bad night ('at least the sauce was perfect'). Fiercely supportive of his friends — shows up with food whenever one of them is having a rough week, no text, just a knock on the door.",
+      "children": null,
+      "event_failure_modes": {
+        "thanksgiving_week": "Doesn't have holiday hours set — Google shows 'closed Thursday' during the highest-intent search week of the year",
+        "nye_dinner": "No NYE set menu listed on Google — loses every 'West Village NYE Italian' search to a competitor with an event post"
+      }
+    },
+    {
+      "id": "jake",
+      "name": "Jake",
+      "city": "Melbourne",
+      "market": "AU",
+      "currency": "$",
+      "neighbourhood": "Fitzroy",
+      "street_detail": "Smith Street, between two record shops",
+      "restaurant_name": "Narrow Lane",
+      "cuisine": "brunch",
+      "sensory_hooks": [
+        "Brown butter banana bread still warm, pulled from the oven at 7am",
+        "The hiss of the espresso machine before the floor opens — that specific 6:45am quiet",
+        "Smith Street tram bell through the kitchen window during the Saturday morning rush",
+        "Cold butter pooling into sourdough toast on a Sunday — the sound of a weekend starting right",
+        "The particular dark of Fitzroy at 6:45am before anyone else arrives"
+      ],
+      "enemy_archetype": "the_event_blindspot",
+      "story_angle": "Packed on weekends, dead mid-week — the pattern was invisible until it wasn't",
+      "before_bella": {
+        "operational": "Packed on weekends, dead Tuesday to Thursday. Kept changing the menu thinking that was the problem.",
+        "personal": "Missed his sister's wedding rehearsal dinner because of a double-booking crisis he couldn't hand off."
+      },
+      "after_bella": {
+        "operational": "Mid-week bookings up 40%. Google profile shows extended hours for event weekends.",
+        "personal": "Made it to his sister's birthday dinner. Said it was the best one in years — partly because he was actually present."
+      },
+      "story_angles": {
+        "operational": [
+          "Packed on weekends, dead Tuesday to Thursday. Kept changing the menu thinking that was the problem. The pattern was a Google one the whole time.",
+          "Profile showed 'closed Monday' from a lockdown-era update — missed every 'brunch near Fitzroy Monday' search across an entire F1 race weekend.",
+          "Not ranking for 'Melbourne Food Festival brunch' despite being fifteen minutes from Kings Domain. Profile had no MFWF keyword anywhere."
+        ],
+        "personal": [
+          "Missed his sister's wedding rehearsal dinner because of a double-booking crisis he couldn't hand off.",
+          "Made the joke about the rehearsal dinner years later, then went quiet. The joke was funnier than the truth and he knew it.",
+          "Self-deprecating about everything except the missed weekends. Those he doesn't joke about — that's how you know which ones still hurt."
+        ]
+      },
+      "real_events": ["f1_grand_prix", "mfwf", "afl_finals", "melbourne_cup", "mice"],
+      "personality": "Relentlessly cheerful, even at 5am. Finds the humour in a burnt shot of espresso and turns every bad shift into a story that makes his friends laugh. The one who texts 'you've got this' before a big service. Always picks up. Always smiling behind the machine.",
+      "children": null,
+      "event_failure_modes": {
+        "f1_grand_prix": "Profile shows 'closed Monday' from a lockdown-era update — missed every 'brunch near Fitzroy Monday' search across the entire race weekend",
+        "mfwf": "Not ranking for 'Melbourne Food Festival brunch' despite being 15 minutes from Kings Domain — profile has no MFWF keyword anywhere",
+        "afl_finals": "No AFL week extended hours listed — loses the pre-match and post-match brunch crowd to the café on the next block that has them"
+      }
+    },
+    {
+      "id": "enzo_maria",
+      "name": "Enzo & Maria",
+      "city": "Melbourne",
+      "market": "AU",
+      "currency": "$",
+      "neighbourhood": "Carlton",
+      "street_detail": "Lygon Street — the strip. Fourth generation of the building.",
+      "restaurant_name": "La Grotta",
+      "cuisine": "Italian, family operation",
+      "sensory_hooks": [
+        "Semolina dusted across the bench, Maria's hands moving fast — Enzo watching like it's the first time",
+        "The slap of fresh pasta against the wooden board at 8am, before anyone else is in the kitchen",
+        "Tomato sauce simmering since 7am — by noon it's in the whole street",
+        "Lygon Street lunch crowd through the front window, the particular noise of a full Saturday",
+        "Luca's small handprint in the bench flour, still there after the morning prep"
+      ],
+      "enemy_archetype": "the_fear_of_change",
+      "story_angle": "Legacy restaurant — four generations on the same street, invisible to the generation eating around the corner",
+      "before_bella": {
+        "operational": "Invisible to the new generation of diners despite being a Carlton institution. Only showing up for searches older regulars already knew to make.",
+        "personal": "Enzo and Maria argued more than they talked. The stress was in the kitchen and at home."
+      },
+      "after_bella": {
+        "operational": "Showing up for 'Carlton Italian' again. New corporate group became a monthly booking after finding them through Google.",
+        "personal": "Son Luca (8) came in for a Saturday lunch at the chef's table. Enzo talked about it for a week."
+      },
+      "story_angles": {
+        "operational": [
+          "Invisible to the new generation of Carlton diners despite four generations on the same Lygon Street block. Only showing up for searches the older regulars already knew to make.",
+          "Carlton is equidistant from Albert Park during F1 — and not optimised for 'Italian near Albert Park' despite being the natural post-race dinner.",
+          "No Easter trading hours update — Google shows 'closed Good Friday' when they're actually open with a special menu Enzo's grandfather wrote in 1968."
+        ],
+        "personal": [
+          "Enzo and Maria argued more than they talked. The stress was in the kitchen and at home.",
+          "Their son Luca grew used to them not being at school events. The week he came in for a chef's table lunch, Enzo talked about it for a week — like he'd just met him.",
+          "A fourth-generation restaurant felt heavier than they admitted. The grandfather's photograph above the till had stopped being a comfort and become a question."
+        ]
+      },
+      "real_events": ["mfwf", "f1_grand_prix", "easter_long_weekend", "school_holidays", "melbourne_cup"],
+      "personality": "Enzo's laugh fills the whole trattoria — he can find a reason to celebrate in any night. Maria's quieter warmth is the glue; she asks the question no one else thought to ask, always with a small smile. Together they make every friend who walks in feel like family within thirty seconds. Finish each other's sentences without noticing.",
+      "children": {
+        "luca": { "age": 8, "note": "Visual presence only — never speaks. Use when the story is about what the parent almost missed." }
+      },
+      "event_failure_modes": {
+        "mfwf": "MFWF World's Longest Lunch is Greek-themed in 2026 — Enzo has feelings about this. But the real failure: La Grotta is not showing up for 'Carlton Italian MFWF' despite being two blocks from the festival hub",
+        "easter_long_weekend": "No Easter trading hours update — Google shows closed Good Friday when they are actually open with a special menu",
+        "f1_grand_prix": "Carlton is equidistant from Albert Park. Not optimised for 'Italian near Albert Park' despite being the natural post-race dinner destination"
+      }
+    },
+    {
+      "id": "yasmin",
+      "name": "Yasmin",
+      "city": "London",
+      "market": "UK",
+      "currency": "£",
+      "neighbourhood": "Notting Hill",
+      "street_detail": "Westbourne Grove — the quiet end, before it gets expensive",
+      "restaurant_name": "Cedar Table",
+      "cuisine": "Lebanese",
+      "sensory_hooks": [
+        "Fattoush with pomegranate — cold and sharp and bright, the first thing you smell at the door",
+        "Charcoal smoke from the mangal grill before the doors open at noon",
+        "The cold ceramic of a mezze bowl on a marble counter, condensation from the fridge still on it",
+        "Dried rose petals on the ma'amoul, crumbling between two fingers",
+        "Westbourne Grove quiet on a Sunday morning — the particular stillness before the brunch crowd arrives"
+      ],
+      "enemy_archetype": "the_invisible_ranking",
+      "story_angle": "Three competitors above her on Maps despite worse reviews — the gap was technical, not culinary",
+      "before_bella": {
+        "operational": "Three competitors above her on Google Maps despite worse reviews and fewer covers. Not showing up in 'near me' searches.",
+        "personal": "Missed her daughter's school play for the third time in two years."
+      },
+      "after_bella": {
+        "operational": "Cedar Table in the local 3-pack for Lebanese in Notting Hill.",
+        "personal": "Made it to her daughter's school play. Texted Bella a photo from the audience. Bella still has it saved."
+      },
+      "story_angles": {
+        "operational": [
+          "Three competitors above her on Google Maps despite worse reviews and fewer covers. Not showing up in 'near me' searches for the postcode she was already in.",
+          "Outdoor seating not listed as an attribute — customers see 'indoor only' and walk past during Notting Hill Carnival, the highest foot-traffic weekend of her year.",
+          "No Christmas set menu posted by September. Loses the corporate booking window to restaurants that posted in early October — the gap was three weeks of someone else's foresight."
+        ],
+        "personal": [
+          "Missed her daughter's school play for the third time in two years. Asked Bella later if it was always going to feel like this.",
+          "Composed and precise in the dining room. Breaking quietly in the office between services. Nobody saw her do it — that was the whole point.",
+          "Texted Bella a photo from the audience the day she finally made the school play. Bella still has it saved on her phone."
+        ]
+      },
+      "real_events": ["notting_hill_carnival", "wimbledon", "christmas_party_season", "good_food_guide", "uk_bank_holidays"],
+      "personality": "Radiant gentle warmth — a smile that lands like a hand on your back. Finds the good in a burned flatbread ('more character that way'). Believes food is how you love people, and is always the first to show up when a friend is struggling. Her kindness is the quietest but the steadiest in the group.",
+      "children": {
+        "daughter": { "age": 9, "note": "Never named in scripts. Referenced by role only: 'her daughter.' Visual presence only." }
+      },
+      "event_failure_modes": {
+        "notting_hill_carnival": "Outdoor seating not listed as available on Google — customers see 'indoor only' and walk past during the highest foot-traffic weekend of her year",
+        "wimbledon": "Not ranking for 'Lebanese near Notting Hill Wimbledon weekend' despite being 3km from SW19 — keyword gap costs her the overflow crowd",
+        "christmas_party_season": "No Christmas set menu or private dining event posted on Google by September — loses the corporate booking window to restaurants that post in early October"
+      }
+    },
+    {
+      "id": "danny",
+      "name": "Danny",
+      "city": "London",
+      "market": "UK",
+      "currency": "£",
+      "neighbourhood": "Soho",
+      "street_detail": "Frith Street, opposite where Ronnie Scott's used to be",
+      "restaurant_name": "The Copper Fox",
+      "cuisine": "gastropub",
+      "sensory_hooks": [
+        "Sticky pork belly, dark ale reduction, the smell of the grill before the doors open at noon",
+        "A Frith Street crowd filtering through the kitchen hatch on a Saturday — the noise of Soho at full volume",
+        "Cold pint glass fogging in summer heat during the 11am cellar stock",
+        "Rendered duck fat crackling in the pan for the Sunday chips",
+        "The particular Soho Saturday energy — every table called by 11am, the floor not ready until noon"
+      ],
+      "enemy_archetype": "the_algorithm",
+      "story_angle": "Competing with chains that game Google — felt like the system was rigged against independents",
+      "before_bella": {
+        "operational": "Competing with chains that game Google. Three corporate pub groups outranking him for 'Soho gastropub' despite worse food and no locals.",
+        "personal": "Spent every Sunday morning reading competitor Google profiles instead of resting."
+      },
+      "after_bella": {
+        "operational": "Optimised profile. Walk-ins now say they found him on Google Maps — which had never happened before.",
+        "personal": "Called Bella mid-service to tell her. She was at lunch. She picked up anyway."
+      },
+      "story_angles": {
+        "operational": [
+          "Competing with chains that game Google. Three corporate pub groups outranking him for 'Soho gastropub' despite worse food and no locals.",
+          "Beer garden not listed in Google attributes. Doesn't show up for 'pub with outdoor seating Soho' during the three best trading months of the year.",
+          "Trading hours not updated for Bank Holiday Mondays — shows 'closed' when he's actually open. Loses the entire Monday brunch crowd to a chain across the road."
+        ],
+        "personal": [
+          "Spent every Sunday morning reading competitor Google profiles instead of resting. The most sceptical of the group, paying the highest price for it.",
+          "Called Bella mid-service the day a walk-in said they'd found him on Google Maps. She was at lunch. She picked up anyway.",
+          "Classic convert energy — now the one who tells other operators it works, in the same blunt voice he used to dismiss it."
+        ]
+      },
+      "real_events": ["christmas_party_season", "summer_pub_season", "notting_hill_carnival_overflow", "hrc_show", "uk_bank_holidays"],
+      "personality": "Broad, easy, publican's smile — the kind that makes the room feel steadier the moment he walks in. Has a silver lining for any disaster behind the bar. The friend everyone calls when they need to feel grounded, because Danny always picks up and always says 'you'll be right' — and he means it every time.",
+      "children": null,
+      "event_failure_modes": {
+        "christmas_party_season": "No Christmas party menu posted on Google until November — the corporate booking window closes in mid-October, loses £8,000+ in group bookings",
+        "summer_pub_season": "Beer garden not listed in Google attributes — doesn't show up for 'pub with outdoor seating Soho' during the three best trading months of the year",
+        "uk_bank_holidays": "Trading hours not updated for Bank Holiday Mondays — shows 'closed' when he is actually open, loses the entire Monday brunch crowd"
+      }
+    },
+    {
+      "id": "arun_priya",
+      "name": "Arun & Priya",
+      "city": "London",
+      "market": "UK",
+      "currency": "£",
+      "neighbourhood": "Shoreditch",
+      "street_detail": "Brick Lane end of Shoreditch — surrounded by curry houses, which is the whole problem",
+      "restaurant_name": "The Ember Room",
+      "cuisine": "Indian, couple-run",
+      "sensory_hooks": [
+        "The hiss of the tandoor at 5pm — two hours before service, the kitchen already smells like the best thing you've eaten",
+        "Ghee-roasted cauliflower, cardamom rising from the oven in a wave",
+        "The orange glow of the Brick Lane sign through the prep kitchen skylight at dusk",
+        "Priya's mise en place at 4pm — everything exactly where it needs to be, the only quiet moment of the day",
+        "Freshly ground garam masala — the whole kitchen smells completely different for exactly one hour"
+      ],
+      "enemy_archetype": "the_invisible_ranking",
+      "story_angle": "Beautiful food, 2.1km from the top of Google Maps in the same postcode — the gap was small and fixable",
+      "before_bella": {
+        "operational": "2.1km from the top of Google Maps for 'Indian restaurant Shoreditch' despite being in the same postcode as the top results. Arun convinced they were doing everything right.",
+        "personal": "Hadn't taken a real break in four years. Arun checked his phone through the only holiday they managed."
+      },
+      "after_bella": {
+        "operational": "Ranking climbed. Diwali season bookings up significantly. Corporate group found them through Google.",
+        "personal": "Took a 4-day trip to Portugal. First real break in four years. Priya made Arun put his phone away."
+      },
+      "story_angles": {
+        "operational": [
+          "2.1km from the top of Google Maps for 'Indian restaurant Shoreditch' despite being in the same postcode as the top results. Arun was convinced they were doing everything right.",
+          "Not ranking for 'Diwali dinner London' — their highest-intent cultural window of the year passing without The Ember Room appearing once.",
+          "Private dining room not listed on Google. Corporate Christmas party bookers searching 'private dining Shoreditch' never found it — and never knew it existed."
+        ],
+        "personal": [
+          "Hadn't taken a real break in four years. Arun checked his phone through the only holiday they'd managed.",
+          "Anaya (3) had grown to find her father's phone more familiar than his face. Priya never said it out loud.",
+          "Took a 4-day trip to Portugal — first real break in four years. Priya made Arun put the phone in the safe."
+        ]
+      },
+      "real_events": ["diwali", "christmas_party_season_shoreditch", "eid_dining_season", "uk_bank_holidays"],
+      "personality": "Arun's grin is wide and slightly mischievous; Priya's smile is softer but just as constant. They are each other's silver-lining finder — whichever one is having a hard day, the other makes them laugh by lunch. Endlessly supportive of the group; first couple to offer their kitchen if a friend needs to test something new.",
+      "children": {
+        "anaya": { "age": 3, "note": "Visual presence only — never speaks. Use when the story is about what the parent almost missed." }
+      },
+      "event_failure_modes": {
+        "diwali": "Not ranking for 'Diwali dinner London' or 'Indian restaurant Diwali Shoreditch' despite this being their highest-intent cultural window of the year",
+        "christmas_party_season_shoreditch": "Private dining room not listed on Google — the corporate Christmas party bookers searching 'private dining Shoreditch' never find it",
+        "eid_dining_season": "No Eid special menu or extended hours posted — search intent spike happens and passes without The Ember Room appearing once"
+      }
+    },
+    {
+      "id": "sophie",
+      "name": "Sophie",
+      "city": "Melbourne",
+      "market": "AU",
+      "currency": "$",
+      "neighbourhood": "South Yarra",
+      "street_detail": "Toorak Road, between a bottle shop and a jeweller that has been there since the 1970s",
+      "restaurant_name": "Wren",
+      "cuisine": "fine dining",
+      "sensory_hooks": [
+        "Confit duck resting on the board, the cherry vincotto in a small white ramekin beside it",
+        "The particular silence of a fine dining kitchen during plating — everyone focused, nothing wasted",
+        "Toorak Road noise disappearing the moment Wren's front door closes — the hush of it",
+        "Cold tweezers on warm china during the 6pm mise en place check, every plate the same",
+        "Mia's small shoes by the back door, still there from the school run, the kitchen moving around them"
+      ],
+      "enemy_archetype": "the_invisible_ranking",
+      "story_angle": "Zero SEO presence despite a 2-hat reputation — relied entirely on press and word of mouth",
+      "before_bella": {
+        "operational": "Zero SEO presence despite 2-hat reputation. Private dining room half-empty. Relied entirely on press and word of mouth that wasn't reaching the people with the budget to book it.",
+        "personal": "Mia's school events were always the thing that got moved when a booking crisis came up."
+      },
+      "after_bella": {
+        "operational": "Private dining enquiries doubled. A corporate group found her through Google and became a monthly booking.",
+        "personal": "Made it to Mia's end-of-year concert. Texted nobody about it. Just watched."
+      },
+      "story_angles": {
+        "operational": [
+          "Zero SEO presence despite 2-hat reputation. Private dining room half-empty. Relied entirely on press and word of mouth that wasn't reaching the people with budget.",
+          "MFWF drives search traffic for 'best fine dining Melbourne March' — Wren not appearing in that window despite being exactly the right restaurant.",
+          "No private dining or set menu posted for Cup Week. Loses corporate bookings to Crown and Nobu because they're easier to find, not better."
+        ],
+        "personal": [
+          "Mia's school events were always the thing that got moved when a booking crisis came up.",
+          "Made it to Mia's end-of-year concert. Texted nobody about it. Just watched.",
+          "The most reserved of the group. Taught Bella what fine dining actually costs emotionally — by saying it once, in passing, then changing the subject."
+        ]
+      },
+      "real_events": ["mfwf_global_dining_series", "melbourne_cup_corporate_season", "good_food_guide", "afl_grand_final_week"],
+      "personality": "Quieter warmth than the rest of the group, but no less positive — a small genuine smile that means 'I see you.' Finds beauty in the smallest thing on a bad night (a clean line on a plate, a sunset through the kitchen window). Shows her support by remembering details no one else caught, then texting about them two days later.",
+      "children": {
+        "mia": { "age": 5, "note": "Visual presence only — never speaks. One appearance: sitting at the pass eating chips while the kitchen moved around her." }
+      },
+      "event_failure_modes": {
+        "mfwf_global_dining_series": "MFWF drives search traffic for 'best fine dining Melbourne March' — Wren not appearing in that window despite being exactly the right restaurant",
+        "melbourne_cup_corporate_season": "No private dining or set menu for Cup Week posted on Google — loses corporate bookings that go to Crown and Nobu because they are easier to find",
+        "good_food_guide": "Profile has no awards or recognition section — when Good Food Guide is announced and people search for 2-hat Melbourne restaurants, Wren doesn't appear in Maps"
+      }
+    },
+    {
+      "id": "mei",
+      "name": "Mei",
+      "city": "Melbourne",
+      "market": "AU",
+      "currency": "$",
+      "neighbourhood": "Chinatown",
+      "street_detail": "Little Bourke Street, Melbourne's Chinatown — yum cha upstairs, her mother's handwriting still on the tea menu",
+      "restaurant_name": "Golden Plum",
+      "cuisine": "Cantonese",
+      "sensory_hooks": [
+        "Steam lifting off a bamboo basket of xiao long bao as the trolley stops at the table",
+        "The rattle of bamboo steamers stacked four high on the yum cha trolley at 11am",
+        "Cantonese pop songs through the tinny kitchen speaker during Sunday prep",
+        "The particular neon red glow of Little Bourke Street through the upstairs window at dusk",
+        "Wok breath — that specific smoky-sweet exhalation of a seasoned pan hitting high heat"
+      ],
+      "enemy_archetype": "the_generation_gap",
+      "story_angle": "The restaurant her parents opened in 1982 is invisible to the generation of Melburnians who grew up eating there",
+      "before_bella": {
+        "operational": "Three-generation Cantonese yum cha restaurant. Tourists still finding it. Locals under 40 discovering the shinier competitor two doors down that opened in 2023.",
+        "personal": "Her mother asked every Sunday why the Saturday yum cha wasn't as full anymore. Mei didn't know how to explain 'the algorithm' in Cantonese."
+      },
+      "after_bella": {
+        "operational": "Ranking for 'Melbourne yum cha' and 'Chinatown dim sum.' Saturday trolley service full again. Under-40 covers up 60%.",
+        "personal": "Her mother saw a full dining room on a Saturday for the first time in three years. Didn't say anything — just made an extra pot of tea."
+      },
+      "story_angles": {
+        "operational": [
+          "Three-generation Cantonese yum cha restaurant. Tourists still finding it. Locals under 40 discovering the shinier competitor two doors down that opened in 2023.",
+          "Profile photo is 11 years old — taken by a cousin at a family reunion. The cousin is now 31 and won't stop telling Mei to update it.",
+          "No Lunar New Year set menu posted. The highest-intent week of the year for Chinese restaurants in Melbourne, and Google shows the same standard menu as a Wednesday in July."
+        ],
+        "personal": [
+          "Her mother asked every Sunday why the Saturday yum cha wasn't as full anymore. Mei didn't know how to explain 'the algorithm' in Cantonese.",
+          "Kept her mother's handwriting on the tea menu for twelve years. Felt like the restaurant's soul — and also like the thing that made it feel frozen in time.",
+          "Texted Bella a photo of her mother laughing at a full Saturday room. Bella kept it."
+        ]
+      },
+      "real_events": ["lunar_new_year", "mid_autumn_festival", "mfwf", "melbourne_cup"],
+      "personality": "Endlessly warm, quick-laughing, finds the bright side of every service ('at least the dumplings survived'). Always supportive — the friend who drops off a box of char siu bao on a doorstep when someone in the group is having a hard week. Her smile is the restaurant's warmest light.",
+      "children": null,
+      "event_failure_modes": {
+        "lunar_new_year": "No Lunar New Year set menu or event post — the highest-intent week for Chinese restaurants in Melbourne and Google shows the same menu as a Wednesday in July",
+        "mid_autumn_festival": "Mooncake pre-orders not listed as a Google product — loses the annual gifting window to the bakery next door that does list it",
+        "mfwf": "Not ranking for 'Melbourne Chinatown yum cha MFWF' despite being on Little Bourke Street, in the festival's natural CBD orbit"
+      }
+    },
+    {
+      "id": "tunde",
+      "name": "Tunde",
+      "city": "London",
+      "market": "UK",
+      "currency": "£",
+      "neighbourhood": "Peckham",
+      "street_detail": "Rye Lane — two doors down from the butchers that have been there since 1989",
+      "restaurant_name": "Lagos Fire",
+      "cuisine": "Nigerian",
+      "sensory_hooks": [
+        "Suya smoke from the outdoor grill at 4pm — the whole of Rye Lane smells like peanut and pepper",
+        "Jollof rice bubbling in a cast-iron pot, the party-rice crust forming on the bottom",
+        "Cold Palm wine condensation on the bottle behind the bar on an early Saturday afternoon",
+        "The specific Peckham Saturday noise — sound systems, kids, the 345 bus — through the open front",
+        "Plantain hitting hot oil in a small pan, the sugar in it blackening just enough"
+      ],
+      "enemy_archetype": "the_scaling_soul",
+      "story_angle": "Three-year pop-up turned permanent restaurant. Lines around the block on weekends. The original supper-club regulars stopped coming.",
+      "before_bella": {
+        "operational": "Moved from a three-year pop-up to a permanent Rye Lane site in 2025. New walk-ins had him sold out by 7pm Friday. The supper-club regulars who fed him through lockdown stopped coming — they couldn't find him on the new profile.",
+        "personal": "Spent the permanence year worrying he'd made Lagos Fire too big for the people who'd believed in it first."
+      },
+      "after_bella": {
+        "operational": "Google profile links pop-up history and permanent site. Old supper-club guest list reactivating — first week back, four of the original twelve showed up.",
+        "personal": "One of the original supper-club guests hugged him at the door and said 'we thought you forgot about us.' Tunde cried in the walk-in for ninety seconds and came back to service."
+      },
+      "story_angles": {
+        "operational": [
+          "Pop-up name carried three years of reviews and regulars. New permanent listing started from zero. The old community literally could not find him.",
+          "Suya grill permit updated, outdoor seating attribute never was — 'grill outdoor Peckham' searches all go to the place with an outdoor dining icon on Maps.",
+          "Not ranking for 'Nigerian restaurant London' despite being the only independent chef-owned Nigerian restaurant in Peckham with a 4.9. The profile category was set to the generic 'African Restaurant' — not keyword-matching."
+        ],
+        "personal": [
+          "Spent the permanence year worrying he'd made Lagos Fire too big for the people who'd believed in it first.",
+          "One of the original supper-club guests hugged him at the door on their first visit back and said 'we thought you forgot about us.'",
+          "Keeps a printed photo of the original pop-up's first night in 2022 taped inside the office door. Looks at it when the dining room gets loud."
+        ]
+      },
+      "real_events": ["black_history_month", "notting_hill_carnival", "afrobeats_o2_shows", "london_food_month"],
+      "personality": "Big open-hearted warmth, laugh you can hear from the pass. Finds positivity in every setback ('we learn, we season, we keep cooking'). The friend who shows up with a takeaway tray of jollof when someone in the group is having a rough week — no text, just a knock on the door. Smiles with his whole face.",
+      "children": null,
+      "event_failure_modes": {
+        "black_history_month": "No Black History Month event post, menu highlight, or story — the search spike for 'Black-owned restaurants London' passes through without Lagos Fire appearing",
+        "notting_hill_carnival": "Peckham is a 20-minute train to Notting Hill — 'best after-Carnival dinner London' searches never surface him despite the jollof being exactly the post-Carnival meal",
+        "afrobeats_o2_shows": "O2 arena is 15 mins by train — 'Nigerian restaurant near O2' searches spike every time Burna Boy / Wizkid / Davido tour, Lagos Fire not ranking for the keyword"
+      }
+    },
+    {
+      "id": "haeun",
+      "name": "Ha-eun",
+      "city": "New York City",
+      "market": "US",
+      "currency": "$",
+      "neighbourhood": "Koreatown",
+      "street_detail": "West 32nd Street between Fifth and Broadway — the old Midtown Koreatown block, upstairs, no sign from the street",
+      "restaurant_name": "Soyeon",
+      "cuisine": "Korean",
+      "sensory_hooks": [
+        "A row of eleven banchan bowls being set down in forty seconds — the small ceramic percussion of it",
+        "The sizzle of galbi hitting the tabletop grill, smoke catching the pendant light above",
+        "Kimchi jjigae pot bubbling on the stove all Sunday — the whole staircase smells like fermented red",
+        "The particular West 32nd Street hum at 1am — neon, traffic, the end of a late service",
+        "Her grandmother's soy-marinated eggs cooling in a white ceramic bowl on the counter, yolks still amber-soft"
+      ],
+      "enemy_archetype": "the_one_star_attack",
+      "story_angle": "One coordinated bad-review attack knocked her from a 4.9 to a 4.6 during a three-week K-pop residency at Madison Square Garden. She lost the event window.",
+      "before_bella": {
+        "operational": "A coordinated three-person 1-star review hit during a three-week K-pop run at Madison Square Garden. Dropped from 4.9 to 4.6. Lost the entire event-dining window — the highest-intent search weeks of her year.",
+        "personal": "Opened every morning at 5am to read the new reviews before the staff arrived. Stopped sleeping properly for twenty-one days."
+      },
+      "after_bella": {
+        "operational": "Response strategy and category optimisation in place. Rating climbed back to 4.8. 'Korean BBQ near MSG' now in the top 3.",
+        "personal": "Stopped reading reviews at 5am. Sleeps the full night again. Named a new banchan after Bella on the summer menu."
+      },
+      "story_angles": {
+        "operational": [
+          "A coordinated 1-star review attack during a three-week K-pop run at Madison Square Garden dropped her from 4.9 to 4.6 and knocked her out of the event-search 3-pack.",
+          "Private dining room available upstairs — not listed as an attribute. The corporate K-beauty brand bookers searching 'private dining Koreatown' never find the room that was purpose-built for them.",
+          "No Chuseok (Korean harvest festival) set menu posted. The single highest-intent cultural dining week of her year passes without Soyeon showing once on Google."
+        ],
+        "personal": [
+          "Opened every morning at 5am to read the new reviews before the staff arrived. Stopped sleeping properly for twenty-one days.",
+          "Named the restaurant after her grandmother Soyeon — the one-star reviews felt personal for reasons no external reviewer could know.",
+          "Named a new banchan — soy-marinated egg, salted lemon — after Bella on the summer menu. Didn't tell Bella until she found it on the printed card."
+        ]
+      },
+      "real_events": ["kpop_msg_residency", "chuseok", "lunar_new_year", "nyc_restaurant_week"],
+      "personality": "Quiet bright warmth, a smile that arrives slowly and then stays. Finds the good in a one-star review ('at least they tasted it'). Supports her friends in small precise gestures — a Post-it note on a friend's espresso machine, a text at 6am on a brutal day, a banchan named after someone she loves.",
+      "children": null,
+      "event_failure_modes": {
+        "kpop_msg_residency": "Madison Square Garden is half a mile away — 'Korean BBQ near MSG' spikes with every K-pop residency, Soyeon not ranking despite being the obvious dinner",
+        "chuseok": "No Chuseok set menu, event post, or hours update — the single highest-intent cultural dining week of her year passes without appearing on Google",
+        "nyc_restaurant_week": "Listed on NYC Restaurant Week programme but not ranking for 'Koreatown Restaurant Week' — getting traffic, no bookings"
+      }
+    }
+  ]
+}
