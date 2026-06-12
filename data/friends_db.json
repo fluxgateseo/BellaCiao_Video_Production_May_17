@@ -1,8 +1,8 @@
 {
   "_meta": {
-    "version": "1.2",
-    "last_updated": "2026-04-10",
-    "description": "Canonical friend database for the Bella content engine. Structured for RAG retrieval. Each friend has a sensory_hooks array — always pick the most specific hook for the event context. Never invent hooks not listed here.",
+    "version": "2.0",
+    "last_updated": "2026-06-12",
+    "description": "Canonical friend database for the Bella content engine. v2.0 supersedes the SEO/GBP premise: friends are now framed around missed calls, after-hours bookings, OpenTable cover fees, the language gap, and the Quandoo exit. Active roster is 60% Australian / 40% international (see top-level `roster`). Before/after arcs for existing friends still reference the v1 GBP framing and will be reframed in the premise-pivot-v2 follow-up.",
     "schema_version": "2.0"
   },
   "friends": [
@@ -45,7 +45,12 @@
           "Started saying 'I should have called you six months ago' to anyone who asked how the restaurant was doing — and she was only saying it about Bella."
         ]
       },
-      "real_events": ["nyc_restaurant_week", "nye_dinner", "james_beard_nominations", "thanksgiving_week"],
+      "real_events": [
+        "nyc_restaurant_week",
+        "nye_dinner",
+        "james_beard_nominations",
+        "thanksgiving_week"
+      ],
       "personality": "Endlessly warm and quick to smile. Finds the bright side of a brutal Tuesday night in under a sentence. Remembers every regular's kid's name and asks about them by name. Lifts every room she walks into. Always the first to text the group when someone is having a hard week.",
       "children": null,
       "event_failure_modes": {
@@ -93,7 +98,12 @@
           "Took the longest in the group to come around to Bella's advice. Now talks about her like she's family — and you can hear the confession in it."
         ]
       },
-      "real_events": ["thanksgiving_week", "nye_dinner", "james_beard_nominations", "nyc_restaurant_week"],
+      "real_events": [
+        "thanksgiving_week",
+        "nye_dinner",
+        "james_beard_nominations",
+        "nyc_restaurant_week"
+      ],
       "personality": "Huge open-hearted warmth — the host who pulls you into a hug before you've sat down. Finds a silver lining in any bad night ('at least the sauce was perfect'). Fiercely supportive of his friends — shows up with food whenever one of them is having a rough week, no text, just a knock on the door.",
       "children": null,
       "event_failure_modes": {
@@ -140,7 +150,13 @@
           "Self-deprecating about everything except the missed weekends. Those he doesn't joke about — that's how you know which ones still hurt."
         ]
       },
-      "real_events": ["f1_grand_prix", "mfwf", "afl_finals", "melbourne_cup", "mice"],
+      "real_events": [
+        "f1_grand_prix",
+        "mfwf",
+        "afl_finals",
+        "melbourne_cup",
+        "mice"
+      ],
       "personality": "Relentlessly cheerful, even at 5am. Finds the humour in a burnt shot of espresso and turns every bad shift into a story that makes his friends laugh. The one who texts 'you've got this' before a big service. Always picks up. Always smiling behind the machine.",
       "children": null,
       "event_failure_modes": {
@@ -188,10 +204,19 @@
           "A fourth-generation restaurant felt heavier than they admitted. The grandfather's photograph above the till had stopped being a comfort and become a question."
         ]
       },
-      "real_events": ["mfwf", "f1_grand_prix", "easter_long_weekend", "school_holidays", "melbourne_cup"],
+      "real_events": [
+        "mfwf",
+        "f1_grand_prix",
+        "easter_long_weekend",
+        "school_holidays",
+        "melbourne_cup"
+      ],
       "personality": "Enzo's laugh fills the whole trattoria — he can find a reason to celebrate in any night. Maria's quieter warmth is the glue; she asks the question no one else thought to ask, always with a small smile. Together they make every friend who walks in feel like family within thirty seconds. Finish each other's sentences without noticing.",
       "children": {
-        "luca": { "age": 8, "note": "Visual presence only — never speaks. Use when the story is about what the parent almost missed." }
+        "luca": {
+          "age": 8,
+          "note": "Visual presence only — never speaks. Use when the story is about what the parent almost missed."
+        }
       },
       "event_failure_modes": {
         "mfwf": "MFWF World's Longest Lunch is Greek-themed in 2026 — Enzo has feelings about this. But the real failure: La Grotta is not showing up for 'Carlton Italian MFWF' despite being two blocks from the festival hub",
@@ -238,10 +263,19 @@
           "Texted Bella a photo from the audience the day she finally made the school play. Bella still has it saved on her phone."
         ]
       },
-      "real_events": ["notting_hill_carnival", "wimbledon", "christmas_party_season", "good_food_guide", "uk_bank_holidays"],
+      "real_events": [
+        "notting_hill_carnival",
+        "wimbledon",
+        "christmas_party_season",
+        "good_food_guide",
+        "uk_bank_holidays"
+      ],
       "personality": "Radiant gentle warmth — a smile that lands like a hand on your back. Finds the good in a burned flatbread ('more character that way'). Believes food is how you love people, and is always the first to show up when a friend is struggling. Her kindness is the quietest but the steadiest in the group.",
       "children": {
-        "daughter": { "age": 9, "note": "Never named in scripts. Referenced by role only: 'her daughter.' Visual presence only." }
+        "daughter": {
+          "age": 9,
+          "note": "Never named in scripts. Referenced by role only: 'her daughter.' Visual presence only."
+        }
       },
       "event_failure_modes": {
         "notting_hill_carnival": "Outdoor seating not listed as available on Google — customers see 'indoor only' and walk past during the highest foot-traffic weekend of her year",
@@ -288,7 +322,13 @@
           "Classic convert energy — now the one who tells other operators it works, in the same blunt voice he used to dismiss it."
         ]
       },
-      "real_events": ["christmas_party_season", "summer_pub_season", "notting_hill_carnival_overflow", "hrc_show", "uk_bank_holidays"],
+      "real_events": [
+        "christmas_party_season",
+        "summer_pub_season",
+        "notting_hill_carnival_overflow",
+        "hrc_show",
+        "uk_bank_holidays"
+      ],
       "personality": "Broad, easy, publican's smile — the kind that makes the room feel steadier the moment he walks in. Has a silver lining for any disaster behind the bar. The friend everyone calls when they need to feel grounded, because Danny always picks up and always says 'you'll be right' — and he means it every time.",
       "children": null,
       "event_failure_modes": {
@@ -336,10 +376,18 @@
           "Took a 4-day trip to Portugal — first real break in four years. Priya made Arun put the phone in the safe."
         ]
       },
-      "real_events": ["diwali", "christmas_party_season_shoreditch", "eid_dining_season", "uk_bank_holidays"],
+      "real_events": [
+        "diwali",
+        "christmas_party_season_shoreditch",
+        "eid_dining_season",
+        "uk_bank_holidays"
+      ],
       "personality": "Arun's grin is wide and slightly mischievous; Priya's smile is softer but just as constant. They are each other's silver-lining finder — whichever one is having a hard day, the other makes them laugh by lunch. Endlessly supportive of the group; first couple to offer their kitchen if a friend needs to test something new.",
       "children": {
-        "anaya": { "age": 3, "note": "Visual presence only — never speaks. Use when the story is about what the parent almost missed." }
+        "anaya": {
+          "age": 3,
+          "note": "Visual presence only — never speaks. Use when the story is about what the parent almost missed."
+        }
       },
       "event_failure_modes": {
         "diwali": "Not ranking for 'Diwali dinner London' or 'Indian restaurant Diwali Shoreditch' despite this being their highest-intent cultural window of the year",
@@ -386,10 +434,18 @@
           "The most reserved of the group. Taught Bella what fine dining actually costs emotionally — by saying it once, in passing, then changing the subject."
         ]
       },
-      "real_events": ["mfwf_global_dining_series", "melbourne_cup_corporate_season", "good_food_guide", "afl_grand_final_week"],
+      "real_events": [
+        "mfwf_global_dining_series",
+        "melbourne_cup_corporate_season",
+        "good_food_guide",
+        "afl_grand_final_week"
+      ],
       "personality": "Quieter warmth than the rest of the group, but no less positive — a small genuine smile that means 'I see you.' Finds beauty in the smallest thing on a bad night (a clean line on a plate, a sunset through the kitchen window). Shows her support by remembering details no one else caught, then texting about them two days later.",
       "children": {
-        "mia": { "age": 5, "note": "Visual presence only — never speaks. One appearance: sitting at the pass eating chips while the kitchen moved around her." }
+        "mia": {
+          "age": 5,
+          "note": "Visual presence only — never speaks. One appearance: sitting at the pass eating chips while the kitchen moved around her."
+        }
       },
       "event_failure_modes": {
         "mfwf_global_dining_series": "MFWF drives search traffic for 'best fine dining Melbourne March' — Wren not appearing in that window despite being exactly the right restaurant",
@@ -436,7 +492,12 @@
           "Texted Bella a photo of her mother laughing at a full Saturday room. Bella kept it."
         ]
       },
-      "real_events": ["lunar_new_year", "mid_autumn_festival", "mfwf", "melbourne_cup"],
+      "real_events": [
+        "lunar_new_year",
+        "mid_autumn_festival",
+        "mfwf",
+        "melbourne_cup"
+      ],
       "personality": "Endlessly warm, quick-laughing, finds the bright side of every service ('at least the dumplings survived'). Always supportive — the friend who drops off a box of char siu bao on a doorstep when someone in the group is having a hard week. Her smile is the restaurant's warmest light.",
       "children": null,
       "event_failure_modes": {
@@ -484,7 +545,12 @@
           "Keeps a printed photo of the original pop-up's first night in 2022 taped inside the office door. Looks at it when the dining room gets loud."
         ]
       },
-      "real_events": ["black_history_month", "notting_hill_carnival", "afrobeats_o2_shows", "london_food_month"],
+      "real_events": [
+        "black_history_month",
+        "notting_hill_carnival",
+        "afrobeats_o2_shows",
+        "london_food_month"
+      ],
       "personality": "Big open-hearted warmth, laugh you can hear from the pass. Finds positivity in every setback ('we learn, we season, we keep cooking'). The friend who shows up with a takeaway tray of jollof when someone in the group is having a rough week — no text, just a knock on the door. Smiles with his whole face.",
       "children": null,
       "event_failure_modes": {
@@ -532,7 +598,12 @@
           "Named a new banchan — soy-marinated egg, salted lemon — after Bella on the summer menu. Didn't tell Bella until she found it on the printed card."
         ]
       },
-      "real_events": ["kpop_msg_residency", "chuseok", "lunar_new_year", "nyc_restaurant_week"],
+      "real_events": [
+        "kpop_msg_residency",
+        "chuseok",
+        "lunar_new_year",
+        "nyc_restaurant_week"
+      ],
       "personality": "Quiet bright warmth, a smile that arrives slowly and then stays. Finds the good in a one-star review ('at least they tasted it'). Supports her friends in small precise gestures — a Post-it note on a friend's espresso machine, a text at 6am on a brutal day, a banchan named after someone she loves.",
       "children": null,
       "event_failure_modes": {
@@ -540,6 +611,131 @@
         "chuseok": "No Chuseok set menu, event post, or hours update — the single highest-intent cultural dining week of her year passes without appearing on Google",
         "nyc_restaurant_week": "Listed on NYC Restaurant Week programme but not ranking for 'Koreatown Restaurant Week' — getting traffic, no bookings"
       }
+    },
+    {
+      "id": "linh",
+      "name": "Linh",
+      "city": "Sydney",
+      "market": "AU",
+      "currency": "$",
+      "neighbourhood": "Marrickville",
+      "street_detail": "Illawarra Road — phở broth simmering since 5am, the rattle of the Marrickville train line through the back-kitchen window, Mẹ's handwriting on the laminated specials board",
+      "restaurant_name": "Sông",
+      "cuisine": "Vietnamese (phở, bún, bánh mì)",
+      "sensory_hooks": [
+        "Star anise and charred beef bones for the phở broth, simmering since 5am — the whole of Illawarra Road smells like it.",
+        "The hiss of a bánh mì roll toasting on the flat-top before the lunch rush.",
+        "Fish-sauce caramel bubbling in the wok — sweet and sharp at once.",
+        "The rattle of the Marrickville train line through the back-kitchen window.",
+        "Mẹ's handwriting on the laminated specials board, never updated, never replaced."
+      ],
+      "enemy_archetype": "the_language_gap",
+      "story_angle": "A bilingual Vietnamese restaurant losing the English-speaking lunch crowd because the phone is a wall between Linh's parents and the office workers calling at noon",
+      "before_bella": {
+        "operational": "The phone rings through the lunch rush. Linh's parents answer in Vietnamese and lose the English office bookings; younger English-speaking callers give up when nobody picks up. The line is a wall between the two halves of her customers.",
+        "personal": "Linh code-switches between her parents and the office workers, but the phone won't. Every missed call is a customer her mother could have warmed up if the language match had landed."
+      },
+      "after_bella": {
+        "operational": "A line that answers in Vietnamese AND English. The office crowd books, the aunties still get Mẹ's warmth, and the rush stops leaking covers.",
+        "personal": "Linh's parents still answer the phone when they want to. But the line never goes to voicemail in the wrong language anymore — and the Saturday Tết bookings start coming in three weeks earlier."
+      },
+      "story_angles": {
+        "operational": [
+          "Lunch rush — phone rings while her parents can't take English bookings; the office crowd gives up.",
+          "Tết — the highest-demand week of the year — after-hours calls ringing out while the family is flat out on the floor.",
+          "Sydney Lunar New Year festival foot traffic spikes in the inner west; the lunch-rush phone is unanswerable, English office bookings lost."
+        ],
+        "personal": [
+          "Mẹ never let Linh change the laminated specials board; the family's name on the door is what they protect most.",
+          "Linh runs front-and-kitchen at once — code-switching between English and Vietnamese mid-sentence, fiercely protective of her parents."
+        ]
+      },
+      "real_events": [
+        "lunar_new_year_tet",
+        "sydney_lunar_new_year_festival"
+      ],
+      "personality": "Warm, fast, bicultural — code-switches between English and Vietnamese mid-sentence. Runs front-and-kitchen at once. Fiercely protective of her parents and the name on the door.",
+      "children": null,
+      "event_failure_modes": {
+        "lunar_new_year_tet": "Tết — the highest-demand week of the year for the Vietnamese community; after-hours booking calls ring out while the family is flat out on the floor.",
+        "sydney_lunar_new_year_festival": "Festival foot traffic spikes in the inner west; the lunch-rush phone is unanswerable, English office bookings lost.",
+        "generic_friday_dinner": "Standard Friday rush — the phone is a wall between the Vietnamese-speaking aunties and the English-speaking office crowd."
+      }
+    },
+    {
+      "id": "kostas",
+      "name": "Kostas",
+      "city": "Adelaide",
+      "market": "AU",
+      "currency": "$",
+      "neighbourhood": "Norwood",
+      "street_detail": "The Parade — lamb on the spit turning slow, oregano smoke drifting onto the strip by noon, Yiayia's phyllo stretched paper-thin across the kitchen bench at 7am",
+      "restaurant_name": "Thea",
+      "cuisine": "Greek taverna",
+      "sensory_hooks": [
+        "Lamb on the spit turning slow, oregano smoke drifting onto The Parade by noon.",
+        "The clack of worry beads on the bar while Kostas waits for the dinner rush.",
+        "Saganaki hitting the pan — the flame, the 'Opa!' from a regular.",
+        "Yiayia's phyllo stretched paper-thin across the whole kitchen bench at 7am.",
+        "The Norwood Friday-night crowd spilling off The Parade as the bouzouki playlist starts."
+      ],
+      "enemy_archetype": "the_quandoo_exit",
+      "story_angle": "A family Greek taverna stranded on Quandoo as the platform shuts down — needing a replacement booking line that answers in Greek before the Glendi rush",
+      "before_bella": {
+        "operational": "Stranded on Quandoo as it shuts down, and missing after-hours calls during the Greek-community dinner trade — Yiayia answering in Greek while the English bookings ring out.",
+        "personal": "Kostas keeps the Quandoo shutdown email in his apron pocket like a parking ticket. Yiayia hasn't seen it. He doesn't want her to think the family business is the one being switched off."
+      },
+      "after_bella": {
+        "operational": "Migrated to a commission-free line that answers in Greek and English. The Saturday glendi books itself; Kostas is back on the floor pouring wine instead of chasing the phone.",
+        "personal": "Yiayia keeps answering the regulars in Greek. The line takes the rest. The family name stays on the door — and the door stays open."
+      },
+      "story_angles": {
+        "operational": [
+          "Greek Orthodox Easter — the single biggest booking week of the year; after-hours demand floods in and the calls ring out.",
+          "Adelaide Glendi festival drives a dinner surge; bookings lost to venues whose phones get answered.",
+          "Quandoo closes (migration deadline 30 Sep 2026); Thea needs a replacement booking system before the spring rush."
+        ],
+        "personal": [
+          "Yiayia is the real boss and Kostas knows it; his job is to make sure the phyllo, not the platform, is what decides Saturday.",
+          "Kostas remembers every regular's order; the worry beads come out when the phone doesn't."
+        ]
+      },
+      "real_events": [
+        "greek_orthodox_easter",
+        "adelaide_glendi_festival",
+        "quandoo_shutdown"
+      ],
+      "personality": "Big, warm, loud laugh — feeds everyone, remembers every regular's order. Proud of the family name. Yiayia is the real boss and he knows it.",
+      "children": null,
+      "event_failure_modes": {
+        "greek_orthodox_easter": "The single biggest booking week of the year; after-hours demand floods in and the calls ring out.",
+        "adelaide_glendi_festival": "Greek-community festival drives a dinner surge; bookings lost to venues whose phones get answered.",
+        "quandoo_shutdown": "Quandoo closes (migration deadline 30 Sep 2026); Thea needs a replacement booking system before the spring rush."
+      }
     }
-  ]
+  ],
+  "roster": {
+    "_note": "v2.0 pivot — 60% Australian / 40% international active. Bench friends return for the US/UK launch.",
+    "active_au": [
+      "jake",
+      "enzo_maria",
+      "sophie",
+      "mei",
+      "linh",
+      "kostas"
+    ],
+    "active_international": [
+      "naomi",
+      "sal",
+      "yasmin",
+      "danny"
+    ],
+    "bench": [
+      "haeun",
+      "arun_priya"
+    ],
+    "legacy_pending_review": [
+      "tunde"
+    ]
+  }
 }
