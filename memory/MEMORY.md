@@ -1,0 +1,13 @@
+- [Shared .env location](shared_env_location.md) — All API keys live in one .env at Bellaciao Content/, loaded via `Path(__file__).parent.parent / ".env"`.
+- [Airtable as control surface](airtable_archive.md) — Four tables (Calendar/Briefs/Scripts/TrendSignals). Calendar/Briefs are verdict gates; Scripts is archive only.
+- [Staged workflow](staged_workflow.md) — Staged pipeline (calendar/plan/brief/write) with manual verdict gates. `--stage` is the canonical interface; `--auto` exists for tests only.
+- [Continuity system](continuity_system.md) — Per-friend serialised arc tracker. `continuity.py` runs after each approved script, Claude Haiku extracts the arc update, next brief picks up where the last one left off. Cooldowns live in `memory.py` (mechanical) — do NOT merge.
+- [Project scope](project_scope.md) — Standalone Bella script generator: one ≥9.5/10 script per run, nothing else.
+- [Mission and metrics](mission_and_metrics.md) — Convert AU/US/UK restaurant owners to demo bookings; primary metric is bookings, not views.
+- [Pipeline architecture](pipeline_architecture.md) — Three independently-runnable stages: apify_scout → strategy → engine, each writing JSON to disk.
+- [Brand non-negotiables](brand_non_negotiables.md) — Bella never sells, Ciao appears once, Elixir is never a product, only NY/London/Melbourne.
+- [Scoring and gates](scoring_and_gates.md) — 9 weighted dimensions, 7 final gates, 9.5 threshold, near-perfect override at 9.6 + 6/7 gates.
+- [Data contracts](data_contracts.md) — JSON schemas for friends, calendar, trend_signals, strategy_brief, jobs.
+- [Out of scope](out_of_scope_rule.md) — No audio/video/captions/orchestration creeps into script_engine. Fork instead.
+- [Versioning rule](versioning_rule.md) — Only brand.py + data/*.json change frequently; pipeline modules require doc update first.
+- [Related pipeline](related_pipeline.md) — Full video pipeline lives in ../video_pipeline/; drop scripts into its jobs/ to wire through.
