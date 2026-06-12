@@ -1,0 +1,86 @@
+{
+  "linh": {
+    "id": "linh",
+    "name": "Linh",
+    "city": "Sydney",
+    "neighbourhood": "Marrickville — Illawarra Road",
+    "restaurant": "Sông",
+    "cuisine": "Vietnamese (phở, bún, bánh mì)",
+    "currency": "$",
+    "language": "VI",
+    "children": "none",
+    "ally": "Linh's parents (Bố & Mẹ), first-generation founders — visual presence; Mẹ answers the phone in Vietnamese. Labelled MUM:/DAD: only if cast in a story.",
+    "enemy": "the_language_gap",
+    "secondary_enemy": "the_missed_call",
+    "sensory_hooks": [
+      "Star anise and charred beef bones for the phở broth, simmering since 5am — the whole of Illawarra Road smells like it.",
+      "The hiss of a bánh mì roll toasting on the flat-top before the lunch rush.",
+      "Fish-sauce caramel bubbling in the wok — sweet and sharp at once.",
+      "The rattle of the Marrickville train line through the back-kitchen window.",
+      "Mẹ's handwriting on the laminated specials board, never updated, never replaced."
+    ],
+    "event_failure_modes": {
+      "lunar_new_year_tet": "Tết — the highest-demand week of the year for the Vietnamese community; after-hours booking calls ring out while the family is flat out on the floor.",
+      "sydney_lunar_new_year_festival": "Festival foot traffic spikes in the inner west; the lunch-rush phone is unanswerable, English office bookings lost.",
+      "generic_friday_dinner": "Standard Friday rush — the phone is a wall between the Vietnamese-speaking aunties and the English-speaking office crowd."
+    },
+    "before_bella": "The phone rings through the lunch rush. Linh's parents answer in Vietnamese and lose the English office bookings; younger English-speaking callers give up when nobody picks up. The line is a wall between the two halves of her customers.",
+    "after_bella": "A line that answers in Vietnamese AND English. The office crowd books, the aunties still get Mẹ's warmth, and the rush stops leaking covers.",
+    "personality": "Warm, fast, bicultural — code-switches between English and Vietnamese mid-sentence. Runs front-and-kitchen at once. Fiercely protective of her parents and the name on the door.",
+    "voice": "Sydney English with a Vietnamese cadence underneath; switches to Vietnamese with her parents and the older regulars.",
+    "says": [
+      "Boả, you don't even know.",
+      "Mẹ will never let me change that board. Never.",
+      "It rang out. Again. That's a table gone."
+    ],
+    "never_says": [
+      "Industry jargon",
+      "Anything that flattens Vietnamese food into generic 'Asian'",
+      "Anything she wouldn't say in front of her mother"
+    ],
+    "avatar_ref": "Creatives/Bella's Friends avatar/Linh_reference.png (+ Linh_close_face.png)",
+    "avatar_status": "TBD — not on disk yet; generate to the IMAGE_GENERATION_SPEC before first use."
+  },
+  "kostas": {
+    "id": "kostas",
+    "name": "Kostas",
+    "city": "Adelaide",
+    "neighbourhood": "Norwood — The Parade",
+    "restaurant": "Thea",
+    "cuisine": "Greek taverna",
+    "currency": "$",
+    "language": "EL",
+    "children": "none",
+    "ally": "Yiayia (grandmother), the boss of the kitchen — visual presence; answers regulars in Greek. Labelled YIAYIA: only if cast in a story.",
+    "enemy": "the_quandoo_exit",
+    "secondary_enemy": "the_language_gap",
+    "sensory_hooks": [
+      "Lamb on the spit turning slow, oregano smoke drifting onto The Parade by noon.",
+      "The clack of worry beads on the bar while Kostas waits for the dinner rush.",
+      "Saganaki hitting the pan — the flame, the 'Opa!' from a regular.",
+      "Yiayia's phyllo stretched paper-thin across the whole kitchen bench at 7am.",
+      "The Norwood Friday-night crowd spilling off The Parade as the bouzouki playlist starts."
+    ],
+    "event_failure_modes": {
+      "greek_orthodox_easter": "The single biggest booking week of the year; after-hours demand floods in and the calls ring out.",
+      "adelaide_glendi_festival": "Greek-community festival drives a dinner surge; bookings lost to venues whose phones get answered.",
+      "quandoo_shutdown": "Quandoo closes (migration deadline 30 Sep 2026); Thea needs a replacement booking system before the spring rush."
+    },
+    "before_bella": "Stranded on Quandoo as it shuts down, and missing after-hours calls during the Greek-community dinner trade — Yiayia answering in Greek while the English bookings ring out.",
+    "after_bella": "Migrated to a commission-free line that answers in Greek and English. The Saturday glendi books itself; Kostas is back on the floor pouring wine instead of chasing the phone.",
+    "personality": "Big, warm, loud laugh — feeds everyone, remembers every regular's order. Proud of the family name. Yiayia is the real boss and he knows it.",
+    "voice": "Adelaide-Greek English; switches to Greek with Yiayia and the regulars.",
+    "says": [
+      "Sit, sit — you're too skinny.",
+      "Yiayia says the phyllo's not ready. Yiayia is always right.",
+      "Quandoo's closing. So now what?"
+    ],
+    "never_says": [
+      "Industry jargon",
+      "Anything that makes Yiayia look behind the times",
+      "Anything performative about 'tradition'"
+    ],
+    "avatar_ref": "Creatives/Bella's Friends avatar/Kostas_reference.png (+ Kostas_close_face.png)",
+    "avatar_status": "TBD — not on disk yet; generate to the IMAGE_GENERATION_SPEC before first use."
+  }
+}
