@@ -2,7 +2,7 @@
   "_meta": {
     "version": "2.0",
     "last_updated": "2026-06-12",
-    "description": "Canonical friend database for the Bella content engine. v2.0 supersedes the SEO/GBP premise: friends are now framed around missed calls, after-hours bookings, OpenTable cover fees, the language gap, and the Quandoo exit. Active roster is 60% Australian / 40% international (see top-level `roster`). Before/after arcs for existing friends still reference the v1 GBP framing and will be reframed in the premise-pivot-v2 follow-up.",
+    "description": "Canonical friend database for the Bella content engine. v2.0 supersedes the SEO/GBP premise: friends are framed around missed calls, after-hours bookings, no-shows, OpenTable cover fees, the language gap, and the Quandoo exit. All before/after arcs and enemy archetypes reframed to calls & bookings (premise-pivot-v2). Active roster is 60% Australian / 40% international (see top-level `roster`).",
     "schema_version": "2.0"
   },
   "friends": [
@@ -23,26 +23,26 @@
         "The blue shimmer of the High Line through the window at dusk",
         "The crack of a whole sea bass being deboned tableside, the room goes quiet"
       ],
-      "enemy_archetype": "the_invisible_ranking",
-      "story_angle": "Invisible on Google despite 4.8 stars and a full room every Saturday",
+      "enemy_archetype": "the_missed_call",
+      "story_angle": "4.8 stars and a full room every Saturday — and the booking calls she never hears ring out at the pass mid-service",
       "before_bella": {
-        "operational": "Invisible on Google despite 4.8 stars. Lost three corporate bookings in one month — the phone wasn't answered.",
-        "personal": "Left work after midnight every Tuesday. Stopped answering calls from her sister in Boston."
+        "operational": "4.8 stars, full room every Saturday — and the phone rings out at the pass during service. Lost three corporate bookings in one month because nobody had a free hand to answer.",
+        "personal": "Left work after midnight every Tuesday. Stopped answering calls from her sister in Boston — she of all people knew what an unanswered call costs."
       },
       "after_bella": {
-        "operational": "Top 3 for 'Chelsea seafood.' Online bookings now arrive while the kitchen is closed.",
+        "operational": "Every call answered, even mid-service. The after-hours enquiries that used to be gone by morning now land in the book overnight.",
         "personal": "Left work before midnight on a Tuesday for the first time in two years."
       },
       "story_angles": {
         "operational": [
-          "Invisible on Google despite 4.8 stars and a full room every Saturday. Lost three corporate bookings in one month — the phone wasn't answered.",
-          "Listed on the NYC Restaurant Week programme but not ranking for 'Chelsea Restaurant Week seafood' — getting traffic, no bookings.",
-          "A neighbour two doors down opened in March and started outranking her by April. Same cuisine, half the reviews. Gap was the Google category, not the food."
+          "4.8 stars and a full room every Saturday — and the phone rings out at the pass mid-service. Three corporate bookings lost in a month because nobody had a free hand.",
+          "NYC Restaurant Week: the booking calls spike to triple and half ring out during the dinner push — high-intent covers walking to the place that picked up.",
+          "A neighbour two doors down opened in March; by April their line answered every call and Naomi's still rang out at 7:40. Same cuisine — the difference was who picked up."
         ],
         "personal": [
           "Left work after midnight every Tuesday. Stopped answering calls from her sister in Boston.",
           "Made the group laugh once by listing every birthday she'd missed that month. Funny in the room, less funny on the cab home.",
-          "Started saying 'I should have called you six months ago' to anyone who asked how the restaurant was doing — and she was only saying it about Bella."
+          "Started saying 'I should have done this six months ago' to anyone who asked how the restaurant was doing — and she meant the phone."
         ]
       },
       "real_events": [
@@ -54,9 +54,9 @@
       "personality": "Endlessly warm and quick to smile. Finds the bright side of a brutal Tuesday night in under a sentence. Remembers every regular's kid's name and asks about them by name. Lifts every room she walks into. Always the first to text the group when someone is having a hard week.",
       "children": null,
       "event_failure_modes": {
-        "nyc_restaurant_week": "Listed on the programme but not ranking for 'Chelsea Restaurant Week seafood' — getting traffic but not bookings",
-        "james_beard_nominations": "Gets a search spike when a neighbour is nominated but her profile has no awards section to capture the attention",
-        "nye_dinner": "No NYE event post on Google — loses bookings to restaurants two blocks away that do have one"
+        "nyc_restaurant_week": "Booking calls triple during Restaurant Week and half ring out during the dinner push — the programme drives the intent, the unanswered line loses the cover",
+        "james_beard_nominations": "A neighbour's nomination sends a wave of 'can I book' calls across the block; Naomi's line rings out mid-service and the overflow never gets through",
+        "nye_dinner": "NYE enquiry calls come after close — booked by no one, gone by morning — while a place two blocks away takes them on a line that never sleeps"
       }
     },
     {
@@ -76,26 +76,26 @@
         "The pop of a Barolo cork on a slow Tuesday afternoon",
         "Bleecker Street noise bleeding under the front door during the Saturday service rush"
       ],
-      "enemy_archetype": "the_social_media_trap",
-      "story_angle": "Eleven years on the same street, invisible to the generation eating around the corner",
+      "enemy_archetype": "the_no_show",
+      "story_angle": "Eleven years on Bleecker, and the Thursday two-top that just didn't show — no deposit, no confirmation call, an empty table on a night that should have been full",
       "before_bella": {
-        "operational": "Walk-ins only. No online presence. Younger customers weren't finding him despite being on the same block for eleven years.",
+        "operational": "Walk-ins and a paper book. The Thursday two-tops that don't show — no deposit taken, no confirmation call made — leave empty tables on the nights he counts on. Calls during the Saturday rush ring out under the noise of the floor.",
         "personal": "Stopped calling his mother on Sunday mornings because service always started before he could finish the call."
       },
       "after_bella": {
-        "operational": "Online bookings on Thursdays now match Saturday night.",
+        "operational": "Bookings SMS-confirmed the moment they're made; the no-shows that used to sit empty now hold or cancel in time to refill. Thursday covers match Saturday.",
         "personal": "Calls his mother on Sunday mornings again — not during service."
       },
       "story_angles": {
         "operational": [
-          "Walk-ins only. Eleven years on the same Bleecker Street block, invisible to the generation eating at the place around the corner that opened in March.",
-          "Doesn't have holiday hours set — Google shows 'closed Thursday' during Thanksgiving, the highest-intent search week of the year.",
-          "No NYE set menu listed. Loses every 'West Village NYE Italian' search to a competitor with one event post and a worse pasta."
+          "Eleven years on the same Bleecker Street block, and the Thursday two-top just didn't show. No deposit, no confirmation call — an empty table on a night that was supposed to be full.",
+          "Thanksgiving week: the booking calls come faster than the floor can answer, and the ones that do book never get a confirmation — half don't show.",
+          "NYE: a paper book full of names and no deposits. Two cancellations he never heard about because the calls came after close."
         ],
         "personal": [
           "Stopped calling his mother on Sunday mornings because service always started before he could finish the call.",
-          "Spent eleven years assuming online presence was a young people's thing he didn't need. The cost was the Sunday morning calls.",
-          "Took the longest in the group to come around to Bella's advice. Now talks about her like she's family — and you can hear the confession in it."
+          "Spent eleven years assuming the phone took care of itself. The cost was the Sunday morning calls — and the empty Thursday tables.",
+          "Took the longest in the group to come around. Now talks about the fix like she's family — and you can hear the confession in it."
         ]
       },
       "real_events": [
@@ -107,8 +107,8 @@
       "personality": "Huge open-hearted warmth — the host who pulls you into a hug before you've sat down. Finds a silver lining in any bad night ('at least the sauce was perfect'). Fiercely supportive of his friends — shows up with food whenever one of them is having a rough week, no text, just a knock on the door.",
       "children": null,
       "event_failure_modes": {
-        "thanksgiving_week": "Doesn't have holiday hours set — Google shows 'closed Thursday' during the highest-intent search week of the year",
-        "nye_dinner": "No NYE set menu listed on Google — loses every 'West Village NYE Italian' search to a competitor with an event post"
+        "thanksgiving_week": "Booking calls come faster than the floor can answer during the highest-demand week; the ones that book get no confirmation and half don't show",
+        "nye_dinner": "NYE enquiry calls land after close — booked by no one — and the names that did book took no deposit, so the no-shows cost him the night"
       }
     },
     {
@@ -128,24 +128,24 @@
         "Cold butter pooling into sourdough toast on a Sunday — the sound of a weekend starting right",
         "The particular dark of Fitzroy at 6:45am before anyone else arrives"
       ],
-      "enemy_archetype": "the_event_blindspot",
-      "story_angle": "Packed on weekends, dead mid-week — the pattern was invisible until it wasn't",
+      "enemy_archetype": "the_missed_call",
+      "story_angle": "Packed on weekends, the phone ringing out under the espresso machine — nine brunch calls ring out on a Saturday and the 11am table walks next door",
       "before_bella": {
-        "operational": "Packed on weekends, dead Tuesday to Thursday. Kept changing the menu thinking that was the problem.",
-        "personal": "Missed his sister's wedding rehearsal dinner because of a double-booking crisis he couldn't hand off."
+        "operational": "The Saturday brunch rush, the phone ringing under the espresso machine, nobody with a free hand. Nine calls ring out before noon and the 11am table books the café down the block. Dead Tuesday to Thursday — and no idea the mid-week bookings were calling and giving up.",
+        "personal": "Missed his sister's wedding rehearsal dinner because of a booking crisis he couldn't hand off."
       },
       "after_bella": {
-        "operational": "Mid-week bookings up 40%. Google profile shows extended hours for event weekends.",
+        "operational": "Every call answered, even at 7:40 on a Saturday. Mid-week covers back — the bookings that used to ring out now land in the book.",
         "personal": "Made it to his sister's birthday dinner. Said it was the best one in years — partly because he was actually present."
       },
       "story_angles": {
         "operational": [
-          "Packed on weekends, dead Tuesday to Thursday. Kept changing the menu thinking that was the problem. The pattern was a Google one the whole time.",
-          "Profile showed 'closed Monday' from a lockdown-era update — missed every 'brunch near Fitzroy Monday' search across an entire F1 race weekend.",
-          "Not ranking for 'Melbourne Food Festival brunch' despite being fifteen minutes from Kings Domain. Profile had no MFWF keyword anywhere."
+          "Packed on weekends, phone ringing under the espresso machine — nine brunch calls ring out on a Saturday and the 11am table walks next door.",
+          "F1 race weekend: the booking calls surge across the whole of Fitzroy and half ring out during the Saturday push — every missed one is a table for the place that answered.",
+          "MFWF brings the festival crowd looking for a table; the lunch-rush phone is unanswerable and the overflow books the next block."
         ],
         "personal": [
-          "Missed his sister's wedding rehearsal dinner because of a double-booking crisis he couldn't hand off.",
+          "Missed his sister's wedding rehearsal dinner because of a booking crisis he couldn't hand off.",
           "Made the joke about the rehearsal dinner years later, then went quiet. The joke was funnier than the truth and he knew it.",
           "Self-deprecating about everything except the missed weekends. Those he doesn't joke about — that's how you know which ones still hurt."
         ]
@@ -160,9 +160,9 @@
       "personality": "Relentlessly cheerful, even at 5am. Finds the humour in a burnt shot of espresso and turns every bad shift into a story that makes his friends laugh. The one who texts 'you've got this' before a big service. Always picks up. Always smiling behind the machine.",
       "children": null,
       "event_failure_modes": {
-        "f1_grand_prix": "Profile shows 'closed Monday' from a lockdown-era update — missed every 'brunch near Fitzroy Monday' search across the entire race weekend",
-        "mfwf": "Not ranking for 'Melbourne Food Festival brunch' despite being 15 minutes from Kings Domain — profile has no MFWF keyword anywhere",
-        "afl_finals": "No AFL week extended hours listed — loses the pre-match and post-match brunch crowd to the café on the next block that has them"
+        "f1_grand_prix": "Race-weekend booking calls surge across Fitzroy; half ring out during the Saturday brunch push — every missed call is a table for the café that answered",
+        "mfwf": "The festival crowd calls looking for a table; the lunch-rush phone is unanswerable and the overflow books the next block",
+        "afl_finals": "Finals-weekend pre- and post-match booking calls ring out under the noise of the floor — the crowd goes to the café whose line picked up"
       }
     },
     {
@@ -182,21 +182,21 @@
         "Lygon Street lunch crowd through the front window, the particular noise of a full Saturday",
         "Luca's small handprint in the bench flour, still there after the morning prep"
       ],
-      "enemy_archetype": "the_fear_of_change",
-      "story_angle": "Legacy restaurant — four generations on the same street, invisible to the generation eating around the corner",
+      "enemy_archetype": "the_after_hours_booking",
+      "story_angle": "Maria taking booking enquiries on her mobile at 10:48pm, and OpenTable cover fees eating a four-generation family margin",
       "before_bella": {
-        "operational": "Invisible to the new generation of diners despite being a Carlton institution. Only showing up for searches older regulars already knew to make.",
+        "operational": "Maria takes booking enquiries on her mobile at 11pm because the line can't; the after-hours calls that don't reach her are gone by morning. And the OpenTable cover fees — base plus per-cover plus service — bleed a four-generation family margin every month.",
         "personal": "Enzo and Maria argued more than they talked. The stress was in the kitchen and at home."
       },
       "after_bella": {
-        "operational": "Showing up for 'Carlton Italian' again. New corporate group became a monthly booking after finding them through Google.",
+        "operational": "A line that takes the after-hours bookings while they sleep, paired with a commission-free booking system instead of the OpenTable invoice. The 11pm enquiries land in the book, not on Maria's mobile.",
         "personal": "Son Luca (8) came in for a Saturday lunch at the chef's table. Enzo talked about it for a week."
       },
       "story_angles": {
         "operational": [
-          "Invisible to the new generation of Carlton diners despite four generations on the same Lygon Street block. Only showing up for searches the older regulars already knew to make.",
-          "Carlton is equidistant from Albert Park during F1 — and not optimised for 'Italian near Albert Park' despite being the natural post-race dinner.",
-          "No Easter trading hours update — Google shows 'closed Good Friday' when they're actually open with a special menu Enzo's grandfather wrote in 1968."
+          "10:48pm, Maria taking a King's Birthday lunch booking on her mobile again — the calls she misses after close are gone by morning.",
+          "The OpenTable invoice on the pass: base, per-cover, service fee, every month — eating a margin four generations built. A flat commission-free line would cost a fraction.",
+          "Easter long weekend: the after-hours enquiries flood in for the special menu Enzo's grandfather wrote in 1968, and the line can't take them while the family is on the floor."
         ],
         "personal": [
           "Enzo and Maria argued more than they talked. The stress was in the kitchen and at home.",
@@ -219,9 +219,9 @@
         }
       },
       "event_failure_modes": {
-        "mfwf": "MFWF World's Longest Lunch is Greek-themed in 2026 — Enzo has feelings about this. But the real failure: La Grotta is not showing up for 'Carlton Italian MFWF' despite being two blocks from the festival hub",
-        "easter_long_weekend": "No Easter trading hours update — Google shows closed Good Friday when they are actually open with a special menu",
-        "f1_grand_prix": "Carlton is equidistant from Albert Park. Not optimised for 'Italian near Albert Park' despite being the natural post-race dinner destination"
+        "mfwf": "The festival crowd calls for a table during MFWF; the after-hours and rush-hour enquiries ring out while Enzo and Maria are flat out on the floor",
+        "easter_long_weekend": "Easter after-hours enquiries for the 1968 special menu flood in after close — booked by no one, gone by morning",
+        "f1_grand_prix": "Carlton is the natural post-race dinner; the booking calls surge after the chequered flag and the line can't take them while service is on"
       }
     },
     {
@@ -241,21 +241,21 @@
         "Dried rose petals on the ma'amoul, crumbling between two fingers",
         "Westbourne Grove quiet on a Sunday morning — the particular stillness before the brunch crowd arrives"
       ],
-      "enemy_archetype": "the_invisible_ranking",
-      "story_angle": "Three competitors above her on Maps despite worse reviews — the gap was technical, not culinary",
+      "enemy_archetype": "the_after_hours_booking",
+      "story_angle": "Composed in the dining room, undone by the Christmas-party enquiry she lost after close — the corporate booking that called when nobody was there to answer",
       "before_bella": {
-        "operational": "Three competitors above her on Google Maps despite worse reviews and fewer covers. Not showing up in 'near me' searches.",
+        "operational": "Composed through service, but the Christmas-party and private-dining enquiries come after close — and a line that doesn't answer loses them by morning. The corporate booking window passes to whoever picked up.",
         "personal": "Missed her daughter's school play for the third time in two years."
       },
       "after_bella": {
-        "operational": "Cedar Table in the local 3-pack for Lebanese in Notting Hill.",
+        "operational": "A line that takes the after-hours enquiry and SMS-confirms it while she's home. The Christmas corporate bookings land in the book instead of in a competitor's.",
         "personal": "Made it to her daughter's school play. Texted Bella a photo from the audience. Bella still has it saved."
       },
       "story_angles": {
         "operational": [
-          "Three competitors above her on Google Maps despite worse reviews and fewer covers. Not showing up in 'near me' searches for the postcode she was already in.",
-          "Outdoor seating not listed as an attribute — customers see 'indoor only' and walk past during Notting Hill Carnival, the highest foot-traffic weekend of her year.",
-          "No Christmas set menu posted by September. Loses the corporate booking window to restaurants that posted in early October — the gap was three weeks of someone else's foresight."
+          "Composed until the Christmas-party enquiry she lost after close — the corporate booking that called when nobody was there to answer.",
+          "Notting Hill Carnival weekend: the booking calls surge for the highest foot-traffic days of her year, and the after-hours ones ring out while the floor is flat out.",
+          "Wimbledon fortnight: the overflow crowd rings to book and the line can't take them mid-service; the covers go to the place that answered."
         ],
         "personal": [
           "Missed her daughter's school play for the third time in two years. Asked Bella later if it was always going to feel like this.",
@@ -278,9 +278,9 @@
         }
       },
       "event_failure_modes": {
-        "notting_hill_carnival": "Outdoor seating not listed as available on Google — customers see 'indoor only' and walk past during the highest foot-traffic weekend of her year",
-        "wimbledon": "Not ranking for 'Lebanese near Notting Hill Wimbledon weekend' despite being 3km from SW19 — keyword gap costs her the overflow crowd",
-        "christmas_party_season": "No Christmas set menu or private dining event posted on Google by September — loses the corporate booking window to restaurants that post in early October"
+        "notting_hill_carnival": "The highest foot-traffic weekend of her year — booking calls surge and the after-hours ones ring out while the floor is flat out",
+        "wimbledon": "Wimbledon overflow rings to book; the line can't take the calls mid-service and the covers go to the place that answered",
+        "christmas_party_season": "The corporate Christmas-party enquiries come after close — a line that doesn't answer loses the booking window to whoever picked up"
       }
     },
     {
@@ -300,25 +300,25 @@
         "Rendered duck fat crackling in the pan for the Sunday chips",
         "The particular Soho Saturday energy — every table called by 11am, the floor not ready until noon"
       ],
-      "enemy_archetype": "the_algorithm",
-      "story_angle": "Competing with chains that game Google — felt like the system was rigged against independents",
+      "enemy_archetype": "the_missed_call",
+      "story_angle": "Saturday Soho, every table called by 11am, half the calls ringing out — the floor not ready until noon and the phone drowning under the bar",
       "before_bella": {
-        "operational": "Competing with chains that game Google. Three corporate pub groups outranking him for 'Soho gastropub' despite worse food and no locals.",
-        "personal": "Spent every Sunday morning reading competitor Google profiles instead of resting."
+        "operational": "Saturday Soho: every table is calling by 11am and half ring out, the floor not ready until noon and nobody free to pick up. The bookings he never hears go to the chain across the road.",
+        "personal": "Spent every Sunday morning chasing the gap instead of resting."
       },
       "after_bella": {
-        "operational": "Optimised profile. Walk-ins now say they found him on Google Maps — which had never happened before.",
+        "operational": "Every call answered, even at 11am on a Saturday with the cellar half-stocked. Walk-ins now say they got straight through on the phone — which had never happened before.",
         "personal": "Called Bella mid-service to tell her. She was at lunch. She picked up anyway."
       },
       "story_angles": {
         "operational": [
-          "Competing with chains that game Google. Three corporate pub groups outranking him for 'Soho gastropub' despite worse food and no locals.",
-          "Beer garden not listed in Google attributes. Doesn't show up for 'pub with outdoor seating Soho' during the three best trading months of the year.",
-          "Trading hours not updated for Bank Holiday Mondays — shows 'closed' when he's actually open. Loses the entire Monday brunch crowd to a chain across the road."
+          "Saturday Soho, every table called by 11am — half rang out. The floor's not ready until noon and the phone's drowning under the bar.",
+          "Christmas party season: the corporate group enquiries come faster than the bar can answer; the after-hours ones ring out and the £8,000 booking books elsewhere.",
+          "Summer Friday: the beer-garden crowd rings to book the moment the sun's out and the line can't take them mid-service."
         ],
         "personal": [
-          "Spent every Sunday morning reading competitor Google profiles instead of resting. The most sceptical of the group, paying the highest price for it.",
-          "Called Bella mid-service the day a walk-in said they'd found him on Google Maps. She was at lunch. She picked up anyway.",
+          "Spent every Sunday morning chasing the gap instead of resting. The most sceptical of the group, paying the highest price for it.",
+          "Called Bella mid-service the day a walk-in said they'd got straight through on the phone. She was at lunch. She picked up anyway.",
           "Classic convert energy — now the one who tells other operators it works, in the same blunt voice he used to dismiss it."
         ]
       },
@@ -332,9 +332,9 @@
       "personality": "Broad, easy, publican's smile — the kind that makes the room feel steadier the moment he walks in. Has a silver lining for any disaster behind the bar. The friend everyone calls when they need to feel grounded, because Danny always picks up and always says 'you'll be right' — and he means it every time.",
       "children": null,
       "event_failure_modes": {
-        "christmas_party_season": "No Christmas party menu posted on Google until November — the corporate booking window closes in mid-October, loses £8,000+ in group bookings",
-        "summer_pub_season": "Beer garden not listed in Google attributes — doesn't show up for 'pub with outdoor seating Soho' during the three best trading months of the year",
-        "uk_bank_holidays": "Trading hours not updated for Bank Holiday Mondays — shows 'closed' when he is actually open, loses the entire Monday brunch crowd"
+        "christmas_party_season": "Corporate party enquiries come faster than the bar can answer; the after-hours calls ring out and £8,000+ in group bookings books the chain across the road",
+        "summer_pub_season": "The beer-garden crowd rings to book the moment the sun's out; the line can't take the calls mid-service through the three best trading months",
+        "uk_bank_holidays": "Bank-holiday Monday booking calls surge and ring out while the floor's slammed — the Monday crowd goes to whoever picked up"
       }
     },
     {
@@ -354,21 +354,21 @@
         "Priya's mise en place at 4pm — everything exactly where it needs to be, the only quiet moment of the day",
         "Freshly ground garam masala — the whole kitchen smells completely different for exactly one hour"
       ],
-      "enemy_archetype": "the_invisible_ranking",
-      "story_angle": "Beautiful food, 2.1km from the top of Google Maps in the same postcode — the gap was small and fixable",
+      "enemy_archetype": "the_after_hours_booking",
+      "story_angle": "Beautiful food and a private dining room nobody can book after close — the corporate and Diwali enquiries that call when the kitchen's flat out and ring out",
       "before_bella": {
-        "operational": "2.1km from the top of Google Maps for 'Indian restaurant Shoreditch' despite being in the same postcode as the top results. Arun convinced they were doing everything right.",
+        "operational": "The private-dining and corporate enquiries come after close and during the dinner rush — and the line can't take them. Arun was convinced they were doing everything right; the bookings that rang out said otherwise.",
         "personal": "Hadn't taken a real break in four years. Arun checked his phone through the only holiday they managed."
       },
       "after_bella": {
-        "operational": "Ranking climbed. Diwali season bookings up significantly. Corporate group found them through Google.",
+        "operational": "A line that answers every enquiry in English and takes the after-hours private-dining bookings while they're closed. Diwali season books out three weeks ahead.",
         "personal": "Took a 4-day trip to Portugal. First real break in four years. Priya made Arun put his phone away."
       },
       "story_angles": {
         "operational": [
-          "2.1km from the top of Google Maps for 'Indian restaurant Shoreditch' despite being in the same postcode as the top results. Arun was convinced they were doing everything right.",
-          "Not ranking for 'Diwali dinner London' — their highest-intent cultural window of the year passing without The Ember Room appearing once.",
-          "Private dining room not listed on Google. Corporate Christmas party bookers searching 'private dining Shoreditch' never found it — and never knew it existed."
+          "A private dining room built for corporate bookings — and the enquiry calls come after close, ring out, and book the place that answered.",
+          "Diwali: their highest-intent week of the year, the booking calls flooding in faster than the floor can answer and the after-hours ones gone by morning.",
+          "Christmas: the corporate party bookers ring to book the private room; the line can't take them mid-service and they never call back."
         ],
         "personal": [
           "Hadn't taken a real break in four years. Arun checked his phone through the only holiday they'd managed.",
@@ -390,9 +390,9 @@
         }
       },
       "event_failure_modes": {
-        "diwali": "Not ranking for 'Diwali dinner London' or 'Indian restaurant Diwali Shoreditch' despite this being their highest-intent cultural window of the year",
-        "christmas_party_season_shoreditch": "Private dining room not listed on Google — the corporate Christmas party bookers searching 'private dining Shoreditch' never find it",
-        "eid_dining_season": "No Eid special menu or extended hours posted — search intent spike happens and passes without The Ember Room appearing once"
+        "diwali": "Their highest-intent week — booking calls flood in faster than the floor can answer and the after-hours ones are gone by morning",
+        "christmas_party_season_shoreditch": "Corporate bookers ring to book the private dining room; the line can't take them mid-service and they never call back",
+        "eid_dining_season": "The Eid booking surge comes after hours; the enquiries ring out and the covers go to whoever's line answered"
       }
     },
     {
@@ -412,21 +412,21 @@
         "Cold tweezers on warm china during the 6pm mise en place check, every plate the same",
         "Mia's small shoes by the back door, still there from the school run, the kitchen moving around them"
       ],
-      "enemy_archetype": "the_invisible_ranking",
-      "story_angle": "Zero SEO presence despite a 2-hat reputation — relied entirely on press and word of mouth",
+      "enemy_archetype": "the_missed_call",
+      "story_angle": "A two-hat kitchen where the private-dining enquiry rings out during plating, and no-shows with no deposit leave the room half-empty",
       "before_bella": {
-        "operational": "Zero SEO presence despite 2-hat reputation. Private dining room half-empty. Relied entirely on press and word of mouth that wasn't reaching the people with the budget to book it.",
+        "operational": "High-value private-dining enquiries ring out during plating — nobody breaks a service to answer the phone. The bookings that do land take no deposit, so the no-shows leave the private room half-empty on the nights it should be full.",
         "personal": "Mia's school events were always the thing that got moved when a booking crisis came up."
       },
       "after_bella": {
-        "operational": "Private dining enquiries doubled. A corporate group found her through Google and became a monthly booking.",
+        "operational": "A line that never misses the enquiry, even mid-plating, and captures a deposit on every booking. Private-dining enquiries doubled; the no-shows that emptied the room now hold.",
         "personal": "Made it to Mia's end-of-year concert. Texted nobody about it. Just watched."
       },
       "story_angles": {
         "operational": [
-          "Zero SEO presence despite 2-hat reputation. Private dining room half-empty. Relied entirely on press and word of mouth that wasn't reaching the people with budget.",
-          "MFWF drives search traffic for 'best fine dining Melbourne March' — Wren not appearing in that window despite being exactly the right restaurant.",
-          "No private dining or set menu posted for Cup Week. Loses corporate bookings to Crown and Nobu because they're easier to find, not better."
+          "A private-dining enquiry rings out during plating — the silent fine-dining kitchen has no free hand — and the booking goes to the venue that picked up.",
+          "No deposit on the book: a four-top no-shows on a Saturday and the room sits half-empty on the night it should be full.",
+          "Melbourne Cup corporate season: the high-value enquiries call during service and ring out; Crown and Nobu take them because their lines answered."
         ],
         "personal": [
           "Mia's school events were always the thing that got moved when a booking crisis came up.",
@@ -448,9 +448,9 @@
         }
       },
       "event_failure_modes": {
-        "mfwf_global_dining_series": "MFWF drives search traffic for 'best fine dining Melbourne March' — Wren not appearing in that window despite being exactly the right restaurant",
-        "melbourne_cup_corporate_season": "No private dining or set menu for Cup Week posted on Google — loses corporate bookings that go to Crown and Nobu because they are easier to find",
-        "good_food_guide": "Profile has no awards or recognition section — when Good Food Guide is announced and people search for 2-hat Melbourne restaurants, Wren doesn't appear in Maps"
+        "mfwf_global_dining_series": "MFWF drives high-intent enquiry calls for fine dining in March; they ring out during plating and the booking books the restaurant that answered",
+        "melbourne_cup_corporate_season": "Cup Week corporate enquiries call during service and ring out; the bookings go to Crown and Nobu because their lines picked up, not because they're better",
+        "good_food_guide": "A Good Food Guide mention sends a wave of booking calls; the line rings out mid-service and the no-deposit bookings that do land don't all show"
       }
     },
     {
@@ -470,24 +470,24 @@
         "The particular neon red glow of Little Bourke Street through the upstairs window at dusk",
         "Wok breath — that specific smoky-sweet exhalation of a seasoned pan hitting high heat"
       ],
-      "enemy_archetype": "the_generation_gap",
-      "story_angle": "The restaurant her parents opened in 1982 is invisible to the generation of Melburnians who grew up eating there",
+      "enemy_archetype": "the_language_gap",
+      "story_angle": "Her mother answers the phone in Cantonese and loses the English booking; the English caller rings and the family loses the Cantonese one — a line that can only speak one language at a time",
       "before_bella": {
-        "operational": "Three-generation Cantonese yum cha restaurant. Tourists still finding it. Locals under 40 discovering the shinier competitor two doors down that opened in 2023.",
-        "personal": "Her mother asked every Sunday why the Saturday yum cha wasn't as full anymore. Mei didn't know how to explain 'the algorithm' in Cantonese."
+        "operational": "Her mother answers in Cantonese and the English booking hangs up; an English-speaking caller rings and the Cantonese regular's booking gets lost in the handover. The yum cha rush phone can only speak one language at a time.",
+        "personal": "Her mother asked every Sunday why the Saturday yum cha wasn't as full anymore. Mei didn't know how to explain it without it sounding like blame."
       },
       "after_bella": {
-        "operational": "Ranking for 'Melbourne yum cha' and 'Chinatown dim sum.' Saturday trolley service full again. Under-40 covers up 60%.",
+        "operational": "A line that answers in Cantonese AND English — the aunties still get Mum's warmth, the English office crowd books, and the Saturday trolley service is full again.",
         "personal": "Her mother saw a full dining room on a Saturday for the first time in three years. Didn't say anything — just made an extra pot of tea."
       },
       "story_angles": {
         "operational": [
-          "Three-generation Cantonese yum cha restaurant. Tourists still finding it. Locals under 40 discovering the shinier competitor two doors down that opened in 2023.",
-          "Profile photo is 11 years old — taken by a cousin at a family reunion. The cousin is now 31 and won't stop telling Mei to update it.",
-          "No Lunar New Year set menu posted. The highest-intent week of the year for Chinese restaurants in Melbourne, and Google shows the same standard menu as a Wednesday in July."
+          "Mum answers in Cantonese, the English caller hangs up; the English line rings and the Cantonese booking gets lost — one phone, two languages it can't hold at once.",
+          "Lunar New Year — the highest-demand week of the year for Chinese restaurants in Melbourne — the bilingual booking calls flood in and half are lost to the language the phone wasn't speaking.",
+          "Quiet Tuesday: cover fees on a booking platform versus a flat line that also answers the phone in both languages. Her mum does the maths in her head."
         ],
         "personal": [
-          "Her mother asked every Sunday why the Saturday yum cha wasn't as full anymore. Mei didn't know how to explain 'the algorithm' in Cantonese.",
+          "Her mother asked every Sunday why the Saturday yum cha wasn't as full anymore. Mei didn't know how to explain it without it sounding like blame.",
           "Kept her mother's handwriting on the tea menu for twelve years. Felt like the restaurant's soul — and also like the thing that made it feel frozen in time.",
           "Texted Bella a photo of her mother laughing at a full Saturday room. Bella kept it."
         ]
@@ -501,9 +501,9 @@
       "personality": "Endlessly warm, quick-laughing, finds the bright side of every service ('at least the dumplings survived'). Always supportive — the friend who drops off a box of char siu bao on a doorstep when someone in the group is having a hard week. Her smile is the restaurant's warmest light.",
       "children": null,
       "event_failure_modes": {
-        "lunar_new_year": "No Lunar New Year set menu or event post — the highest-intent week for Chinese restaurants in Melbourne and Google shows the same menu as a Wednesday in July",
-        "mid_autumn_festival": "Mooncake pre-orders not listed as a Google product — loses the annual gifting window to the bakery next door that does list it",
-        "mfwf": "Not ranking for 'Melbourne Chinatown yum cha MFWF' despite being on Little Bourke Street, in the festival's natural CBD orbit"
+        "lunar_new_year": "The highest-demand week for Chinese restaurants in Melbourne — bilingual booking calls flood in and half are lost to the language the phone wasn't speaking",
+        "mid_autumn_festival": "Mooncake pre-order and booking calls come in both languages during the gifting window; the single-language line loses half of them",
+        "mfwf": "The festival crowd rings the Little Bourke Street yum cha room mid-rush; the calls ring out and the bilingual enquiries go unanswered"
       }
     },
     {
@@ -523,25 +523,25 @@
         "The particular West 32nd Street hum at 1am — neon, traffic, the end of a late service",
         "Her grandmother's soy-marinated eggs cooling in a white ceramic bowl on the counter, yolks still amber-soft"
       ],
-      "enemy_archetype": "the_one_star_attack",
-      "story_angle": "One coordinated bad-review attack knocked her from a 4.9 to a 4.6 during a three-week K-pop residency at Madison Square Garden. She lost the event window.",
+      "enemy_archetype": "the_missed_call",
+      "story_angle": "Korean BBQ half a mile from Madison Square Garden, and during a three-week K-pop residency the event-night booking calls ring out faster than the floor can answer",
       "before_bella": {
-        "operational": "A coordinated three-person 1-star review hit during a three-week K-pop run at Madison Square Garden. Dropped from 4.9 to 4.6. Lost the entire event-dining window — the highest-intent search weeks of her year.",
-        "personal": "Opened every morning at 5am to read the new reviews before the staff arrived. Stopped sleeping properly for twenty-one days."
+        "operational": "During a three-week K-pop run at Madison Square Garden, the 'table near MSG' booking calls came faster than the floor could answer — half ringing out during the event-night push. She lost the highest-intent dinner weeks of her year to an unanswered line.",
+        "personal": "Opened every morning at 5am to get ahead of the day before the staff arrived. Stopped sleeping properly for twenty-one days."
       },
       "after_bella": {
-        "operational": "Response strategy and category optimisation in place. Rating climbed back to 4.8. 'Korean BBQ near MSG' now in the top 3.",
-        "personal": "Stopped reading reviews at 5am. Sleeps the full night again. Named a new banchan after Bella on the summer menu."
+        "operational": "Every call answered, even on a residency night with the grills full. 'Korean BBQ near MSG' bookings now land in the book instead of ringing out.",
+        "personal": "Stopped getting up at 5am. Sleeps the full night again. Named a new banchan after Bella on the summer menu."
       },
       "story_angles": {
         "operational": [
-          "A coordinated 1-star review attack during a three-week K-pop run at Madison Square Garden dropped her from 4.9 to 4.6 and knocked her out of the event-search 3-pack.",
-          "Private dining room available upstairs — not listed as an attribute. The corporate K-beauty brand bookers searching 'private dining Koreatown' never find the room that was purpose-built for them.",
-          "No Chuseok (Korean harvest festival) set menu posted. The single highest-intent cultural dining week of her year passes without Soyeon showing once on Google."
+          "Madison Square Garden is half a mile away — a three-week K-pop residency sends the 'table near MSG' calls in waves, and half ring out during the event-night push.",
+          "Chuseok: the single highest-intent cultural dining week of her year, the booking calls flooding in after hours while the family is flat out on the floor.",
+          "Restaurant Week: the high-intent covers call to book and the line can't take them mid-service; they walk to the place that picked up."
         ],
         "personal": [
-          "Opened every morning at 5am to read the new reviews before the staff arrived. Stopped sleeping properly for twenty-one days.",
-          "Named the restaurant after her grandmother Soyeon — the one-star reviews felt personal for reasons no external reviewer could know.",
+          "Opened every morning at 5am to get ahead of the day before the staff arrived. Stopped sleeping properly for twenty-one days.",
+          "Named the restaurant after her grandmother Soyeon — a missed booking on a residency night felt personal for reasons no caller could know.",
           "Named a new banchan — soy-marinated egg, salted lemon — after Bella on the summer menu. Didn't tell Bella until she found it on the printed card."
         ]
       },
@@ -551,12 +551,12 @@
         "lunar_new_year",
         "nyc_restaurant_week"
       ],
-      "personality": "Quiet bright warmth, a smile that arrives slowly and then stays. Finds the good in a one-star review ('at least they tasted it'). Supports her friends in small precise gestures — a Post-it note on a friend's espresso machine, a text at 6am on a brutal day, a banchan named after someone she loves.",
+      "personality": "Quiet bright warmth, a smile that arrives slowly and then stays. Finds the good in a brutal Saturday ('at least the room left full'). Supports her friends in small precise gestures — a Post-it note on a friend's espresso machine, a text at 6am on a brutal day, a banchan named after someone she loves.",
       "children": null,
       "event_failure_modes": {
-        "kpop_msg_residency": "Madison Square Garden is half a mile away — 'Korean BBQ near MSG' spikes with every K-pop residency, Soyeon not ranking despite being the obvious dinner",
-        "chuseok": "No Chuseok set menu, event post, or hours update — the single highest-intent cultural dining week of her year passes without appearing on Google",
-        "nyc_restaurant_week": "Listed on NYC Restaurant Week programme but not ranking for 'Koreatown Restaurant Week' — getting traffic, no bookings"
+        "kpop_msg_residency": "MSG is half a mile away; a K-pop residency sends 'table near MSG' booking calls in waves and half ring out during the event-night push",
+        "chuseok": "The highest-intent cultural dining week of her year — the booking calls flood in after hours while the family is flat out on the floor",
+        "nyc_restaurant_week": "Restaurant Week high-intent covers call to book; the line can't take them mid-service and they walk to the place that picked up"
       }
     },
     {
