@@ -136,21 +136,25 @@ All references live in `Creatives/Bella's Friends avatar/`
 
 ---
 
-## 4 · Orphans — references exist but character is not in v2 cast
+## 4 · Deleted characters (owner decision 2026-06-12)
 
-⚠️ **Decision needed from the owner.** These three reference images exist in
-the Drive folder but are not in the v2 Master Bible §7 cast list. Holding them
-in `legacy_pending_review` in `data/friends_db.json::roster` until you tell me
-to delete, bench, or restore.
+These three are **deleted from the cast**. Never feature them in any frame,
+never pull their reference PNGs, never restore them without a new explicit
+owner instruction. Tunde was removed from `data/friends_db.json::friends`;
+Frank and Diane were never in `friends_db`.
 
-| Character | Drive ID | Bytes | Current status |
-| --- | --- | --- | --- |
-| Tunde | `1LFixdw9qmvXlVusTLlzZt4wQ0IYpBvtV` | 34,297,991 | Still in `friends_db.json::friends` (legacy v1 entry). Parked in `roster.legacy_pending_review`. |
-| Frank | `1Pf2T9a4flG6_wcJ2n8wvvtdrOeRsStBL` | 30,174,897 | NOT in `friends_db.json`. Asset has no profile. |
-| Diane | `1egCm2eCCSwJ6hvxZjn7bgljdECB-GQP1` | 29,063,997 | NOT in `friends_db.json`. Asset has no profile. |
+| Character | Drive ID | Status |
+| --- | --- | --- |
+| Tunde | `1LFixdw9qmvXlVusTLlzZt4wQ0IYpBvtV` | DELETED from cast. Removed from friends_db. |
+| Frank | `1Pf2T9a4flG6_wcJ2n8wvvtdrOeRsStBL` | DELETED — never had a profile. |
+| Diane | `1egCm2eCCSwJ6hvxZjn7bgljdECB-GQP1` | DELETED — never had a profile. |
 
-**Until decided:** do not feature these three in any new frame. The reference
-PNGs exist as historical assets only.
+> ⚠️ **The Drive PNGs are NOT deleted.** The Google Drive MCP available to this
+> project has no delete/trash capability — only read/copy/create. The three
+> source PNGs (~94 MB total) still physically exist in
+> `Creatives/Bella's Friends avatar/`. **Owner action:** trash them manually in
+> Drive if you want them gone. Until then they are flagged here as
+> permanently do-not-use.
 
 ---
 

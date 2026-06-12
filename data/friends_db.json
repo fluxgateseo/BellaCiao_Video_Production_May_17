@@ -507,59 +507,6 @@
       }
     },
     {
-      "id": "tunde",
-      "name": "Tunde",
-      "city": "London",
-      "market": "UK",
-      "currency": "£",
-      "neighbourhood": "Peckham",
-      "street_detail": "Rye Lane — two doors down from the butchers that have been there since 1989",
-      "restaurant_name": "Lagos Fire",
-      "cuisine": "Nigerian",
-      "sensory_hooks": [
-        "Suya smoke from the outdoor grill at 4pm — the whole of Rye Lane smells like peanut and pepper",
-        "Jollof rice bubbling in a cast-iron pot, the party-rice crust forming on the bottom",
-        "Cold Palm wine condensation on the bottle behind the bar on an early Saturday afternoon",
-        "The specific Peckham Saturday noise — sound systems, kids, the 345 bus — through the open front",
-        "Plantain hitting hot oil in a small pan, the sugar in it blackening just enough"
-      ],
-      "enemy_archetype": "the_scaling_soul",
-      "story_angle": "Three-year pop-up turned permanent restaurant. Lines around the block on weekends. The original supper-club regulars stopped coming.",
-      "before_bella": {
-        "operational": "Moved from a three-year pop-up to a permanent Rye Lane site in 2025. New walk-ins had him sold out by 7pm Friday. The supper-club regulars who fed him through lockdown stopped coming — they couldn't find him on the new profile.",
-        "personal": "Spent the permanence year worrying he'd made Lagos Fire too big for the people who'd believed in it first."
-      },
-      "after_bella": {
-        "operational": "Google profile links pop-up history and permanent site. Old supper-club guest list reactivating — first week back, four of the original twelve showed up.",
-        "personal": "One of the original supper-club guests hugged him at the door and said 'we thought you forgot about us.' Tunde cried in the walk-in for ninety seconds and came back to service."
-      },
-      "story_angles": {
-        "operational": [
-          "Pop-up name carried three years of reviews and regulars. New permanent listing started from zero. The old community literally could not find him.",
-          "Suya grill permit updated, outdoor seating attribute never was — 'grill outdoor Peckham' searches all go to the place with an outdoor dining icon on Maps.",
-          "Not ranking for 'Nigerian restaurant London' despite being the only independent chef-owned Nigerian restaurant in Peckham with a 4.9. The profile category was set to the generic 'African Restaurant' — not keyword-matching."
-        ],
-        "personal": [
-          "Spent the permanence year worrying he'd made Lagos Fire too big for the people who'd believed in it first.",
-          "One of the original supper-club guests hugged him at the door on their first visit back and said 'we thought you forgot about us.'",
-          "Keeps a printed photo of the original pop-up's first night in 2022 taped inside the office door. Looks at it when the dining room gets loud."
-        ]
-      },
-      "real_events": [
-        "black_history_month",
-        "notting_hill_carnival",
-        "afrobeats_o2_shows",
-        "london_food_month"
-      ],
-      "personality": "Big open-hearted warmth, laugh you can hear from the pass. Finds positivity in every setback ('we learn, we season, we keep cooking'). The friend who shows up with a takeaway tray of jollof when someone in the group is having a rough week — no text, just a knock on the door. Smiles with his whole face.",
-      "children": null,
-      "event_failure_modes": {
-        "black_history_month": "No Black History Month event post, menu highlight, or story — the search spike for 'Black-owned restaurants London' passes through without Lagos Fire appearing",
-        "notting_hill_carnival": "Peckham is a 20-minute train to Notting Hill — 'best after-Carnival dinner London' searches never surface him despite the jollof being exactly the post-Carnival meal",
-        "afrobeats_o2_shows": "O2 arena is 15 mins by train — 'Nigerian restaurant near O2' searches spike every time Burna Boy / Wizkid / Davido tour, Lagos Fire not ranking for the keyword"
-      }
-    },
-    {
       "id": "haeun",
       "name": "Ha-eun",
       "city": "New York City",
@@ -715,7 +662,7 @@
     }
   ],
   "roster": {
-    "_note": "v2.0 pivot — 60% Australian / 40% international active. Bench friends return for the US/UK launch.",
+    "_note": "v2.0 pivot — 60% Australian / 40% international active. Bench friends return for the US/UK launch. Tunde/Frank/Diane deleted from the cast 2026-06-12 (owner decision).",
     "active_au": [
       "jake",
       "enzo_maria",
@@ -733,9 +680,6 @@
     "bench": [
       "haeun",
       "arun_priya"
-    ],
-    "legacy_pending_review": [
-      "tunde"
     ]
   }
 }
