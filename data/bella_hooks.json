@@ -1,7 +1,9 @@
 {
   "_meta": {
     "source": "Bella_Shorts_Hooks.xlsx",
-    "synced_at": "2026-04-12",
+    "premise": "v2 calls & bookings (Bella Ciao — AI phone receptionist + Ciao booking). Reworded from the retired GBP/SEO hook set on 2026-06-12 (premise-pivot-v2).",
+    "source_note": "The upstream Bella_Shorts_Hooks.xlsx is GBP-era and is NOT in this repo. This JSON is the authoritative v2 hook library. Regenerate the xlsx to match this premise BEFORE re-running hooks_sync.py, or the sync will overwrite these hooks with GBP copy.",
+    "synced_at": "2026-06-12",
     "total_hooks": 56,
     "doctrine_types": [
       "1 — Callout",
@@ -30,24 +32,24 @@
     }
   },
   "rules": {
-    "Purpose": "20 scroll-stop hooks, rewritten to honour BELLA_MASTER_BIBLE.md §4 Hook Doctrine AND the Gemini refinement checklist. Feed straight into the script engine as the opening line of a video brief.",
-    "Channel goal served": "Primary: demo bookings + trial activations (DM trigger BELLA / SEO / DEMO). Secondary: IG 100k / YT 10k growth via scroll-stop authority content.",
+    "Purpose": "56 scroll-stop hooks, written to honour BellaCiao_Master_Bible_v2.md §4 Hook Doctrine. Feed straight into the script engine as the opening line of a video brief.",
+    "Channel goal served": "Primary: demo bookings + 'hear a sample call' DM triggers (caption DM trigger: CALL). Secondary: IG/YT growth via scroll-stop authority content.",
     "Hook rules honoured": "One idea per hook. First word hits first. No 'Hey guys / Welcome back / So today'. Never opens with Bella's name. Real event hooks carry verifiable details.",
-    "Sensory Hook Rule (§8)": "Where the doctrine type allows it, the hook opens with a physical immediate detail pulled from the friend's sensory_hooks array (e.g. 'burnt garlic in a half-empty Chelsea dining room').",
+    "Sensory Hook Rule (§7)": "Where the doctrine type allows it, the hook opens with a physical immediate detail pulled from the friend's sensory_hooks array (e.g. 'burnt garlic in a half-empty Chelsea dining room').",
     "Real Anchor Rule": "Every hook names a specific neighbourhood, street, service window, or calendar event. No generic 'a restaurant' openings.",
-    "Enemy Tagging": "Every hook is tagged to ONE enemy archetype from §9 (never two). The script engine uses this to shape Act 2 failure mode.",
-    "Zero-Sell Gate": "Every hook is checked against the banned-phrase list: 'book a demo', 'try us', 'game-changer', 'revolutionary', 'cutting-edge', 'sign up', 'link in bio', 'DM me', 'comment AUDIT'. All 20 hooks returned PASS.",
+    "Enemy Tagging": "Every hook is tagged to ONE enemy archetype from the Master Bible v2 §8 enemy universe (never two). The script engine uses this to shape the Act 2 failure mode.",
+    "Zero-Sell Gate": "Every hook is checked against the banned-phrase list: 'book a demo', 'try us', 'game-changer', 'revolutionary', 'cutting-edge', 'sign up', 'link in bio', 'DM me', and any SEO/Google-ranking framing. All 56 hooks returned PASS.",
     "Payoff contract": "Every hook MUST be delivered in the same video. No teases, no cliffhangers, no 'link in bio for the answer' — the Bible forbids it.",
     "Sign-off": "Every video ends on: 'I'm Bella — ciao for now.' Do not alter.",
     "Rotation rule": "Avoid running two hooks of the same Doctrine Type back-to-back. Mix Real Event hooks and Friend Cold Opens across the weekly calendar for variety.",
-    "Currency lock": "Hooks tagged US use $, AU use $, UK use £. Do not substitute. Currency is locked per friend in friends_db.json (§11 Logical Gate).",
+    "Currency lock": "Hooks tagged US use $, AU use $, UK use £. Do not substitute. Currency is locked per friend in friends_db.json (Logical Gate).",
     "Refinement Checklist": "Requirement",
-    "The 2-Second Rule": "Must stop the scroll before the second word. Every hook lead with an image, name, number, or quote — never a warm-up.",
+    "The 2-Second Rule": "Must stop the scroll before the second word. Every hook leads with an image, name, number, or quote — never a warm-up.",
     "No 'Warm-up'": "Never start with 'Hey guys,' 'Welcome back,' or Bella's name.",
     "Real Anchor": "Must reference a specific neighbourhood (Soho, Chelsea, Lygon Street) or a real event (F1, MFWF, Wimbledon, Restaurant Week, James Beard).",
-    "The Enemy": "Identify one specific threat from §9 (e.g. the_social_media_trap, the_invisible_ranking, the_event_blindspot, the_algorithm).",
+    "The Enemy": "Identify one specific threat from the Master Bible v2 §8 enemy universe (the_missed_call, the_after_hours_booking, the_no_show, the_cover_fee, the_language_gap, the_quandoo_exit, the_system_failure).",
     "Zero-Sell": "Absolute ban on 'book a demo,' 'try us,' or any pitch language in the hook itself.",
-    "Banned vocabulary": "Immediately rewrite any hook containing: game-changer, revolutionary, cutting-edge, unlock, next-level, synergy, value-add.",
+    "Banned vocabulary": "Immediately rewrite any hook containing: game-changer, revolutionary, cutting-edge, unlock, next-level, synergy, value-add, algorithm, or any 'get found on Google' framing.",
     "Recommended Styles": "When to use",
     "Pattern-Interrupt": "Controversial statement that creates micro-tension. Use for myth-bust pillars and cold openers on quiet feeds.",
     "Friend Cold Open": "Start mid-conversation to simulate the group chat. Use for P5 Life & Friendship, calendar event windows, and emotional arcs.",
@@ -56,64 +58,64 @@
   "hooks": [
     {
       "id": 1,
-      "hook": "The smell of burnt garlic in a half-empty Chelsea dining room on a Friday — that's the sound of a broken Google profile.",
+      "hook": "The smell of burnt garlic in a half-empty Chelsea dining room on a Friday — that's the phone ringing out at the pass while nobody has a free hand.",
       "doctrine_type": "1 — Callout",
       "style": "Uncomfortable Truth",
       "friend": "naomi",
       "friend_label": "Naomi — The Blue Cove",
       "real_anchor": "Chelsea · W 23rd St · Friday service",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Sensory opener pulled from Naomi's hook library (§8). Physical image + diagnosis in one line."
+      "why_it_works": "Sensory opener from Naomi's hook library (§7). Physical image + the missed-call tell in one line."
     },
     {
       "id": 2,
-      "hook": "Your 4.8 stars aren't saving you. Your Google category is wrong — and the place one block south is eating Chelsea's dinner money.",
+      "hook": "Your 4.8 stars aren't saving you. Your phone rang out twelve times on Friday — and the place one block south booked every one of them.",
       "doctrine_type": "1 — Callout",
       "style": "Uncomfortable Truth",
       "friend": "naomi",
       "friend_label": "Naomi — The Blue Cove",
-      "real_anchor": "Chelsea · one block south",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "Chelsea · one block south · Friday service",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Kills the 'I have great reviews so I'm fine' delusion. Specific neighbourhood grounds the loss."
+      "why_it_works": "Kills the 'I have great reviews so I'm fine' delusion. The twelve missed calls are the leak."
     },
     {
       "id": 3,
-      "hook": "Every operator on Lygon Street tells me the same thing: 'our photos are great.' Then they lose Saturday lunch to a place with three photos and a complete profile.",
+      "hook": "Every operator on Lygon Street tells me the same thing: 'our regulars know us.' Then they lose Saturday lunch to the calls that ring out while the kitchen's slammed.",
       "doctrine_type": "1 — Callout",
       "style": "Pattern-Interrupt",
       "friend": "enzo_maria",
       "friend_label": "Enzo & Maria — La Grotta",
       "real_anchor": "Carlton · Lygon Street · Saturday lunch",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 4,
       "pillar_label": "P4 Myth-Busting",
       "zero_sell_pass": true,
-      "why_it_works": "Calls out the vanity trap. Real street + real service window = instant credibility."
+      "why_it_works": "Calls out the comfort trap. Real street + real service window = instant credibility."
     },
     {
       "id": 4,
-      "hook": "Posting daily reels while your Google hours are wrong is like screaming into a pillow.",
+      "hook": "Posting daily reels while your phone rings out during service is like screaming into a pillow.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Pattern-Interrupt",
       "friend": "any",
       "friend_label": "Any (P4 myth-bust)",
       "real_anchor": "Universal — any market",
-      "enemy_archetype": "the_social_media_trap",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU",
         "US",
@@ -126,98 +128,98 @@
     },
     {
       "id": 5,
-      "hook": "More Instagram followers won't fill Sal's Tuesday. Google will. Eleven years on Bleecker Street hasn't saved him — one checkbox might.",
+      "hook": "More Instagram followers won't fill Sal's Tuesday. A booking that actually shows up will. Eleven years on Bleecker Street, and the no-deposit no-shows still gut his week.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Uncomfortable Truth",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
       "real_anchor": "West Village · Bleecker Street · Tuesday service",
-      "enemy_archetype": "the_social_media_trap",
+      "enemy_archetype": "the_no_show",
       "markets": [
         "US"
       ],
       "pillar": 4,
       "pillar_label": "P4 Myth-Busting",
       "zero_sell_pass": true,
-      "why_it_works": "Sal's real arc. 'One checkbox' promises a 10-minute fix payoff."
+      "why_it_works": "Sal's real arc. Counter-intuitive reframe from reach to the no-show that empties the room."
     },
     {
       "id": 6,
-      "hook": "Jake ranks for 'Fitzroy brunch' and his Tuesdays are still dead. It took me ninety seconds on Google to see why.",
+      "hook": "Jake's packed every weekend and his Tuesdays are still dead. It took me one Saturday of watching the phone ring out to see why.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Friend Cold Open",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
       "real_anchor": "Fitzroy · Smith Street · mid-week service",
-      "enemy_archetype": "the_event_blindspot",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Flips the 'I already rank' comfort. Ninety-second diagnosis is the retention promise."
+      "why_it_works": "Flips the 'I'm busy so I'm fine' comfort. The missed mid-week calls are the diagnosis."
     },
     {
       "id": 7,
-      "hook": "73% of diners search Google before picking a restaurant. Zero of them check your feed first — and Fitzroy is losing its Tuesdays because of it.",
+      "hook": "Restaurants miss about 40% of their calls. Every one is a table walking to the place that picked up — and Fitzroy is losing its Tuesdays because of it.",
       "doctrine_type": "3 — Specific Number",
       "style": "Uncomfortable Truth",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
       "real_anchor": "Fitzroy · Smith Street",
-      "enemy_archetype": "the_social_media_trap",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 2,
       "pillar_label": "P2 Authority/Proof",
       "zero_sell_pass": true,
-      "why_it_works": "Hard number + zero = absolute contrast. Anchored to a real suburb."
+      "why_it_works": "Bible §4 Type-3 stat (40% of calls). Hard number + the lost table, anchored to a real suburb."
     },
     {
       "id": 8,
-      "hook": "A brunch place on Smith Street, Fitzroy, added $8,000 a month in bookings by changing three words on Google. Three.",
+      "hook": "A brunch place on Smith Street, Fitzroy, was missing nine calls every Saturday before noon. Nine tables, every week, walking down the block.",
       "doctrine_type": "3 — Specific Number",
       "style": "Pattern-Interrupt",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
-      "real_anchor": "Fitzroy · Smith Street",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "Fitzroy · Smith Street · Saturday brunch",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 2,
       "pillar_label": "P2 Authority/Proof",
       "zero_sell_pass": true,
-      "why_it_works": "Bible canonical example. Street + dollar + trivially small action = highest-curiosity combo."
+      "why_it_works": "Street + a concrete, verifiable call count. The nine missed calls is the visceral number — no invented revenue claim."
     },
     {
       "id": 9,
-      "hook": "I audited forty-seven Notting Hill restaurants last week. Forty-one were losing the same £400-a-week mistake — and one of them was Yasmin.",
+      "hook": "I listened back to a week of calls for forty-seven Notting Hill restaurants. Forty-one were losing the same after-hours booking — and one of them was Yasmin.",
       "doctrine_type": "3 — Specific Number",
       "style": "Friend Cold Open",
       "friend": "yasmin",
       "friend_label": "Yasmin — Cedar Table",
       "real_anchor": "Notting Hill · Westbourne Grove",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 2,
       "pillar_label": "P2 Authority/Proof",
       "zero_sell_pass": true,
-      "why_it_works": "Specific audit volume + exact weekly loss. £ currency locks UK. Ends with a friend cold-open hook."
+      "why_it_works": "Specific audit volume + the shared after-hours leak. Ends on a friend cold-open turn."
     },
     {
       "id": 10,
-      "hook": "I've audited two hundred restaurant Google profiles this year. One mistake kills nine out of ten of them — and it takes ten minutes to fix.",
+      "hook": "I've listened to hundreds of restaurant phone lines this year. The same thing kills nine out of ten of them — nobody's free to answer at 7:40.",
       "doctrine_type": "4 — POV Confession",
       "style": "Uncomfortable Truth",
       "friend": "any",
       "friend_label": "Any (Bella direct-to-camera)",
-      "real_anchor": "Universal — Bella audit data",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "Universal — Bella's call data",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU",
         "US",
@@ -226,17 +228,17 @@
       "pillar": 3,
       "pillar_label": "P3 Education/Tutorial",
       "zero_sell_pass": true,
-      "why_it_works": "Mentor credibility + ten-minute payoff primes the tutorial the channel is built for."
+      "why_it_works": "Bible §4 Type-4 POV opener. Mentor credibility + the universal missed-call truth primes the channel's core lesson."
     },
     {
       "id": 11,
-      "hook": "I used to think restaurants died because of the food. Then I watched a Soho gastropub lose every Friday search to the place two doors down.",
+      "hook": "I used to think restaurants died because of the food. Then I watched a Soho gastropub lose every Friday booking to the calls that rang out by 11.",
       "doctrine_type": "4 — POV Confession",
       "style": "Uncomfortable Truth",
       "friend": "danny",
       "friend_label": "Danny — The Copper Fox",
       "real_anchor": "Soho · Frith Street · Friday service",
-      "enemy_archetype": "the_algorithm",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "UK"
       ],
@@ -247,47 +249,47 @@
     },
     {
       "id": 12,
-      "hook": "You don't have a marketing problem. You have a Google problem — and in Chelsea, the difference is rent money.",
+      "hook": "You don't have a marketing problem. You have a nobody-answered-the-phone problem — and in Chelsea, the difference is rent money.",
       "doctrine_type": "5 — Uncomfortable Truth",
       "style": "Uncomfortable Truth",
       "friend": "naomi",
       "friend_label": "Naomi — The Blue Cove",
       "real_anchor": "Chelsea",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Doctrine classic reframe. Neighbourhood + rent stakes = New York gut-punch."
+      "why_it_works": "Bible §4 Type-5 classic reframe. Neighbourhood + rent stakes = New York gut-punch."
     },
     {
       "id": 13,
-      "hook": "The place down Bleecker Street isn't busier than Sal. It's just easier to find.",
+      "hook": "The place down Bleecker Street isn't busier than Sal. Its bookings just actually show up.",
       "doctrine_type": "5 — Uncomfortable Truth",
       "style": "Uncomfortable Truth",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
       "real_anchor": "West Village · Bleecker Street",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_no_show",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Names the jealousy most owners won't say out loud. Highest save rate in this kind."
+      "why_it_works": "Names the quiet injustice most owners won't say out loud. Highest save rate in this kind."
     },
     {
       "id": 14,
-      "hook": "Your empty Wednesday at La Grotta isn't a chef problem. It's a profile problem — and Maria knew before anyone told her.",
+      "hook": "Your empty Wednesday at La Grotta isn't a chef problem. It's the bookings that came in after close and rang out — and Maria knew before anyone told her.",
       "doctrine_type": "5 — Uncomfortable Truth",
       "style": "Friend Cold Open",
       "friend": "enzo_maria",
       "friend_label": "Enzo & Maria — La Grotta",
       "real_anchor": "Carlton · Lygon Street · Wednesday service",
-      "enemy_archetype": "the_algorithm",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "AU"
       ],
@@ -298,64 +300,64 @@
     },
     {
       "id": 15,
-      "hook": "James Beard nominations dropped this week. Every Chelsea seafood spot within four blocks of a nominee just caught a search spike — and almost none of them had an awards section on their profile to convert it.",
+      "hook": "James Beard nominations dropped this week. Every Chelsea seafood spot near a nominee just caught a wave of booking calls — and half of them rang out during service.",
       "doctrine_type": "6 — Real Event",
       "style": "Pattern-Interrupt",
       "friend": "naomi",
       "friend_label": "Naomi — The Blue Cove",
       "real_anchor": "Chelsea · 4-block nominee radius · April 2026",
-      "enemy_archetype": "the_event_blindspot",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Tier-1 calendar event in window (April). Verifiable spike + specific missing profile element."
+      "why_it_works": "Tier-1 calendar event in window (April). Verifiable booking-call surge + the missed-call failure."
     },
     {
       "id": 16,
-      "hook": "Mother's Day is five weeks out. If your London profile still says 'Sunday last booking 3pm,' you've already lost the biggest brunch day of the year — and Cedar Table was one of them.",
+      "hook": "Mother's Day is five weeks out. If your London line still goes to voicemail after 3pm Sunday, you've already lost the biggest brunch day of the year — and Cedar Table was one of them.",
       "doctrine_type": "6 — Real Event",
       "style": "Uncomfortable Truth",
       "friend": "yasmin",
       "friend_label": "Yasmin — Cedar Table",
       "real_anchor": "Notting Hill · Sunday brunch · May 2026",
-      "enemy_archetype": "the_event_blindspot",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Forward-looking Tier-1. Specific opening-hours error = the verifiable detail."
+      "why_it_works": "Forward-looking Tier-1. The after-hours voicemail is the verifiable detail."
     },
     {
       "id": 17,
-      "hook": "Wimbledon is ten weeks out. Every restaurant within 5km of SW19 is about to see 'Pimm's near Wimbledon' jump 80%. Danny's profile still says 'Tuesday to Saturday.'",
+      "hook": "Wimbledon is ten weeks out. Every place within 5km of SW19 is about to see 'Pimm's near Wimbledon' booking calls jump 80%. Danny's phone still rings out by 11 on a Saturday.",
       "doctrine_type": "6 — Real Event",
       "style": "Uncomfortable Truth",
       "friend": "danny",
       "friend_label": "Danny — The Copper Fox",
       "real_anchor": "Soho / SW19 radius · late June 2026",
-      "enemy_archetype": "the_event_blindspot",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Real radius + real search term + real opening-hours flaw. Clean Bible-compliant event hook."
+      "why_it_works": "Real radius + real booking-surge term + the missed-call flaw. Clean Bible-compliant event hook."
     },
     {
       "id": 18,
-      "hook": "Yasmin called me from Notting Hill at 9am. '£4,000 Valentine's night and still empty for Sunday lunch.' I said — yeah. I know exactly why.",
+      "hook": "Yasmin called me from Notting Hill at 9am. 'Full on Valentine's, and I lost the whole Christmas-party booking because nobody answered after close.' I said — yeah. I know exactly why.",
       "doctrine_type": "7 — Friend Cold Open",
       "style": "Friend Cold Open",
       "friend": "yasmin",
       "friend_label": "Yasmin — Cedar Table",
-      "real_anchor": "Notting Hill · Westbourne Grove · Sunday service",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "Notting Hill · Westbourne Grove · after close",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
@@ -366,81 +368,81 @@
     },
     {
       "id": 19,
-      "hook": "Jake texted me at 6:45am from Fitzroy: 'Why is the café three doors down showing up before me? Their coffee is nowhere near mine.' The answer is so simple it hurts.",
+      "hook": "Jake texted me at 6:45am from Fitzroy: 'I just watched five calls ring out before the first coffee.' The answer is so simple it hurts.",
       "doctrine_type": "7 — Friend Cold Open",
       "style": "Friend Cold Open",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
       "real_anchor": "Fitzroy · Smith Street · 6:45am",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 5,
       "pillar_label": "P5 Life & Friendship",
       "zero_sell_pass": true,
-      "why_it_works": "Time stamp + street detail grounds it real. 'So simple it hurts' is the retention promise."
+      "why_it_works": "Bible §4 Type-7 example. Time stamp + street detail grounds it; 'so simple it hurts' is the retention promise."
     },
     {
       "id": 20,
-      "hook": "Sal finally called me. Eleven years on Bleecker Street, invisible to anyone under thirty-five. I told him to give me twenty minutes — we didn't even change a photo.",
+      "hook": "Sal finally called me. Eleven years on Bleecker Street, and three no-shows on a Saturday with not one deposit between them. I told him to give me twenty minutes.",
       "doctrine_type": "7 — Friend Cold Open",
       "style": "Friend Cold Open",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
-      "real_anchor": "West Village · Bleecker Street · eleven years",
-      "enemy_archetype": "the_social_media_trap",
+      "real_anchor": "West Village · Bleecker Street · Saturday service",
+      "enemy_archetype": "the_no_show",
       "markets": [
         "US"
       ],
       "pillar": 5,
       "pillar_label": "P5 Life & Friendship",
       "zero_sell_pass": true,
-      "why_it_works": "Old-school arc opener. 'We didn't even change a photo' sets up the fix with zero selling energy."
+      "why_it_works": "Old-school arc opener. The three no-deposit no-shows set up the fix with zero selling energy."
     },
     {
       "id": 21,
-      "hook": "I audited 32 fine dining restaurants in Melbourne last week. Wren is the only 2-hat one without a Google awards section.",
+      "hook": "I listened back to a week of calls at 32 Melbourne fine-diners. Wren is the only 2-hat one whose private-dining line rang out through every dinner service.",
       "doctrine_type": "3 — Specific Number",
       "style": "Pattern-Interrupt",
       "friend": "sophie",
       "friend_label": "Sophie — Wren",
       "real_anchor": "South Yarra · Toorak Road · 2-hat",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Hard data + named gap. Specific number stops the scroll, the gap is one Google profile field."
+      "why_it_works": "Hard data + named gap. The number stops the scroll; the missed private-dining enquiry is the leak."
     },
     {
       "id": 22,
-      "hook": "Sophie's restaurant has 2 Good Food hats. Sophie's Google profile has zero awards listed. Those two facts are not unrelated.",
+      "hook": "Sophie's restaurant has 2 Good Food hats. Sophie's private-dining enquiries ring out during plating. Those two facts are not unrelated.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Uncomfortable Truth",
       "friend": "sophie",
       "friend_label": "Sophie — Wren",
-      "real_anchor": "South Yarra · Wren · awards section",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "South Yarra · Wren · dinner plating",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 4,
       "pillar_label": "P4 Myth-Busting",
       "zero_sell_pass": true,
-      "why_it_works": "Pattern interrupt: the success looks like the proof but the gap is the proof. Kills the 'press is enough' delusion."
+      "why_it_works": "Pattern interrupt: the success looks like proof, but the missed enquiry is the real story. Kills the 'press is enough' delusion."
     },
     {
       "id": 23,
-      "hook": "Sophie didn't go to her daughter's end-of-year concert last year. The reason was a four-top that didn't honour their booking.",
+      "hook": "Sophie didn't go to her daughter's end-of-year concert last year. The reason was a four-top that booked with no deposit and never showed.",
       "doctrine_type": "4 — POV Confession",
       "style": "Friend Cold Open",
       "friend": "sophie",
       "friend_label": "Sophie — Wren",
       "real_anchor": "South Yarra · Mia's school · December",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_no_show",
       "markets": [
         "AU"
       ],
@@ -451,13 +453,13 @@
     },
     {
       "id": 24,
-      "hook": "Wren earns its 2 hats. Wren's owner earns them by missing every school assembly her daughter has. That's the math no one writes about.",
+      "hook": "Wren earns its 2 hats. Wren's owner earns them by missing every school assembly to cover a phone nobody else can answer. That's the math no one writes about.",
       "doctrine_type": "5 — Uncomfortable Truth",
       "style": "Uncomfortable Truth",
       "friend": "sophie",
       "friend_label": "Sophie — Wren",
       "real_anchor": "South Yarra · Wren · 2-hat",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
@@ -468,81 +470,81 @@
     },
     {
       "id": 25,
-      "hook": "Cold tweezers on warm china at 6pm in South Yarra. Eight covers down. Eleven empty seats in the private dining room. The empty ones cost more.",
+      "hook": "Cold tweezers on warm china at 6pm in South Yarra. Eight covers down. Eleven empty seats in the private dining room — and the enquiry that would've filled them just rang out.",
       "doctrine_type": "1 — Callout",
       "style": "Pattern-Interrupt",
       "friend": "sophie",
       "friend_label": "Sophie — Wren",
       "real_anchor": "South Yarra · Wren · 6pm mise en place",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Sensory opener pulled from Sophie's hook library. The empty PDR is the operational tell."
+      "why_it_works": "Sensory opener from Sophie's hook library. The missed enquiry is the operational tell."
     },
     {
       "id": 26,
-      "hook": "Cup Week starts in seven days. Wren has no Cup Week menu posted on Google. Crown does. Nobu does. Crown and Nobu are easier to find than they are good.",
+      "hook": "Cup Week starts in seven days. The corporate enquiries are already calling Wren during service — and ringing out. Crown picks up. Nobu picks up.",
       "doctrine_type": "6 — Real Event",
       "style": "Pattern-Interrupt",
       "friend": "sophie",
       "friend_label": "Sophie — Wren",
       "real_anchor": "Melbourne · Cup Week · corporate dining",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Real event + countdown + named competitor. Specific stake the operator can verify in 30 seconds."
+      "why_it_works": "Real event + countdown + named competitor. The missed call is the stake the operator can verify in 30 seconds."
     },
     {
       "id": 27,
-      "hook": "Arun and Priya are 2.1km from the top of Google Maps for 'Indian Shoreditch'. They are in the same postcode as the top result. The gap is one attribute they did not tick.",
+      "hook": "Arun and Priya have a private dining room built for corporate bookings. Last month the enquiry calls all came in after close — and every one rang out.",
       "doctrine_type": "3 — Specific Number",
       "style": "Uncomfortable Truth",
       "friend": "arun_priya",
       "friend_label": "Arun & Priya — The Ember Room",
-      "real_anchor": "Shoreditch · Brick Lane · same postcode",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "Shoreditch · Brick Lane · after close",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Specific distance, specific cause. The 2.1km is doing all the work — close enough to feel personal."
+      "why_it_works": "Specific room + specific cause. The after-hours miss feels personal because the room was built for exactly that booking."
     },
     {
       "id": 28,
-      "hook": "Diwali is six weeks out and the 'Diwali dinner London' search peak is fourteen days away. The Ember Room appears for neither.",
+      "hook": "Diwali is six weeks out and the booking calls peak in fourteen days. The Ember Room's line can't take them while the kitchen's flat out.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Pattern-Interrupt",
       "friend": "arun_priya",
       "friend_label": "Arun & Priya — The Ember Room",
-      "real_anchor": "London · Diwali · search intent peak",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "London · Diwali · booking peak",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Cultural moment + missed window. Counter-intuitive: the busy season is invisible because they did not write the words."
+      "why_it_works": "Cultural moment + missed window. Counter-intuitive: the busy season is invisible because nobody can answer the calls."
     },
     {
       "id": 29,
-      "hook": "Arun called me on the only holiday they took in four years. From the airport. About a Google review. Priya was not speaking to him for an hour.",
+      "hook": "Arun called me on the only holiday they took in four years. From the airport. About a booking enquiry that rang out the night before. Priya wasn't speaking to him for an hour.",
       "doctrine_type": "7 — Friend Cold Open",
       "style": "Friend Cold Open",
       "friend": "arun_priya",
       "friend_label": "Arun & Priya — The Ember Room",
       "real_anchor": "Portugal airport · holiday · phone in hand",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
@@ -553,13 +555,13 @@
     },
     {
       "id": 30,
-      "hook": "Hadn't taken a real break in four years. Took one. Came back to find the same problem they left. The break was not the fix.",
+      "hook": "Hadn't taken a real break in four years. Took one. Came back to the same enquiries ringing out after close. The break was not the fix.",
       "doctrine_type": "4 — POV Confession",
       "style": "Uncomfortable Truth",
       "friend": "arun_priya",
       "friend_label": "Arun & Priya — The Ember Room",
       "real_anchor": "Shoreditch · Ember Room · 4 years",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
@@ -570,251 +572,251 @@
     },
     {
       "id": 31,
-      "hook": "The hiss of the tandoor at 5pm and Brick Lane already smells like the best thing you'll eat tonight. Three blocks away, no one searching 'Indian Shoreditch' has heard of it.",
+      "hook": "The hiss of the tandoor at 5pm and Brick Lane already smells like the best thing you'll eat tonight. Three blocks away, the party booking that called last night never got an answer.",
       "doctrine_type": "1 — Callout",
       "style": "Pattern-Interrupt",
       "friend": "arun_priya",
       "friend_label": "Arun & Priya — The Ember Room",
       "real_anchor": "Shoreditch · Brick Lane · 5pm",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Sensory opener from Priya's mise en place hook. The contrast is the gap."
+      "why_it_works": "Sensory opener from Priya's mise en place hook. The unanswered booking is the gap."
     },
     {
       "id": 32,
-      "hook": "Eid is in eleven days. The corporate Eid dinner search peak is now. The Ember Room has no set menu posted, no extended hours, and not a single 'Eid' in the profile.",
+      "hook": "Eid is in eleven days. The corporate Eid-dinner enquiries are calling now — after close, after service — and the Ember Room's line takes none of them.",
       "doctrine_type": "6 — Real Event",
       "style": "Pattern-Interrupt",
       "friend": "arun_priya",
       "friend_label": "Arun & Priya — The Ember Room",
       "real_anchor": "London · Eid · corporate dining",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Real event + named cultural moment + verifiable absences. Three concrete missing fields."
+      "why_it_works": "Real event + named cultural moment + the after-hours miss. Concrete and verifiable."
     },
     {
       "id": 33,
-      "hook": "Jake missed his sister's wedding rehearsal dinner for a double-booking he could not hand off. He still has not told her the real reason.",
+      "hook": "Jake missed his sister's wedding rehearsal dinner for a booking crisis he couldn't hand off. He still hasn't told her the real reason.",
       "doctrine_type": "4 — POV Confession",
       "style": "Friend Cold Open",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
-      "real_anchor": "Fitzroy · sister's wedding · double-booking",
-      "enemy_archetype": "the_event_blindspot",
+      "real_anchor": "Fitzroy · sister's wedding · booking crisis",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 5,
       "pillar_label": "P5 Life & Friendship",
       "zero_sell_pass": true,
-      "why_it_works": "POV confession with a specific betrayal. The 'still has not told her' is the punch."
+      "why_it_works": "POV confession with a specific betrayal. The 'still hasn't told her' is the punch."
     },
     {
       "id": 34,
-      "hook": "Saturday 6:45am in Fitzroy. Espresso machine hissing. Smith Street tram bell through the window. Brown butter on the pass. By 11am Jake will not have looked at his Google profile once.",
+      "hook": "Saturday 6:45am in Fitzroy. Espresso machine hissing. Smith Street tram bell through the window. Brown butter on the pass. By 11am Jake will have watched nine calls ring out.",
       "doctrine_type": "1 — Callout",
       "style": "Pattern-Interrupt",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
       "real_anchor": "Fitzroy · Smith Street · 6:45am",
-      "enemy_archetype": "the_event_blindspot",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Layered sensory opener (3 of Jake's hooks stacked). The Google profile gap lands at the end."
+      "why_it_works": "Layered sensory opener (3 of Jake's hooks stacked). The nine missed calls land at the end."
     },
     {
       "id": 35,
-      "hook": "F1 weekend last year, Jake's profile said 'closed Monday'. He was open. He found out in October.",
+      "hook": "F1 weekend last year, 400 people tried to book Jake across two days. Half rang out during service. He found out from the quiet Monday.",
       "doctrine_type": "3 — Specific Number",
       "style": "Uncomfortable Truth",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
-      "real_anchor": "Melbourne · F1 weekend · race Monday",
-      "enemy_archetype": "the_event_blindspot",
+      "real_anchor": "Melbourne · F1 weekend · two days",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Real event + delayed discovery. The October timestamp is the cost."
+      "why_it_works": "Bible §3 example (400 booking calls, half ringing out). The quiet Monday is the cost."
     },
     {
       "id": 36,
-      "hook": "73% of Chelsea diners search before they pick a restaurant. Zero of them found Naomi during her busiest week.",
+      "hook": "Restaurants miss about 40% of their calls. During Naomi's busiest week in Chelsea, every missed one was a table that booked somewhere else.",
       "doctrine_type": "3 — Specific Number",
       "style": "Pattern-Interrupt",
       "friend": "naomi",
       "friend_label": "Naomi — The Blue Cove",
       "real_anchor": "Chelsea · NYC Restaurant Week · busiest week",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Two specific numbers in a single line. The gap between them is the whole story."
+      "why_it_works": "Hard stat + the busiest-week cost. The gap between the two is the whole story."
     },
     {
       "id": 37,
-      "hook": "Naomi's reviews say 'best seafood in the neighbourhood.' Her Google category says 'American restaurant.' Guess which one Google trusts.",
+      "hook": "Naomi's reviews say 'best seafood in the neighbourhood.' Her phone says nothing — because at 7:40 nobody's free to answer it. Guess which one the caller believes.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Pattern-Interrupt",
       "friend": "naomi",
       "friend_label": "Naomi — The Blue Cove",
-      "real_anchor": "Chelsea · category mismatch",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "Chelsea · 7:40 service",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
       "pillar": 4,
       "pillar_label": "P4 Myth-Busting",
       "zero_sell_pass": true,
-      "why_it_works": "The hidden category mismatch — invisible to operators, lethal to discovery."
+      "why_it_works": "The hidden miss — invisible to operators, lethal to bookings."
     },
     {
       "id": 38,
-      "hook": "Naomi's sister stopped calling because Naomi stopped picking up. The thing she was doing on the phone calls was reading competitor reviews.",
+      "hook": "Naomi's sister stopped calling because Naomi stopped picking up. She was mid-service every time — watching her own restaurant's phone ring out too.",
       "doctrine_type": "4 — POV Confession",
       "style": "Uncomfortable Truth",
       "friend": "naomi",
       "friend_label": "Naomi — The Blue Cove",
-      "real_anchor": "Chelsea · sister in Boston · midnight",
-      "enemy_archetype": "the_invisible_ranking",
+      "real_anchor": "Chelsea · sister in Boston · mid-service",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
       "pillar": 5,
       "pillar_label": "P5 Life & Friendship",
       "zero_sell_pass": true,
-      "why_it_works": "Specific personal cost + the bitter truth of where the time was actually going."
+      "why_it_works": "Specific personal cost + the bitter parallel of the unanswered calls."
     },
     {
       "id": 39,
-      "hook": "Three Lebanese restaurants outrank Yasmin in Notting Hill. None of them have a charcoal grill. Two of them are takeaway only.",
+      "hook": "Three Lebanese restaurants take more bookings than Yasmin in Notting Hill. None of them have a charcoal grill. Two of them just answer the phone after 6.",
       "doctrine_type": "3 — Specific Number",
       "style": "Pattern-Interrupt",
       "friend": "yasmin",
       "friend_label": "Yasmin — Cedar Table",
       "real_anchor": "Notting Hill · Westbourne Grove · 3 competitors",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Three numbers, one absurd gap. The takeaway-only detail is the unfairness."
+      "why_it_works": "Three numbers, one absurd gap. The 'just answer the phone after 6' is the unfairness."
     },
     {
       "id": 40,
-      "hook": "Yasmin missed her daughter's school play three times in two years. Each time she was managing a phone problem that one Google attribute would have solved.",
+      "hook": "Yasmin missed her daughter's school play three times in two years. Each time she was chasing a booking enquiry that came in after close.",
       "doctrine_type": "4 — POV Confession",
       "style": "Uncomfortable Truth",
       "friend": "yasmin",
       "friend_label": "Yasmin — Cedar Table",
       "real_anchor": "Notting Hill · daughter's school play · two years",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 5,
       "pillar_label": "P5 Life & Friendship",
       "zero_sell_pass": true,
-      "why_it_works": "Three counts of the same loss. The 'one attribute would have solved it' is the rage."
+      "why_it_works": "Three counts of the same loss. The after-hours enquiry is the thief."
     },
     {
       "id": 41,
-      "hook": "The most composed restaurant owner I work with broke once — quietly, in the office between services. The trigger was a Google review on her phone.",
+      "hook": "The most composed restaurant owner I work with broke once — quietly, in the office between services. The trigger was the Christmas-party booking she'd just lost after close.",
       "doctrine_type": "5 — Uncomfortable Truth",
       "style": "Uncomfortable Truth",
       "friend": "yasmin",
       "friend_label": "Yasmin — Cedar Table",
       "real_anchor": "Notting Hill · Cedar Table · between services",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 5,
       "pillar_label": "P5 Life & Friendship",
       "zero_sell_pass": true,
-      "why_it_works": "Reframes composure as a private cost. Audience never hears this said."
+      "why_it_works": "Reframes composure as a private cost. The audience never hears this said."
     },
     {
       "id": 42,
-      "hook": "Notting Hill Carnival is the highest foot-traffic weekend of Yasmin's year. Her Google outdoor seating attribute is unticked. Walk-by traffic walks past.",
+      "hook": "Notting Hill Carnival is the highest foot-traffic weekend of Yasmin's year. The booking calls come in waves — and the after-hours ones ring out while the floor is flat out.",
       "doctrine_type": "6 — Real Event",
       "style": "Pattern-Interrupt",
       "friend": "yasmin",
       "friend_label": "Yasmin — Cedar Table",
       "real_anchor": "Notting Hill · Carnival · Westbourne Grove",
-      "enemy_archetype": "the_invisible_ranking",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Real event + named missing field + immediate cost. Three concrete details, no abstraction."
+      "why_it_works": "Real event + the after-hours miss + immediate cost. Three concrete details, no abstraction."
     },
     {
       "id": 43,
-      "hook": "La Grotta has been on Lygon Street for four generations. Their Google profile has been wrong for three of them.",
+      "hook": "La Grotta has been on Lygon Street for four generations. They've been paying OpenTable cover fees on every booking for three of them.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Uncomfortable Truth",
       "friend": "enzo_maria",
       "friend_label": "Enzo & Maria — La Grotta",
       "real_anchor": "Carlton · Lygon Street · 4 generations",
-      "enemy_archetype": "the_fear_of_change",
+      "enemy_archetype": "the_cover_fee",
       "markets": [
         "AU"
       ],
       "pillar": 4,
       "pillar_label": "P4 Myth-Busting",
       "zero_sell_pass": true,
-      "why_it_works": "The legacy that protects them is the same legacy that hides them."
+      "why_it_works": "The legacy that built the margin is the same margin the cover fees quietly eat."
     },
     {
       "id": 44,
-      "hook": "Albert Park is 4km from La Grotta. F1 weekend brings 80,000 people to Albert Park. La Grotta does not appear in 'Italian near Albert Park.'",
+      "hook": "Albert Park is 4km from La Grotta. F1 weekend brings 80,000 people. After the chequered flag they all start calling for dinner — and Maria's taking those bookings on her mobile at 11pm.",
       "doctrine_type": "3 — Specific Number",
       "style": "Pattern-Interrupt",
       "friend": "enzo_maria",
       "friend_label": "Enzo & Maria — La Grotta",
       "real_anchor": "Carlton · Albert Park · F1 weekend",
-      "enemy_archetype": "the_fear_of_change",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Three specific numbers (4km, 80,000, zero appearances). The gap is binary and verifiable."
+      "why_it_works": "Three specific numbers (4km, 80,000, 11pm) + the after-hours scramble. Verifiable and human."
     },
     {
       "id": 45,
-      "hook": "Enzo and Maria stopped talking at home for a year. The argument they could not finish was about whether to fix the website. The website was not the problem.",
+      "hook": "Enzo and Maria stopped talking at home for a year. The argument they couldn't finish was about the 11pm booking calls Maria kept taking in bed. The phone was the problem.",
       "doctrine_type": "5 — Uncomfortable Truth",
       "style": "Uncomfortable Truth",
       "friend": "enzo_maria",
       "friend_label": "Enzo & Maria — La Grotta",
-      "real_anchor": "Carlton · home · the website argument",
-      "enemy_archetype": "the_fear_of_change",
+      "real_anchor": "Carlton · home · the 11pm calls",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "AU"
       ],
@@ -825,47 +827,47 @@
     },
     {
       "id": 46,
-      "hook": "Sal has been on Bleecker Street for eleven years. The place that opened in March has 4x his Instagram followers and half his repeat customers. Guess which one is profitable.",
+      "hook": "Sal's been on Bleecker eleven years. The place that opened in March has 4x his Instagram followers and half his repeat customers — and takes a deposit on every booking. Guess which one's profitable.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Pattern-Interrupt",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
       "real_anchor": "West Village · Bleecker Street · 11 years",
-      "enemy_archetype": "the_social_media_trap",
+      "enemy_archetype": "the_no_show",
       "markets": [
         "US"
       ],
       "pillar": 4,
       "pillar_label": "P4 Myth-Busting",
       "zero_sell_pass": true,
-      "why_it_works": "The followers/profit gap. Kills the 'I need more Instagram' delusion."
+      "why_it_works": "The followers/profit gap, plus the deposit that stops the no-shows. Kills the 'I need more Instagram' delusion."
     },
     {
       "id": 47,
-      "hook": "Sal does not have holiday hours set. Thanksgiving Thursday last year, Google showed Casanova's as closed. Sal was open. The phone never rang.",
+      "hook": "Sal doesn't take after-hours calls. Thanksgiving Thursday last year, the bookings came in after close and rang out. Sal was open. The phone just never got answered.",
       "doctrine_type": "3 — Specific Number",
       "style": "Uncomfortable Truth",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
       "real_anchor": "West Village · Thanksgiving Thursday · 2025",
-      "enemy_archetype": "the_social_media_trap",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Specific holiday + specific year + the binary of phone-never-rang."
+      "why_it_works": "Specific holiday + specific year + the binary of the unanswered after-hours line."
     },
     {
       "id": 48,
-      "hook": "Sal stopped calling his mother on Sunday mornings. The reason was a service that always started before he could finish the call. His mother is 84.",
+      "hook": "Sal stopped calling his mother on Sunday mornings. Service always started before he could finish — the same service where the booking calls ring out. His mother is 84.",
       "doctrine_type": "5 — Uncomfortable Truth",
       "style": "Uncomfortable Truth",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
       "real_anchor": "West Village · Sunday morning · mother in Italy",
-      "enemy_archetype": "the_social_media_trap",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "US"
       ],
@@ -876,47 +878,47 @@
     },
     {
       "id": 49,
-      "hook": "Three corporate pub chains outrank Danny for 'Soho gastropub.' The chains do not make their own pies. Danny does. Danny is invisible.",
+      "hook": "Three corporate pub chains take more Soho bookings than Danny. The chains don't make their own pies. Danny does. Danny's phone just rings out at 11.",
       "doctrine_type": "2 — Counter-Intuitive Fact",
       "style": "Pattern-Interrupt",
       "friend": "danny",
       "friend_label": "Danny — The Copper Fox",
       "real_anchor": "Soho · Frith Street · 3 chain competitors",
-      "enemy_archetype": "the_algorithm",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Specific competitor type + the quality inversion. The unfairness is the hook."
+      "why_it_works": "Specific competitor type + the quality inversion. The missed call is the unfairness."
     },
     {
       "id": 50,
-      "hook": "Danny's beer garden seats 40. Google does not know about it. He loses 40 covers every sunny Saturday for the price of one attribute he never ticked.",
+      "hook": "Danny's beer garden seats 40. The bookings for it come in the second the sun's out — and ring out while he's behind the bar. 40 covers, every sunny Saturday.",
       "doctrine_type": "3 — Specific Number",
       "style": "Uncomfortable Truth",
       "friend": "danny",
       "friend_label": "Danny — The Copper Fox",
       "real_anchor": "Soho · Frith Street · beer garden",
-      "enemy_archetype": "the_algorithm",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Specific seat count + specific cause. The 'one attribute' is the doable fix."
+      "why_it_works": "Specific seat count + specific cause. The missed calls are the doable fix."
     },
     {
       "id": 51,
-      "hook": "Danny called me mid-service the day a walk-in said they had found him on Google Maps. I was at lunch. I picked up. He was crying.",
+      "hook": "Danny called me mid-service the day a regular said they'd finally got straight through on the phone. I was at lunch. I picked up. He was crying.",
       "doctrine_type": "7 — Friend Cold Open",
       "style": "Friend Cold Open",
       "friend": "danny",
       "friend_label": "Danny — The Copper Fox",
       "real_anchor": "Soho · Frith Street · mid-service",
-      "enemy_archetype": "the_algorithm",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "UK"
       ],
@@ -927,88 +929,88 @@
     },
     {
       "id": 52,
-      "hook": "Bank Holiday Monday in Soho. Frith Street is full. The Copper Fox is open. Google says it is closed. Danny is wondering why the room is empty.",
+      "hook": "Bank Holiday Monday in Soho. Frith Street is full. The Copper Fox is open. The phone's ringing out. Danny's wondering why the room is empty.",
       "doctrine_type": "6 — Real Event",
       "style": "Pattern-Interrupt",
       "friend": "danny",
       "friend_label": "Danny — The Copper Fox",
       "real_anchor": "Soho · Bank Holiday Monday · Frith Street",
-      "enemy_archetype": "the_algorithm",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "UK"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Real calendar moment + named contradiction. The empty room is the visceral evidence."
+      "why_it_works": "Real calendar moment + the missed calls + the empty room as visceral evidence."
     },
     {
       "id": 53,
-      "hook": "Brown butter banana bread still warm at 7am, pulled from the oven. The dining room smells like a Sunday in October. Today is Tuesday and the room will be half-empty by 11.",
+      "hook": "Brown butter banana bread still warm at 7am. The room smells like a Sunday in October. It's Tuesday, the phone's about to start ringing, and there's nobody free to answer it.",
       "doctrine_type": "1 — Callout",
       "style": "Pattern-Interrupt",
       "friend": "jake",
       "friend_label": "Jake — Narrow Lane",
       "real_anchor": "Fitzroy · 7am · Tuesday service",
-      "enemy_archetype": "the_event_blindspot",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Sensory opener with the operational tell baked in. The Tuesday-half-empty is the gap."
+      "why_it_works": "Sensory opener with the operational tell baked in. The unanswered Tuesday phone is the gap."
     },
     {
       "id": 54,
-      "hook": "Semolina dust across the bench, Maria hands moving fast, Enzo watching like it is the first time. Outside the window, the Carlton lunch crowd is queueing at the place that opened in November.",
+      "hook": "Semolina dust across the bench, Maria's hands moving fast, Enzo watching like it's the first time. Outside the window, the Carlton lunch crowd is calling — and the line's been ringing out since noon.",
       "doctrine_type": "1 — Callout",
       "style": "Pattern-Interrupt",
       "friend": "enzo_maria",
       "friend_label": "Enzo & Maria — La Grotta",
       "real_anchor": "Carlton · Lygon Street · lunch service",
-      "enemy_archetype": "the_fear_of_change",
+      "enemy_archetype": "the_missed_call",
       "markets": [
         "AU"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Sensory inside, structural problem outside. The contrast does the work."
+      "why_it_works": "Sensory inside, the missed calls outside. The contrast does the work."
     },
     {
       "id": 55,
-      "hook": "Sunday ragu six hours on the stove. The whole Bleecker Street building knows by noon. The new place around the corner has never tried it. Their Google profile is twice as long as Sal.",
+      "hook": "Sunday ragu six hours on the stove. The whole Bleecker Street building knows by noon. Two of tonight's tables booked weeks ago — and neither one's going to show, because nobody took a deposit.",
       "doctrine_type": "1 — Callout",
       "style": "Pattern-Interrupt",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
       "real_anchor": "West Village · Bleecker Street · Sunday noon",
-      "enemy_archetype": "the_social_media_trap",
+      "enemy_archetype": "the_no_show",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Multi-sensory anchor + the unfair comparison. The Google profile length is the structural sting."
+      "why_it_works": "Multi-sensory anchor + the no-show sting that empties a perfect night."
     },
     {
       "id": 56,
-      "hook": "Thanksgiving week starts in nine days. Sal has eleven years of recipes for it. Casanova Google profile has zero references to the word Thanksgiving.",
+      "hook": "Thanksgiving week starts in nine days. Sal has eleven years of recipes for it — and a phone that sends every after-hours booking to a voicemail no one checks.",
       "doctrine_type": "6 — Real Event",
       "style": "Pattern-Interrupt",
       "friend": "sal",
       "friend_label": "Sal — Casanova's",
-      "real_anchor": "West Village · Thanksgiving week · 9 day countdown",
-      "enemy_archetype": "the_social_media_trap",
+      "real_anchor": "West Village · Thanksgiving week · 9-day countdown",
+      "enemy_archetype": "the_after_hours_booking",
       "markets": [
         "US"
       ],
       "pillar": 1,
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
-      "why_it_works": "Real event + countdown + verifiable absence. The legacy gap is the heartbreak."
+      "why_it_works": "Real event + countdown + the after-hours miss. The legacy gap is the heartbreak."
     }
   ]
 }
