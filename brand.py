@@ -199,13 +199,22 @@ PILLAR_ENEMIES = {
 }
 
 # ─── MARKETS & CITIES ────────────────────────────────────────────────────────
+# CITIES maps each market to BELLA's home city in it. Bella's three cities are
+# Melbourne (home base — she studied at uni there and lives there now), New York
+# City and London; these drive her generic city rotation in logical_gate.py.
+# Friend/venue cities are broader: AU venues also include Sydney (Linh) and
+# Adelaide (Kostas), scheduled via the content calendar rather than the generic
+# rotation. Every venue city's currency lives in CURRENCY_MAP below.
 MARKETS = ("AU", "US", "UK")
 CITIES  = {"AU": "Melbourne", "US": "New York City", "UK": "London"}
 
-# Authoritative currency map. Read from friends_db.json[friend].currency
-# at runtime — this dict is for validation only.
+# Authoritative currency map for every venue city (Bella's three + the AU
+# friends' cities). Read from friends_db.json[friend].currency at runtime —
+# this dict is for validation only.
 CURRENCY_MAP = {
     "Melbourne":     "$",
+    "Sydney":        "$",
+    "Adelaide":      "$",
     "New York City": "$",
     "London":        "£",
 }
@@ -214,12 +223,19 @@ CURRENCY_MAP = {
 CONTENT_RULES = """
 CONTENT RULES (non-negotiable)
 - English only. No Italian, Arabic, or any other language in scripts.
-- Currency must match the friend's city: $ for Melbourne and New York, £ for London.
+- Currency must match the friend's city: $ for Australian cities (Melbourne,
+  Sydney, Adelaide) and New York, £ for London.
   NEVER apply a different currency than the one passed in the brief.
-- Locations: New York City, London, Melbourne only. Specific neighbourhoods welcome.
+- Venue locations: Melbourne, Sydney, Adelaide (AU), New York City (US),
+  London (UK) — specific neighbourhoods always. Bella's own three cities are
+  Melbourne (home base), New York City and London; Sydney and Adelaide are
+  friends' cities (Linh, Kostas), never Bella's.
 - Bella speaks in first person when narrating.
-- Bella is a human character in the content universe — a 25-year-old
-  hospitality kid who figured out Google and can't shut up about it.
+- Bella is a human character in the content universe — 25, NYC-born
+  Irish-Italian, internationally raised, now Melbourne home-base (she
+  studied at uni there; Ciao is her dog). She is the friend who figured
+  out the missed-calls-and-lost-bookings problem and can't shut up about
+  it. International by design — never localised as Australian.
   She never references being AI in scripts.
 - In the BODY and at the ELIXIR, Bella returns to observational first-person
   narration. She NEVER pitches the product, NEVER teases a feature solution,
@@ -243,7 +259,11 @@ CONTENT RULES (non-negotiable)
 BANNED WORDS (instant rewrite):
   game-changer, seamless, fast-paced, revolutionise, leverage, empower,
   transform, unlock, journey (as metaphor), passionate, curated, innovative,
-  cutting-edge, state-of-the-art, "in today's fast-paced world", "the future of"
+  cutting-edge, state-of-the-art, algorithm, "in today's fast-paced world",
+  "the future of", "as a restaurant owner", "at the end of the day"
+- RETIRED PREMISE (instant rewrite): never frame the problem as SEO, Google
+  ranking, Google Business Profile, reviews, or "getting found on Google".
+  The channel is about missed calls and lost bookings, never visibility.
 - No corporate language. No startup language. Restaurant language only.
 """
 
