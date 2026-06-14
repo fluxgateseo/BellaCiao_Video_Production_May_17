@@ -3,8 +3,8 @@
     "source": "Bella_Shorts_Hooks.xlsx",
     "premise": "v2 calls & bookings (Bella Ciao — AI phone receptionist + Ciao booking). Reworded from the retired GBP/SEO hook set on 2026-06-12 (premise-pivot-v2).",
     "source_note": "The upstream Bella_Shorts_Hooks.xlsx is GBP-era and is NOT in this repo. This JSON is the authoritative v2 hook library. Regenerate the xlsx to match this premise BEFORE re-running hooks_sync.py, or the sync will overwrite these hooks with GBP copy.",
-    "synced_at": "2026-06-12",
-    "total_hooks": 56,
+    "synced_at": "2026-06-14",
+    "total_hooks": 78,
     "doctrine_types": [
       "1 — Callout",
       "2 — Counter-Intuitive Fact",
@@ -24,7 +24,11 @@
       "arun_priya": 6,
       "danny": 6,
       "enzo_maria": 6,
+      "haeun": 4,
       "jake": 8,
+      "kostas": 6,
+      "linh": 6,
+      "mei": 6,
       "naomi": 7,
       "sal": 8,
       "sophie": 6,
@@ -1011,6 +1015,380 @@
       "pillar_label": "P1 Operational",
       "zero_sell_pass": true,
       "why_it_works": "Real event + countdown + the after-hours miss. The legacy gap is the heartbreak."
+    },
+    {
+      "id": 57,
+      "hook": "Steam off the bamboo baskets at 11am on Little Bourke Street, the trolley already moving — and Mei's mum just lost an English booking because the phone only speaks one language at a time.",
+      "doctrine_type": "1 — Callout",
+      "style": "Pattern-Interrupt",
+      "friend": "mei",
+      "friend_label": "Mei — Golden Plum",
+      "real_anchor": "Chinatown · Little Bourke Street · 11am yum cha",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Sensory opener from Mei's hook library. The single-language line is the operational tell."
+    },
+    {
+      "id": 58,
+      "hook": "Mei's yum cha is packed on a Saturday and still bleeding money. Every booking on the platform takes a cover fee her mum never agreed to.",
+      "doctrine_type": "2 — Counter-Intuitive Fact",
+      "style": "Uncomfortable Truth",
+      "friend": "mei",
+      "friend_label": "Mei — Golden Plum",
+      "real_anchor": "Chinatown · Golden Plum · the booking-platform invoice",
+      "enemy_archetype": "the_cover_fee",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 4,
+      "pillar_label": "P4 Myth-Busting",
+      "zero_sell_pass": true,
+      "why_it_works": "Full room, shrinking margin. The cover fee is the invisible leak behind a busy Saturday."
+    },
+    {
+      "id": 59,
+      "hook": "Half of Golden Plum's lunch calls come in English, half in Cantonese. One phone, one language at a time — so half of them hang up.",
+      "doctrine_type": "3 — Specific Number",
+      "style": "Pattern-Interrupt",
+      "friend": "mei",
+      "friend_label": "Mei — Golden Plum",
+      "real_anchor": "Chinatown · Little Bourke Street · lunch rush",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "The 50/50 split makes the gap concrete: every call in the wrong language is a lost booking."
+    },
+    {
+      "id": 60,
+      "hook": "Mei's mum isn't slow on the phone. She's answering in Cantonese while the caller speaks English — and a line that can't do both is losing the booking, not her.",
+      "doctrine_type": "5 — Uncomfortable Truth",
+      "style": "Uncomfortable Truth",
+      "friend": "mei",
+      "friend_label": "Mei — Golden Plum",
+      "real_anchor": "Chinatown · Golden Plum · the bilingual phone",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Takes the blame off Mum and puts it on the single-language line. The reframe is the relief."
+    },
+    {
+      "id": 61,
+      "hook": "Mei's mum asked her again on Sunday why the Saturday room isn't full. Mei didn't know how to say 'our phone only speaks one of our languages' without it sounding like blame.",
+      "doctrine_type": "7 — Friend Cold Open",
+      "style": "Friend Cold Open",
+      "friend": "mei",
+      "friend_label": "Mei — Golden Plum",
+      "real_anchor": "Chinatown · Golden Plum · Sunday after service",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 5,
+      "pillar_label": "P5 Life & Friendship",
+      "zero_sell_pass": true,
+      "why_it_works": "Mother-daughter cold open. The unspoken blame is the emotional hinge."
+    },
+    {
+      "id": 62,
+      "hook": "Lunar New Year is the biggest week of the year in Chinatown. Golden Plum's phone will ring in two languages all week — and answer in one.",
+      "doctrine_type": "6 — Real Event",
+      "style": "Pattern-Interrupt",
+      "friend": "mei",
+      "friend_label": "Mei — Golden Plum",
+      "real_anchor": "Chinatown · Lunar New Year · peak week",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Highest-demand cultural week + the bilingual miss. The verifiable event makes the loss concrete."
+    },
+    {
+      "id": 63,
+      "hook": "Star anise and charred bones, the phở broth on since 5am, the whole of Illawarra Road can smell it — and the lunch-rush phone is ringing out because Linh's parents can't take the English booking.",
+      "doctrine_type": "1 — Callout",
+      "style": "Pattern-Interrupt",
+      "friend": "linh",
+      "friend_label": "Linh — Sông",
+      "real_anchor": "Marrickville · Illawarra Road · 5am broth / lunch rush",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Sensory opener from Linh's hook library. The unanswered English booking is the tell."
+    },
+    {
+      "id": 64,
+      "hook": "The Marrickville office crowd calls Sông at noon in English. Linh's parents answer in Vietnamese. The call that should've been a six-top becomes a hang-up.",
+      "doctrine_type": "3 — Specific Number",
+      "style": "Pattern-Interrupt",
+      "friend": "linh",
+      "friend_label": "Linh — Sông",
+      "real_anchor": "Marrickville · Illawarra Road · noon office crowd",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "The six-top that becomes a hang-up makes the language gap a countable loss."
+    },
+    {
+      "id": 65,
+      "hook": "Sông doesn't have a marketing problem. It has a phone that speaks Vietnamese to the aunties and loses the English office booking in the same breath.",
+      "doctrine_type": "2 — Counter-Intuitive Fact",
+      "style": "Uncomfortable Truth",
+      "friend": "linh",
+      "friend_label": "Linh — Sông",
+      "real_anchor": "Marrickville · Sông · the bilingual line",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 4,
+      "pillar_label": "P4 Myth-Busting",
+      "zero_sell_pass": true,
+      "why_it_works": "Reframes the loss from marketing to the one phone that can't hold both halves of the room."
+    },
+    {
+      "id": 66,
+      "hook": "Linh runs the kitchen and the floor and translates the phone mid-sentence. She can't be in three places — and the booking that rings out while she's plating is the one that hurts.",
+      "doctrine_type": "4 — POV Confession",
+      "style": "Uncomfortable Truth",
+      "friend": "linh",
+      "friend_label": "Linh — Sông",
+      "real_anchor": "Marrickville · Sông · lunch service",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 5,
+      "pillar_label": "P5 Life & Friendship",
+      "zero_sell_pass": true,
+      "why_it_works": "Names the impossible three-places-at-once bind. The plated-and-ringing-out booking is the cost."
+    },
+    {
+      "id": 67,
+      "hook": "Sydney Lunar New Year brings the inner west to Marrickville. Sông's phone will ring all week — half in English, half in Vietnamese — and the line holds only one.",
+      "doctrine_type": "6 — Real Event",
+      "style": "Pattern-Interrupt",
+      "friend": "linh",
+      "friend_label": "Linh — Sông",
+      "real_anchor": "Marrickville · Sydney Lunar New Year · inner west",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Real festival + the bilingual miss at peak volume. The verifiable event grounds the loss."
+    },
+    {
+      "id": 68,
+      "hook": "Mẹ's handwriting is still on the specials board after twelve years. The thing that won't last another twelve is a phone that can only answer half the people calling.",
+      "doctrine_type": "5 — Uncomfortable Truth",
+      "style": "Uncomfortable Truth",
+      "friend": "linh",
+      "friend_label": "Linh — Sông",
+      "real_anchor": "Marrickville · Sông · Mẹ's specials board",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 5,
+      "pillar_label": "P5 Life & Friendship",
+      "zero_sell_pass": true,
+      "why_it_works": "The kept handwriting vs the unkept booking. Legacy and loss in one line."
+    },
+    {
+      "id": 69,
+      "hook": "Lamb turning slow on the spit, oregano smoke drifting onto The Parade by noon — and a 'Quandoo is closing' email sitting open on the office screen behind Kostas.",
+      "doctrine_type": "1 — Callout",
+      "style": "Pattern-Interrupt",
+      "friend": "kostas",
+      "friend_label": "Kostas — Thea",
+      "real_anchor": "Norwood · The Parade · the closing email",
+      "enemy_archetype": "the_quandoo_exit",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Sensory opener + the email that changes everything. The contrast is the scroll-stop."
+    },
+    {
+      "id": 70,
+      "hook": "Quandoo shuts its doors on 31 December. The migration deadline is 30 September. Kostas has a Greek Easter rush between now and then, and no booking line for it yet.",
+      "doctrine_type": "3 — Specific Number",
+      "style": "Pattern-Interrupt",
+      "friend": "kostas",
+      "friend_label": "Kostas — Thea",
+      "real_anchor": "Norwood · Quandoo countdown · 30 Sep / 31 Dec 2026",
+      "enemy_archetype": "the_quandoo_exit",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Two hard dates + a named rush in between. The countdown is the verifiable pressure."
+    },
+    {
+      "id": 71,
+      "hook": "Kostas keeps the Quandoo shutdown email in his apron pocket like a parking ticket. Yiayia hasn't seen it. He doesn't want her to think the family business is the one being switched off.",
+      "doctrine_type": "5 — Uncomfortable Truth",
+      "style": "Uncomfortable Truth",
+      "friend": "kostas",
+      "friend_label": "Kostas — Thea",
+      "real_anchor": "Norwood · Thea · the apron-pocket email",
+      "enemy_archetype": "the_quandoo_exit",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 5,
+      "pillar_label": "P5 Life & Friendship",
+      "zero_sell_pass": true,
+      "why_it_works": "The hidden email + protecting Yiayia. Makes a platform shutdown a deeply human stake."
+    },
+    {
+      "id": 72,
+      "hook": "Yiayia answers the regulars in Greek and the night runs on her warmth. The booking that rings out is the English one nobody on the floor could take.",
+      "doctrine_type": "2 — Counter-Intuitive Fact",
+      "style": "Uncomfortable Truth",
+      "friend": "kostas",
+      "friend_label": "Kostas — Thea",
+      "real_anchor": "Norwood · Thea · the floor at dinner",
+      "enemy_archetype": "the_language_gap",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 4,
+      "pillar_label": "P4 Myth-Busting",
+      "zero_sell_pass": true,
+      "why_it_works": "Yiayia's warmth isn't the gap — the unanswerable English booking is. Quiet, specific reframe."
+    },
+    {
+      "id": 73,
+      "hook": "Greek Orthodox Easter is the single biggest booking week of Kostas's year. The after-hours calls flood in while the family is flat out — and Thea's line takes none of them.",
+      "doctrine_type": "6 — Real Event",
+      "style": "Pattern-Interrupt",
+      "friend": "kostas",
+      "friend_label": "Kostas — Thea",
+      "real_anchor": "Norwood · Greek Orthodox Easter · peak week",
+      "enemy_archetype": "the_after_hours_booking",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Biggest week of the year + the after-hours flood. The verifiable event makes the miss vivid."
+    },
+    {
+      "id": 74,
+      "hook": "Kostas called me from Norwood the day the Quandoo email landed. 'They're switching it off before Easter.' I said — okay. Here's what we do before the Glendi rush.",
+      "doctrine_type": "7 — Friend Cold Open",
+      "style": "Friend Cold Open",
+      "friend": "kostas",
+      "friend_label": "Kostas — Thea",
+      "real_anchor": "Norwood · The Parade · Glendi festival",
+      "enemy_archetype": "the_quandoo_exit",
+      "markets": [
+        "AU"
+      ],
+      "pillar": 5,
+      "pillar_label": "P5 Life & Friendship",
+      "zero_sell_pass": true,
+      "why_it_works": "Friend quote + Bella's calm one-line plan. The Glendi rush gives it a real deadline."
+    },
+    {
+      "id": 75,
+      "hook": "Eleven banchan bowls down in forty seconds, galbi smoke catching the pendant light on West 32nd — and the 'table near the Garden' calls ringing out faster than the floor can answer.",
+      "doctrine_type": "1 — Callout",
+      "style": "Pattern-Interrupt",
+      "friend": "haeun",
+      "friend_label": "Ha-eun — Soyeon",
+      "real_anchor": "Koreatown · West 32nd Street · event-night service",
+      "enemy_archetype": "the_missed_call",
+      "markets": [
+        "US"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Sensory opener from Ha-eun's hook library. The 'near the Garden' calls ringing out is the tell."
+    },
+    {
+      "id": 76,
+      "hook": "Madison Square Garden is half a mile from Soyeon. A three-week K-pop residency sends the booking calls in waves — and half ring out during the event-night push.",
+      "doctrine_type": "6 — Real Event",
+      "style": "Pattern-Interrupt",
+      "friend": "haeun",
+      "friend_label": "Ha-eun — Soyeon",
+      "real_anchor": "Koreatown · MSG · K-pop residency",
+      "enemy_archetype": "the_missed_call",
+      "markets": [
+        "US"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Real venue + real residency + the missed-call wave. Concrete, verifiable event pressure."
+    },
+    {
+      "id": 77,
+      "hook": "Restaurants miss about 40% of their calls. On a residency night near the Garden, every missed one is a sold-out room booking the place that picked up.",
+      "doctrine_type": "3 — Specific Number",
+      "style": "Uncomfortable Truth",
+      "friend": "haeun",
+      "friend_label": "Ha-eun — Soyeon",
+      "real_anchor": "Koreatown · MSG residency night",
+      "enemy_archetype": "the_missed_call",
+      "markets": [
+        "US"
+      ],
+      "pillar": 1,
+      "pillar_label": "P1 Operational",
+      "zero_sell_pass": true,
+      "why_it_works": "Bible §4 Type-3 stat (40%) anchored to the residency crowd. The gap is the story."
+    },
+    {
+      "id": 78,
+      "hook": "Ha-eun opened at 5am for twenty-one days to get ahead of it. The thing she couldn't get ahead of was a phone ringing out while the grills were full.",
+      "doctrine_type": "5 — Uncomfortable Truth",
+      "style": "Uncomfortable Truth",
+      "friend": "haeun",
+      "friend_label": "Ha-eun — Soyeon",
+      "real_anchor": "Koreatown · Soyeon · 5am opens",
+      "enemy_archetype": "the_missed_call",
+      "markets": [
+        "US"
+      ],
+      "pillar": 5,
+      "pillar_label": "P5 Life & Friendship",
+      "zero_sell_pass": true,
+      "why_it_works": "The effort she could control vs the missed calls she couldn't. Personal cost without melodrama."
     }
   ]
 }

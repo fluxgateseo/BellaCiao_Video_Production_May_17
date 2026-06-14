@@ -39,6 +39,11 @@ FRIEND_NAME_TO_ID = {
     "priya":       "arun_priya",
     "arun & priya":"arun_priya",
     "sophie":      "sophie",
+    "mei":         "mei",
+    "linh":        "linh",
+    "kostas":      "kostas",
+    "ha-eun":      "haeun",
+    "haeun":       "haeun",
 }
 
 
