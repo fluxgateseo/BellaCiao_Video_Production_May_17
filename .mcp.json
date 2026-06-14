@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "mcp-metricool": {
+      "command": "uvx",
+      "args": ["--upgrade", "mcp-metricool"],
+      "env": {
+        "METRICOOL_USER_TOKEN": "${METRICOOL_USER_TOKEN}",
+        "METRICOOL_USER_ID": "${METRICOOL_USER_ID}"
+      }
+    }
+  }
+}
