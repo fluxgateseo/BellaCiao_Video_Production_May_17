@@ -1,5 +1,11 @@
 """
-run_v3.py — Bella Content Engine v3.0 CLI.
+run_v3.py — Bella Content Engine v3.0 CLI (NON-DEFAULT triplet expansion).
+
+⚠ NON-DEFAULT. The canonical daily output contract is 1 Reel + 1 Story +
+1 YouTube reuse package, produced by `run.py` (Master Bible v2 §11). This v3
+triplet expansion (Reel / YT Short / Carousel) is explicitly NOT the default —
+use it only when a specific campaign justifies the extra spend. The "60–90
+pieces/month" volume model is also retired as a default.
 
 Thin dispatcher over pipeline_v3/ stages. Sits alongside the v2.1 `run.py`,
 which is untouched. Both CLIs can coexist; v3 writes to Scripts_v3/Day N/

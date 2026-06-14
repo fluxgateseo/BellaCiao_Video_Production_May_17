@@ -660,10 +660,12 @@ def generate_scripts_parallel(
     Returns (scripts, self_grades) keyed by blind label A/B/C/D.
 
     Writer pool strategy is selected by BELLA_WRITER_STRATEGY.
-    Default `lean_daily` matches the current operating model:
-      - 1 Reel + 1 Story per day
-      - YT reuses the Reel content
+    Default `lean_daily` matches the canonical daily contract (Master Bible
+    v2 §11): 1 Reel + 1 Story + 1 YouTube reuse package per day:
+      - 1 Reel + 1 Story per day (the two generated slots)
+      - YT reuses the Reel content (packaging only — title/description/thumb)
       - Round 1 stays lean, broader competition happens only on escalation
+      - The "60–90 pieces/month" volume model and the v3 triplet are non-default
     """
     tasks = _select_writer_tasks(round_num, use_fallback)
 

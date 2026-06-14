@@ -1,6 +1,12 @@
 """
 run.py — Bellaciao Content Engine orchestrator (CLI entry point).
 
+CANONICAL DAILY OUTPUT CONTRACT (Master Bible v2 §11): 1 Reel (30–60s) +
+1 Story (~30s, same friend) + 1 YouTube reuse package. This is the default
+this orchestrator produces — each publish day generates the story and reel
+slots, and YouTube reuses the Reel's content (packaging only). The "60–90
+pieces/month" volume model and the v3 triplet (run_v3.py) are NON-DEFAULT.
+
 The pipeline is **staged with manual approval gates in Airtable**. The user
 controls every step: calendar → plan → brief → write. Each stage refuses
 to advance unless the upstream verdict is approved.
