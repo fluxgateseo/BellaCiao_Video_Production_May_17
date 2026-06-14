@@ -11,7 +11,12 @@ __pycache__/
 .env.local
 .dev.vars
 publishers/.env
+client_secret*.json
+publishers/*token*.json
 .DS_Store
+
+# --- Publishing routine state (not source; keep the .example) ---
+data/publish_queue.json
 
 # --- Regenerated pipeline state / caches (not source) ---
 data/content_calendar_cache.json

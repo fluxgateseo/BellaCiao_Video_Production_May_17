@@ -1,0 +1,18 @@
+{
+  "_note": "Copy to data/publish_queue.json (gitignored) and fill in real media paths + times. Run: python -m publishers.publish_queue run",
+  "queue": [
+    {
+      "id": "day10_jake_short",
+      "platform": "youtube",
+      "video": "renders/day10_jake.mp4",
+      "title": "Nine calls. Zero tables. #Shorts",
+      "description_file": "creatives/daily_scripts/day10_caption.txt",
+      "tags": ["bella", "bellaciao", "fitzroy", "melbournehospitality"],
+      "category_id": "22",
+      "thumbnail": "creatives/daily_scripts/Day10_Jake_cover.png",
+      "publish_at": "2026-06-15T09:00:00+10:00",
+      "made_for_kids": false,
+      "status": "pending"
+    }
+  ]
+}
