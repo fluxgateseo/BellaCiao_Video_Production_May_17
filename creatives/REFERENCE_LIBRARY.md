@@ -109,6 +109,36 @@ locked, head square to camera. Off-camera/averted gaze = hard re-roll.
 
 **Sign-off:** "I'm Bella — ciao for now." (always)
 
+### Owner-confirmed reference (2026-06-14)
+The owner designated this photo as the face Bella must match in every frame:
+
+| Asset | Drive location | Drive ID | Higgsfield media_id |
+| --- | --- | --- | --- |
+| `Bella_trattoria_amicizia.png` (cream knit, holding coffee) | `Creatives/Bella_pictures_avatar/` (folder `1mzcB6s0ATF_fuMQ32R-QqRwmt__c1q_z` → `1RcXoU_ypPGzeLUoYYnmw9AoJpNKPepUJ`) | `1RdThrfA_gVZzV4LrYEjVzH4iNIPoDVgk` | `79382c81-8e15-44fc-bfe3-98f692ce93a9` (uploaded 2026-06-14) |
+| `bella_busy_bar.jpeg` (continuity ref; = library `bella_reference.png`, 232,420 bytes) | same folder | `15h_0y-S5qcIFA3oUkdtSx719KrIuBzXH` | — |
+
+> ⚠ There are **two `Creatives/` folders** in this Drive. The owner-reference one
+> is `1mzcB6s0ATF…` (parent `1fZttzeQ…`); the v1 asset library catalogued in §2
+> above is `1qpMlKgD…`. Don't confuse them. The trained Soul 2.0 already matches
+> this owner reference (verified 2026-06-14 across car / café / trattoria scenes).
+
+### ⛔ CONSISTENCY PROTOCOL — why the feed drifted, and the fix
+The published feed's faces drift (Bible §17 #8) because those frames were made
+from **text prompts alone**, with no identity anchor. THE RULE, no exceptions:
+
+**Every Bella frame MUST be generated from her locked identity — never a
+text-only prompt.** Pick ONE anchor per frame:
+1. **Preferred — trained Soul 2.0:** `generate_image(model="soul_2",
+   soul_id="eeb60f04-a2f5-4a3d-b8d0-88fafca6d8d2", …)`.
+2. **Reference-locked:** pass the owner reference as identity media —
+   `media_upload`/`media_import_url` → `media_id`, then
+   `generate_image(model="nano_banana_2", medias=[{value:<media_id>, role:"image"}],
+   prompt="keep this woman's face identical to the reference …")`. The reusable
+   media_id for the owner reference is recorded above.
+
+A frame that doesn't pass one of these two paths does not ship. Describing
+Bella's face in words is NOT an identity lock and is the cause of the drift.
+
 ---
 
 ## 3 · Friends, Ciao, bench
