@@ -93,3 +93,30 @@ curl -s -X POST \
 - Trimmed lead-ins; 0.4s dissolves + audio cross-fades; loudness normalized
 - Captions = the spoken dialogue, timed per shot, per-shot placement (heroes
   lower, wides top) so they never cover Bella's face or Ciao
+
+---
+
+## Session 2 status (2026-06-17)
+
+**Resolved decisions (from user):**
+- Bella voice id: `YtOuYjXDObEJdpOIyUu1`
+- Scope: **VO only** — do not re-render Kling shots in this pass.
+
+**Done this session:**
+- Reproducible production script committed:
+  - `scripts/audio/day10_elevenlabs_vo.py` (gen → stitch → loudnorm → Drive upload)
+  - `scripts/audio/requirements.txt`
+  - `scripts/audio/README.md`
+- TTS texts in the script use subtle Eleven v3 audio tags per the brief
+  (`[confident]` shot 1, `[sighs]` shot 3 concern beat, `[warm]` shot 4 turn,
+  `[excited]` shot 5 CTA). Captions stay verbatim with the spec — tags affect
+  delivery only.
+
+**Still blocked:**
+- Egress to `api.elevenlabs.io` still returns `403 Host not in allowlist` in
+  this environment. Audio was NOT generated, stitched, or uploaded to Drive in
+  this session. Open the egress (or attach the ElevenLabs MCP connector and
+  restart) and re-run `python scripts/audio/day10_elevenlabs_vo.py` from a
+  shell that has `ELEVENLABS_API_KEY` and `GDRIVE_SA_KEY_FILE` set — the
+  artifacts will drop into `out/day10/` and into Drive folder
+  `1DpqBx2dUZP9ZA3W9Kfk2HXmY9_t6MaNE` in one pass.
