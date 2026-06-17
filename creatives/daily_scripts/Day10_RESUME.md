@@ -1,7 +1,19 @@
 # RESUME — Day 10 reel build (voiced, 1080×1920 multi-shot)
 
-**Status:** mid-build, paused for ElevenLabs key + session restart.
-**After restart, read this file first, then continue from "Post-restart steps".**
+> ## ✅ SHIPPED — 2026-06-17
+> Final reel: **`creatives/daily_scripts/Day10_Jake_reel.mp4`** — 30.0s, 1080×1920,
+> H.264/AAC, 6 shots, burned captions, warm grade.
+> - **VO:** ElevenLabs voice `YtOuYjXDObEJdpOIyUu1`, model `eleven_multilingual_v2`
+>   (6 lines in `Day10_vo_el/`). Bella narrates throughout; Jake does not speak.
+> - **Lip-sync:** S1 + S6 via Higgsfield `wan2_7` (audio-driven), sources in
+>   `Day10_lipsync/`. S6 needed audio padded to 3.0s (`s6_pad.mp3`) — wan2_7 rejects
+>   sub-~2s audio tracks.
+> - **B-roll:** S2–S5 from `Day10_broll/` (kling3_0), VO laid over, captions burned.
+> - Placeholder Olivia VO (`Day10_vo_placeholder/`) deleted as superseded.
+> - Caption (`day10_caption.txt`) unchanged — on-brand, zero-sell, DM CALL trigger.
+> The remaining notes below are the historical build log.
+
+**Status:** ✅ COMPLETE (was: mid-build, paused for ElevenLabs key + session restart).
 
 ## Goal
 Rebuild Day 10 (Jake · Narrow Lane · `the_missed_call`) to the canonical

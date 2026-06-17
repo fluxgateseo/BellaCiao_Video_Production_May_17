@@ -36,6 +36,9 @@
 | 23 | Jun 17 | Wed | Yasmin — Cedar Table (London) | INT | generic | 5 | the_after_hours_booking | The reframing question she asks Bella → universal after-hours brand story. (£) |
 | 24 | Jun 18 | Thu | Enzo & Maria — La Grotta (Melb) | AU | generic | D | the_quandoo_exit | Calendar marked 30 Sep in red → the countdown as relief, not panic; off Quandoo before the spring rush. |
 
+### Production status
+- **Day 10 (Jake · Narrow Lane · `the_missed_call`) — ✅ SHIPPED 2026-06-17.** Final reel: `creatives/daily_scripts/Day10_Jake_reel.mp4` (30.0s, 1080×1920, voiced via ElevenLabs `YtOuYjXDObEJdpOIyUu1`, lip-synced S1+S6, Ciao at the turn, burned captions, DM-CALL caption). Days 11–24 remain queued.
+
 **Track split:** AU = 9 (60%) · International = 6 (40%). **AU pillar mix:** A 3 · B 2 · C 2 · D 2 (≈33/22/22/22 across this slice; trends to the 40/25/15/20 target as Quandoo intensifies toward September).
 
 ---
