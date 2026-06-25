@@ -1,3 +1,15 @@
+> **⚠ RETIRED — do not run.** This script was built for the now-retired SEO/GBP
+> "Bistrot Maison" handoff (`docs/day10-elevenlabs-redo.md`). It would FAIL
+> `.claude/agents/premise-guard.md` on rules 1, 3, and 4 (SEO drift, on-camera
+> pitch, retired enemies) and its hard-coded destination folder
+> (`1DpqBx2dUZP9ZA3W9Kfk2HXmY9_t6MaNE`) belongs to a separate project
+> (`destinybydao` Day 10). See `RESUME.md` for the canonical Day 10 angle.
+>
+> Kept for code reference only — the gen → stitch → loudnorm → Drive-upload
+> shape is reusable once the on-canon Day 10 script lands.
+
+---
+
 # Day 10 — Bella VO (ElevenLabs Eleven v3)
 
 Reproducible build for the 5 Bella voiceover lines in Day 10 — "Bistrot Maison

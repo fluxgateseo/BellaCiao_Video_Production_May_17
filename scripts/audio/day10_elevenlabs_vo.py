@@ -1,3 +1,17 @@
+# RETIRED — do not run.
+#
+# This script targets the now-retired SEO/GBP "Bistrot Maison" premise and
+# would fail .claude/agents/premise-guard.md on rules 1, 3, and 4 (SEO drift,
+# on-camera pitch, retired enemies). Its hard-coded Drive folder belongs to a
+# separate project (destinybydao Day 10). See RESUME.md for the canonical
+# Day 10 angle (Jake / Narrow Lane / the_missed_call) and scripts/audio/README.md
+# for context. The gen -> stitch -> loudnorm -> Drive-upload shape is reusable
+# once the on-canon Day 10 script lands.
+
+raise SystemExit(
+    "day10_elevenlabs_vo.py is retired. See RESUME.md and scripts/audio/README.md."
+)
+
 """Day 10 — Bistrot Maison: Bella VO production (ElevenLabs Eleven v3).
 
 Generates 5 per-shot WAVs + a stitched full VO, loudness-normalizes to -16

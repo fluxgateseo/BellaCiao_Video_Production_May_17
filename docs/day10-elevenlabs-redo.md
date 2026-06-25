@@ -1,3 +1,16 @@
+> **⚠ RETIRED — do not run.** This handoff was authored under the now-superseded
+> SEO/Google-Business-Profile premise (Bella as on-camera host pitching a fix for
+> "no Reserve button"). The Bella Ciao v2 canon (`BellaCiao_Master_Bible_v2.md`,
+> conflict log §17 #1) retires that framing. The destination Drive folder named
+> below also belongs to a separate project (`destinybydao` — the "Day 10" sage
+> video about the Five Element Generation Cycle) and is NOT the Bella Ciao Day 10
+> output. See `RESUME.md` for the live state and the actual Day 10 angle
+> (Jake / Narrow Lane / Pillar A `the_missed_call`).
+>
+> Kept here as a reference for what NOT to ship.
+
+---
+
 # Day 10 Redo — ElevenLabs Voiceover (Session Handoff)
 
 This is a handoff for a **fresh Claude Code web session**. The previous session
@@ -120,3 +133,11 @@ curl -s -X POST \
   shell that has `ELEVENLABS_API_KEY` and `GDRIVE_SA_KEY_FILE` set — the
   artifacts will drop into `out/day10/` and into Drive folder
   `1DpqBx2dUZP9ZA3W9Kfk2HXmY9_t6MaNE` in one pass.
+
+---
+
+## Session 3 status (2026-06-25) — RETIRED
+
+This handoff was identified as off-canon when the v2 premise pivot was applied.
+See top-of-file notice and `RESUME.md`. Day 10 will be re-done from scratch under
+the Jake / Narrow Lane / `the_missed_call` angle per `CONTENT_CALENDAR_June.md`.
